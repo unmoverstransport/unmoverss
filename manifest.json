@@ -1,11 +1,11 @@
 {
-    "name": "Unite Ndlela Transport Service",
+    "name": "Unite Ndlela",
     "short_name": "Unite Ndlela",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#972678",
     "theme_color": "#972678",
-    "description": "UN Movers",
+    "description": "Unite Ndlela Transport Services",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

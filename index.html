@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-
-
 <html>
 <head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
   <base href="/">
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Unite Ndlela Transport Service">
+  <meta name="description" content="A new Flutter project.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,7 +36,6 @@
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" type="text/css" href="styles.css">
 
-
   <script>
     let searchParams = new URLSearchParams(window.location.search);
     if (searchParams.has('renderer')) {
@@ -34,11 +44,17 @@
     }
 
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2275332616';
+    var serviceWorkerVersion = '3983727554';
   </script>
- <script src="flutter.js" defer></script>
 
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
+<body>
   <div class="center">
     <div class="sk-chase">
         <div class="sk-chase-dot"></div>
@@ -49,103 +65,19 @@
         <div class="sk-chase-dot"></div>
     </div>
   </div>
-  <body style="overflow: hidden">
-    <script>
-      window.addEventListener('load', function() {
-        //var loading = document.querySelector('#loading');
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          }
-        }).then(function(engineInitializer) {
-          //loading.classList.add('main_done');
-          return engineInitializer.initializeEngine();
-        }).then(function(appRunner) {
-        // loading.classList.add('init_done');
-          return appRunner.runApp();
-        }).then(function(app) {
-          // Wait a few milliseconds so users can see the "zoooom" animation
-          // before getting rid of the "loading" div.
-         // window.setTimeout(function() {
-            //loading.remove();
-         // }, 200);
-        });
-      });
-    </script>
-
-    <!-- Put bellow code inside here Just incase theres an issue -->
-  </body>
-</html>
-
-
-
-
-<!-- put inside body at the end  -->
-
-    <!-- <div class="center">
-      <div class="sk-chase">
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-          <div class="sk-chase-dot"></div>
-      </div>
-    </div> -->
-    <!-- <script>
-      var serviceWorkerVersion = null;
-      var scriptLoaded = false;
-      function loadMainDartJs() {
-        if (scriptLoaded) {
-          return;
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
         }
-        scriptLoaded = true;
-        var scriptTag = document.createElement('script');
-        scriptTag.src = 'main.dart.js';
-        scriptTag.type = 'application/javascript';
-        document.body.append(scriptTag);
-      }
-
-      if ('serviceWorker' in navigator) {
-        // Service workers are supported. Use them.
-        window.addEventListener('load', function () {
-          // Wait for registration to finish before dropping the <script> tag.
-          // Otherwise, the browser will load the script multiple times,
-          // potentially different versions.
-          var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
-          navigator.serviceWorker.register(serviceWorkerUrl)
-            .then((reg) => {
-              function waitForActivation(serviceWorker) {
-                serviceWorker.addEventListener('statechange', () => {
-                  if (serviceWorker.state == 'activated') {
-                    console.log('Installed new service worker.');
-                    loadMainDartJs();
-                  }
-                });
-              }
-              if (!reg.active && (reg.installing || reg.waiting)) {
-                waitForActivation(reg.installing || reg.waiting);
-              } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-                console.log('New service worker available.');
-                reg.update();
-                waitForActivation(reg.installing);
-              } else {
-                console.log('Loading app from service worker.');
-                loadMainDartJs();
-              }
-            });
-          setTimeout(() => {
-            if (!scriptLoaded) {
-              console.warn(
-                'Failed to load app from service worker. Falling back to plain <script> tag.',
-              );
-              loadMainDartJs();
-            }
-          }, 4000);
-        });
-      } else {
-        // Service workers not supported. Just drop the <script> tag.
-        loadMainDartJs();
-      }
-    </script> -->
-    <!-- <script src="main.dart.js" type="application/javascript"></script>  -->
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+</body>
+</html>

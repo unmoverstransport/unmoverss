@@ -49,7 +49,7 @@ u.ch=A.bA(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.T,h,h,!0,h,h,h,B.a6,h,h,h,h)
 u=C.bQ(u.t(),0,16)
 t=y.w
 s=y.A
-r=C.p4(E.MX,new D.aA7(this),t,s)
+r=C.p4(E.MY,new D.aA7(this),t,s)
 r=C.b8(new A.aB(A.b([v,u,C.bQ(new A.aB(A.Y(r,!0,r.$ti.i("r.E")),h,h,h,h),16,0)],x),B.q,B.B,h,h),0,16,16,16)
 u=A.a_("Acknowledgment")
 u.ch=A.bA(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a2,h,h,!0,h,h,h,h,h,h,h,h)
@@ -130,7 +130,7 @@ D.aA7.prototype={
 $2(d,e){return C.bQ(D.aNE(B.k,E.N2[e],d),0,5)},
 $S:173}
 D.aA8.prototype={
-$2(d,e){return C.bQ(D.aNE(B.k,E.Ml[e],d),0,5)},
+$2(d,e){return C.bQ(D.aNE(B.k,E.Mm[e],d),0,5)},
 $S:173};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(D.q4,A.T)
 x(D.a_L,A.W)
@@ -138,9 +138,9 @@ w(A.h_,[D.aA7,D.aA8])
 x(D.Un,A.a5)})()
 A.fM(b.typeUniverse,JSON.parse('{"q4":{"T":[],"e":[]},"a_L":{"W":["q4"]},"Un":{"a5":[],"e":[]}}'))
 var y={p:A.K("k<ag>"),x:A.K("k<i>"),i:A.K("k<ev>"),u:A.K("k<e>"),A:A.K("ag"),w:A.K("i")};(function constants(){var x=a.makeConstList
-E.Jb=new A.dn(57689,"MaterialIcons",null,!1)
-E.Ml=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]),y.x)
-E.MX=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
+E.Jb=new A.dm(57689,"MaterialIcons",null,!1)
+E.Mm=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]),y.x)
+E.MY=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
 E.N2=A.b(x(["refers to: South Africa",'(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Unite Ndlela Transport Services (UN Movers), 11 Springbok Ave, Clayville East, Olifantsfontein 1666.',"means any device that can access the Service such as a computer, a cell phone or a digital tablet.","refers to the Website.","mean these Terms and Conditions that form the entire agreement between you (customer) and the Company regarding the use of the Service.","means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.","refers to UN Movers, accessible from https://unmovers.co.za/","means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."]),y.x)
 E.N3=A.b(x(["By email: ","By visiting this page on our website: ","By phone number: "]),y.x)})()}
-$__dart_deferred_initializers__["M8krJV0duNZCxYui//prrgT3m10="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["NX8X7BoWyVOuzC+jb0CmL4A1hoo="] = $__dart_deferred_initializers__.current

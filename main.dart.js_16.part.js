@@ -242,8 +242,8 @@ var y=(function rtii(){var x=A.K
 return{l:x("oq"),V:x("mE"),r:x("or"),O:x("k<dU>"),d:x("k<aC>"),s:x("k<dB>"),n:x("k<ev>"),A:x("k<io>"),p:x("k<e>"),w:x("d4"),P:x("aw"),D:x("kI"),N:x("i"),z:x("@"),H:x("~")}})();(function constants(){F.Wh=new A.ev("Discount given at the middle of the month.",null,null,B.aW,E.dg)
 F.a_K=new A.jK(null,F.Wh,null,!1,H.fW,H.fl,B.cG,null)
 F.AH=new A.d8(E.ed,null,null,F.a_K,null)
-F.Jp=new A.dn(983823,"MaterialIcons",null,!1)
+F.Jp=new A.dm(983823,"MaterialIcons",null,!1)
 F.Xh=new A.v(!0,B.bb,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 F.df=new A.v(!0,B.bW,null,null,null,null,14,B.a2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 F.a_u=new D.io("Your Bookings",null,null)})()}
-$__dart_deferred_initializers__["8mZDtkoAy51zSmnY8l/QYUFwXWY="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["m5U8+g4QXEXZE7DRFLoa37g3exo="] = $__dart_deferred_initializers__.current

@@ -44,10 +44,10 @@ AB(){var x=0,w=A.J(y.H),v,u,t
 var $async$AB=A.E(function(d,e){if(d===1)return A.G(e,w)
 while(true)switch(x){case 0:v=0
 case 2:if(!(v<3)){x=4
-break}u=F.qV[v]
+break}u=F.qW[v]
 t=$.a2r()
 x=5
-return A.L(B.aE_(new E.wn(u,null,null,t,t.$1(F.e_),null,F.e_),null),$async$AB)
+return A.L(B.aE_(new E.wn(u,null,null,t,t.$1(F.e0),null,F.e0),null),$async$AB)
 case 5:case 3:++v
 x=2
 break
@@ -56,7 +56,7 @@ case 6:if(!(v<8)){x=8
 break}u=F.jq[v]
 t=$.a2r()
 x=9
-return A.L(B.aE_(new E.wn(u,null,null,t,t.$1(F.e_),null,F.e_),null),$async$AB)
+return A.L(B.aE_(new E.wn(u,null,null,t,t.$1(F.e0),null,F.e0),null),$async$AB)
 case 9:case 7:++v
 x=6
 break
@@ -91,55 +91,55 @@ L=c[14]
 B.PE.prototype={
 A(d,e){var x,w,v=null,u=A.a_("Welcome")
 u.c3$=C.a8
-u.ch=D.Z8
+u.ch=D.Z7
 u=u.t()
 x=A.a_("Need to move your Apartment, Office, House furniture or dispose your garden refuse? Unite Ndlela is the answer to your needs, it's our specialty ")
-x.ch=D.Xq
+x.ch=D.Xp
 w=y.p
-return A.rg(H.ao9(A.b([new H.dA(v,A.b([new A.af(M.q2,new A.aB(A.b([u,x.t()],w),C.C,C.B,v,v),v),new A.af(F.O,E.TX("assets/svg/delivery_truck.svg",v),v)],w))],y.s),v,N.hM),new A.bH(C.dt,v,v,v,v,v,C.M),C.cn)}}
+return A.rg(H.ao9(A.b([new H.dB(v,A.b([new A.ag(M.q3,new A.aB(A.b([u,x.t()],w),C.C,C.B,v,v),v),new A.ag(F.O,E.TX("assets/svg/delivery_truck.svg",v),v)],w))],y.s),v,N.hM),new A.bH(C.du,v,v,v,v,v,C.M),C.cn)}}
 B.NX.prototype={
 A(d,e){var x=null
-return E.b8(new A.aB(A.b([D.a_u,new A.aK(450,x,O.pA,x)],y.p),x,x,x,x),16,0,0,0)}}
+return E.b8(new A.aB(A.b([D.a_t,new A.aJ(450,x,O.pB,x)],y.p),x,x,x,x),16,0,0,0)}}
 B.Pf.prototype={
 A(d,e){var x=null
-return new A.aB(A.b([I.Af,A.hJ(new B.a9P(e),x,x,x,y.y)],y.p),x,x,x,x)}}
+return new A.aB(A.b([I.Ae,A.hJ(new B.a9P(e),x,x,x,y.y)],y.p),x,x,x,x)}}
 B.Sy.prototype={
-A(d,e){return new E.nB(new A.aB(A.b([F.Ag,E.b8(D.a1s,16,0,0,0)],y.p),C.C,C.u,null,null),F.o4,F.o4,null)}}
+A(d,e){return new E.nB(new A.aB(A.b([F.Af,E.b8(D.a1r,16,0,0,0)],y.p),C.C,C.u,null,null),F.o5,F.o5,null)}}
 B.PD.prototype={
-A(d,e){return D.Ta}}
+A(d,e){return D.T9}}
 B.PF.prototype={
 A(d,e){var x,w,v,u,t,s,r,q=null,p=A.a_("Welcome")
 p.f=1.5
-p.as=C.a1
-p.ch=D.Wx
+p.as=C.a3
+p.ch=D.Ww
 p=A.bg(p.t(),q,q,q)
 x=E.TX("assets/svg/delivery_truck.svg",150)
 w=E.ct("Need to move your Apartment, Office, House furniture or dispose your garden refuse? ")
-w.cx=D.Xm
+w.cx=F.nR
 v=E.bW("Unite ")
 v.e=C.I
 v.c3$=C.a8
 v=v.t()
 u=E.bW("Ndlela ")
 u.e=C.I
-u.c3$=C.S
+u.c3$=C.R
 u=u.t()
 t=E.bW("is the answer to your needs, it's our specialty. ").t()
 s=E.bW("\nview ").t()
-r=E.bW("GALLERY").l2(new B.acW())
-r.c3$=C.S
+r=E.bW("Gallery").l2(new B.acW())
+r.c3$=C.R
 r.e=C.I
 w.c=A.b([v,u,t,s,r.t()],y.n)
 r=y.p
-r=E.qf(new A.aB(A.b([new A.af(F.O,new A.aB(A.b([p,new A.af(F.O,x,q),A.bg(w.t(),q,q,q)],r),q,q,q,q),q),new B.O2(new B.acX(),q)],r),q,q,q,q))
+r=E.qf(new A.aB(A.b([new A.ag(F.O,new A.aB(A.b([p,new A.ag(F.O,x,q),A.bg(w.t(),q,q,q)],r),q,q,q,q),q),new B.O2(new B.acX(),q)],r),q,q,q,q))
 r.b=C.a8
-r.d=new A.cB(A.dE(5),C.p)
+r.d=new A.cs(A.dv(5),C.p)
 r.c=10
-return new A.aK(1/0,q,A.rg(new A.aB(A.b([new A.af(F.O,r.t(),q)],y.x),q,q,q,q),new A.bH(C.c6,q,q,q,q,q,C.M),C.cn),q)}}
+return new A.aJ(1/0,q,A.rg(new A.aB(A.b([new A.ag(F.O,r.t(),q)],y.x),q,q,q,q),new A.bH(C.bP,q,q,q,q,q,C.M),C.cn),q)}}
 B.O2.prototype={
-A(d,e){var x=null,w=E.aok(x,x,C.S,x,x,x,x,x,x,x,x,x,x,C.yO,x,x,x,x),v=A.a_("QUOTE")
-v.ch=D.Zo
-return new A.aK(x,65,new A.aK(1/0,x,E.yI(new E.iI(A.b([v.t(),G.ny,D.Jv],y.p),C.C,C.u,x,x),this.c,w),x),x)}}
+A(d,e){var x=null,w=E.aok(x,x,C.R,x,x,x,x,x,x,x,x,x,x,C.yP,x,x,x,x),v=A.a_("QUOTE")
+v.ch=D.Zn
+return new A.aJ(x,65,new A.aJ(1/0,x,E.yI(new E.iI(A.b([v.t(),G.ny,D.Ju],y.p),C.C,C.u,x,x),this.c,w),x),x)}}
 B.Hp.prototype={
 W(){return new B.a0N(A.cS($.ax(),A.Md(),y.g),C.l)}}
 B.a0N.prototype={
@@ -148,7 +148,7 @@ this.av()},
 A(d,e){var x,w=this,v=null,u=A.a(w.f,"_pageController")
 w.a.toString
 x=y.g
-return new A.aB(A.b([new A.aK(v,350,new A.aK(1/0,v,E.bQ(K.aNU(!1,!1,350,!1,new B.aB9(w),8,new B.aBa(w),u),16,0),v),v),E.b8(new E.iI(A.b([A.hJ(new B.aBb(w),v,v,v,x),A.hJ(new B.aBc(w),v,v,v,x)],y.d),v,v,v,v),0,0,16,16)],y.p),C.x3,C.iH,v,v)}}
+return new A.aB(A.b([new A.aJ(v,350,new A.aJ(1/0,v,E.bQ(K.aNU(!1,!1,350,!1,new B.aB9(w),8,new B.aBa(w),u),16,0),v),v),E.b8(new E.iI(A.b([A.hJ(new B.aBb(w),v,v,v,x),A.hJ(new B.aBc(w),v,v,v,x)],y.d),v,v,v,v),0,0,16,16)],y.p),C.x4,C.iH,v,v)}}
 var z=a.updateTypes(["~(hg?,z)","n0(X,m)","xX(X,m)"])
 B.aE1.prototype={
 $2(d,e){var x
@@ -165,18 +165,18 @@ if(x!=null)x.L(0,this.d)},
 $S:48}
 B.a9P.prototype={
 $1(d){var x,w,v=null,u=d.ax
-if(u===C.j_){u=E.cs(new A.af(F.as,new A.aB(A.b([C.dY],y.q),v,v,v,v),v))
+if(u===C.j_){u=E.cC(new A.ag(F.as,new A.aB(A.b([C.dZ],y.q),v,v,v,v),v))
 x=this.a
 w=y.w
 u.f=x.E(w).f.a.b*0.5
 u.r=x.E(w).f.a.a
 return u.t()}else if(u===C.j1)return new A.aB(A.b([A.bg(A.a_("Error").t(),v,v,v),A.bg(A.a_(d.ay).t(),v,v,v)],y.p),v,v,v,v)
-else if(u===C.j0){u=E.cs(P.aFG(!1,!0,v,C.ac,D.V4,new B.a9O(d),d.ch.length,I.Ar,v,F.ej,C.aV))
+else if(u===C.j0){u=E.cC(P.aFG(!1,!0,v,C.ac,D.V3,new B.a9O(d),d.ch.length,I.Aq,v,F.ej,C.aV))
 x=A.a(u.tQ$,"_childToPad")
 u.tR$=F.O
 x.r=17976931348623157e292
 x.f=400
-x.y=D.IG
+x.y=D.IF
 return x.t()}return C.E},
 $S:163}
 B.a9O.prototype={
@@ -195,20 +195,20 @@ x.d.ml(7,d)},
 $S:81}
 B.aB9.prototype={
 $2(d,e){this.a.a.toString
-return E.aGm(C.dt,0,F.r0[e],F.r1,e,F.jq)},
+return E.aGm(C.du,0,F.r1[e],F.r2,e,F.jq)},
 $S:z+2}
 B.aBb.prototype={
 $1(d){var x=null
-if(d.ax===C.hw)return G.qx
-return A.hI(x,G.qw,C.ac,!1,x,x,x,x,x,x,x,x,x,x,x,new B.aB8(this.a),x,x,x,x,x,x)},
+if(d.ax===C.hw)return G.qy
+return A.hI(x,G.qx,C.ac,!1,x,x,x,x,x,x,x,x,x,x,x,new B.aB8(this.a),x,x,x,x,x,x)},
 $S:75}
 B.aB8.prototype={
 $0(){A.a(this.a.f,"_pageController").H7(C.aj,A.bh(0,200,0))},
 $S:0}
 B.aBc.prototype={
 $1(d){var x=null
-if(d.ax===C.jR)return G.qr
-return A.hI(x,G.qt,C.ac,!1,x,x,x,x,x,x,x,x,x,x,x,new B.aB7(this.a),x,x,x,x,x,x)},
+if(d.ax===C.jR)return G.qs
+return A.hI(x,G.qu,C.ac,!1,x,x,x,x,x,x,x,x,x,x,x,new B.aB7(this.a),x,x,x,x,x,x)},
 $S:75}
 B.aB7.prototype={
 $0(){A.a(this.a.f,"_pageController").GS(0,C.aj,A.bh(0,200,0))},
@@ -221,25 +221,24 @@ w(B.Hp,A.T)
 w(B.a0N,A.W)})()
 A.fM(b.typeUniverse,JSON.parse('{"PE":{"a5":[],"e":[]},"NX":{"a5":[],"e":[]},"Pf":{"a5":[],"e":[]},"Sy":{"a5":[],"e":[]},"PD":{"a5":[],"e":[]},"PF":{"a5":[],"e":[]},"O2":{"a5":[],"e":[]},"Hp":{"T":[],"e":[]},"a0N":{"W":["Hp"]}}'))
 var y=(function rtii(){var x=A.K
-return{g:x("i8"),d:x("k<oU<i8>>"),x:x("k<af>"),q:x("k<jF>"),s:x("k<dA>"),n:x("k<ev>"),p:x("k<e>"),w:x("d4"),y:x("iV"),h:x("aH<~>"),D:x("a7<~>"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.Kq=new B.PD(null)
-D.Ht=new B.NX(null)
-D.T9=new E.nB(C.E,C.E,D.Ht,null)
-D.T7=new B.Sy(null)
-D.qg=new B.Pf(null)
-D.T8=new E.nB(C.E,D.qg,D.qg,null)
-D.qR=A.b(x([D.Kq,D.T9,F.xC,F.os,D.T7,F.pz,D.T8,F.py]),y.p)
-D.IG=new A.ao(8,0,8,8)
-D.Jv=new A.c9(G.j6,16,C.n,null)
-D.qD=new B.PF(null)
-D.Kr=new B.PE(null)
-D.Ta=new E.nB(D.qD,D.qD,D.Kr,null)
-D.V4=new L.Tv(2)
-D.Wx=new A.v(!0,C.a8,null,null,null,null,30,C.I,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.Xm=new A.v(!0,C.k,null,null,null,null,18,C.Q,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
-D.Xq=new A.v(!0,C.k,null,null,null,null,22,C.Q,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.Z8=new A.v(!0,null,null,null,null,null,36,C.cs,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.Zo=new A.v(!0,C.n,null,null,null,null,16,C.Q,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a_u=new E.io("Get a Quote","Get a quick quote by filling in the information below",null)
-D.a1s=new B.Hp(null)})()}
-$__dart_deferred_initializers__["VLNJB8Bv4Ps34142NRsEd/DU2/E="] = $__dart_deferred_initializers__.current
+return{g:x("i8"),d:x("k<oU<i8>>"),x:x("k<ag>"),q:x("k<jF>"),s:x("k<dB>"),n:x("k<ev>"),p:x("k<e>"),w:x("d4"),y:x("iV"),h:x("aH<~>"),D:x("a7<~>"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
+D.Kp=new B.PD(null)
+D.Hs=new B.NX(null)
+D.T8=new E.nB(C.E,C.E,D.Hs,null)
+D.T6=new B.Sy(null)
+D.qh=new B.Pf(null)
+D.T7=new E.nB(C.E,D.qh,D.qh,null)
+D.qS=A.b(x([D.Kp,D.T8,F.xD,F.ot,D.T6,F.pA,D.T7,F.pz]),y.p)
+D.IF=new A.ao(8,0,8,8)
+D.Ju=new A.c9(G.j6,16,C.n,null)
+D.qE=new B.PF(null)
+D.Kq=new B.PE(null)
+D.T9=new E.nB(D.qE,D.qE,D.Kq,null)
+D.V3=new L.Tv(2)
+D.Ww=new A.v(!0,C.a8,null,null,null,null,30,C.I,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.Xp=new A.v(!0,C.k,null,null,null,null,22,C.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.Z7=new A.v(!0,null,null,null,null,null,36,C.cV,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.Zn=new A.v(!0,C.n,null,null,null,null,16,C.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a_t=new E.io("Get a Quote","Get a quick quote by filling in the information below",null)
+D.a1r=new B.Hp(null)})()}
+$__dart_deferred_initializers__["R/oQduO70wKgFb9vwlwmybAGMMI="] = $__dart_deferred_initializers__.current

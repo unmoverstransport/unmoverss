@@ -43,7 +43,7 @@ ao9(d,e,f){var x
 if(C.c.ft(d,new A.aoa())){x=B.ah(d).i("ae<1,h2?>")
 x=B.Y(new B.ae(d,new A.aob(),x),!1,x.i("b6.E"))}else x=null
 return new A.GL(d,e,f,x,null)},
-dA:function dA(d,e){this.b=d
+dB:function dB(d,e){this.b=d
 this.c=e},
 iv:function iv(d,e){this.a=d
 this.b=e},
@@ -116,7 +116,7 @@ A.FD.prototype={
 sakc(d){var x=this.ac
 if(x===d)return
 if(x.ga0(x)&&d==null)return
-this.ac=d==null?B.dx(y.p,y.w):d
+this.ac=d==null?B.dy(y.p,y.w):d
 this.X()},
 salm(d){if(this.an===d)return
 this.an=d
@@ -268,7 +268,7 @@ w=y.i
 v=B.bv(a3,0,!1,w)
 switch(a0.aV.a){case 0:v[a3-1]=0
 for(u=a3-2;u>=0;--u){t=u+1
-v[u]=v[t]+x[t]}a0.fC=new B.bZ(v,B.ah(v).i("bZ<1>"))
+v[u]=v[t]+x[t]}a0.fC=new B.c_(v,B.ah(v).i("c_<1>"))
 s=C.c.gN(v)+C.c.gN(x)
 break
 case 1:v[0]=0
@@ -339,7 +339,7 @@ if(o!=null){t=o.e
 t.toString
 t=w.a(t).a
 d.dF(o,new B.o(t.a+v,t.b+u))}}}}
-A.dA.prototype={
+A.dB.prototype={
 j(d){var x=""+"TableRow(",w=this.b
 if(w!=null)x+=w.j(0)+", "
 w=this.c
@@ -348,7 +348,7 @@ x+=")"
 return x.charCodeAt(0)==0?x:x}}
 A.iv.prototype={}
 A.GL.prototype={
-c2(d){return new A.a_I(D.Ms,B.eg(y.h),this,C.ao)},
+c2(d){return new A.a_I(D.Mr,B.eg(y.h),this,C.ao)},
 aJ(d){var x,w,v,u,t=this,s=t.c,r=s.length
 s=r!==0?s[0].c.length:0
 x=t.d
@@ -357,8 +357,8 @@ w.toString
 w=w.f
 v=B.v2(d,null)
 u=B.b([],y.n)
-if(x==null)x=B.dx(y.p,y.w)
-u=new A.FD(D.Mr,s,r,x,D.fP,w,null,v,t.w,null,u,B.aq())
+if(x==null)x=B.dy(y.p,y.w)
+u=new A.FD(D.Mq,s,r,x,D.fP,w,null,v,t.w,null,u,B.aq())
 u.gau()
 u.gaH()
 u.CW=!1
@@ -407,13 +407,13 @@ s=new B.nT(v,new A.aA3())
 r=B.b([],y.R)
 for(u=e.c,q=h.R8,p=y.J,o=0;o<u.length;++o){n=u[o]
 m=s.u()
-l=m?v.gK(v).b:C.Mt
+l=m?v.gK(v).b:C.Ms
 m=n.c
 k=m.length
 j=B.b(new Array(k),p)
 for(i=0;i<k;++i)j[i]=new A.An(i,o)
-r.push(new A.iv(null,h.V1(l,m,q,j)))}for(;s.u();)h.HJ(v.gK(v).b,C.r6,q)
-for(v=w.gbc(w),v=v.ga5(v),x=new B.nT(v,new A.aA4(B.aI(x)));x.u();)h.HJ(v.gK(v),C.r6,q)
+r.push(new A.iv(null,h.V1(l,m,q,j)))}for(;s.u();)h.HJ(v.gK(v).b,C.r7,q)
+for(v=w.gbc(w),v=v.ga5(v),x=new B.nT(v,new A.aA4(B.aI(x)));x.u();)h.HJ(v.gK(v),C.r7,q)
 h.p3=r
 h.PF()
 q.ar(0)
@@ -440,7 +440,7 @@ A.a1D.prototype={}
 A.BQ.prototype={
 d7(){var x=this
 return B.ak(["pickup_date",x.a,"pickup_time",x.b,"routes",x.c,"distance",x.z,"payment_option",x.e,"carry_floor",x.f,"vehicle_type",x.r,"drivers_note",x.d,"quote_price",x.w,"mid_month_discount",x.x,"loyal_customer_discount",x.y,"additional_helpers",x.Q,"booking_completed",x.as,"booking_cancelled",x.at],y.N,y.X)}}
-var z=a.updateTypes(["z(dA)","h2?(dA)","iv(dA)","z(iv)","r<C>(iv)","t<b_>(iv)"])
+var z=a.updateTypes(["z(dB)","h2?(dB)","iv(dB)","z(iv)","r<C>(iv)","t<b_>(iv)"])
 A.aj4.prototype={
 $2(d,e){return d+e},
 $S:86}
@@ -482,7 +482,7 @@ A.aA5.prototype={
 $1(d){return d.b},
 $S:z+5};(function inheritance(){var x=a.mixin,w=a.inherit,v=a.inheritMany
 w(A.q2,B.eS)
-v(B.B,[A.yC,A.dA,A.iv,A.a1D,A.BQ])
+v(B.B,[A.yC,A.dB,A.iv,A.a1D,A.BQ])
 w(A.CJ,A.yC)
 w(A.GM,B.uy)
 w(A.FD,B.C)
@@ -495,22 +495,22 @@ x(A.a1D,B.aG)})()
 B.fM(b.typeUniverse,JSON.parse('{"q2":{"eS":[],"cW":[]},"CJ":{"yC":[]},"GM":{"N":[]},"FD":{"C":[],"x":[],"S":[],"an":[]},"GL":{"aC":[],"e":[]},"a_I":{"bw":[],"b_":[],"X":[]}}'))
 var y=(function rtii(){var x=B.K
 return{k:x("aF"),r:x("eS"),I:x("hD"),h:x("b_"),R:x("k<iv>"),J:x("k<An>"),n:x("k<O>"),q:x("k<C?>"),O:x("t<b_>"),Y:x("nc"),x:x("C"),S:x("FD"),N:x("i"),_:x("GL"),L:x("q2"),w:x("yC"),i:x("O"),p:x("m"),G:x("mH?"),X:x("B?"),B:x("C?"),s:x("O?")}})();(function constants(){var x=a.makeConstList
-D.Wh=new B.ev("Booking amount including number helpers and stairs",null,null,C.aW,E.df)
-D.qp=new B.dn(63509,"MaterialIcons",null,!1)
-D.fW=new B.c9(D.qp,18,C.S,null)
+D.Wg=new B.ev("Booking amount including number helpers and stairs",null,null,C.aW,E.dg)
+D.qq=new B.dn(63509,"MaterialIcons",null,!1)
+D.fW=new B.c9(D.qq,18,C.R,null)
 D.fl=new B.bH(C.a8,null,null,null,null,null,C.M)
-D.a_I=new B.jK(null,D.Wh,null,!1,D.fW,D.fl,C.cH,null)
-D.ot=new B.d8(E.ed,null,null,D.a_I,null)
-D.Wf=new B.ev("Discount for returning customers. ",null,null,C.aW,E.df)
-D.a_K=new B.jK(null,D.Wf,null,!1,D.fW,D.fl,C.cH,null)
-D.ou=new B.d8(E.ed,null,null,D.a_K,null)
-D.Bl=new B.c0(C.bV,2,C.a2)
-D.Bm=new B.da(C.p,C.p,D.Bl,C.p)
-D.ee=new B.bH(null,null,D.Bm,null,null,null,C.M)
+D.a_H=new B.jK(null,D.Wg,null,!1,D.fW,D.fl,C.cG,null)
+D.ou=new B.d8(E.ed,null,null,D.a_H,null)
+D.We=new B.ev("Discount for returning customers. ",null,null,C.aW,E.dg)
+D.a_J=new B.jK(null,D.We,null,!1,D.fW,D.fl,C.cG,null)
+D.ov=new B.d8(E.ed,null,null,D.a_J,null)
+D.Bk=new B.bY(C.bW,2,C.X)
+D.Bl=new B.da(C.p,C.p,D.Bk,C.p)
+D.ee=new B.bH(null,null,D.Bl,null,null,null,C.M)
 D.fP=new A.CJ(1)
-D.a2Z=B.b(x([]),B.K("k<dA>"))
-D.Ms=B.b(x([]),y.R)
-D.Mr=B.b(x([]),y.q)
-D.a32=new A.GM(0,"top")
+D.a2Y=B.b(x([]),B.K("k<dB>"))
+D.Mr=B.b(x([]),y.R)
+D.Mq=B.b(x([]),y.q)
+D.a31=new A.GM(0,"top")
 D.hM=new A.GM(1,"middle")})()}
-$__dart_deferred_initializers__["mBSTPyxW/CuNMm3DscCSji3taEA="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["T79H9ajZo+wyht6FCy87hS2X1F4="] = $__dart_deferred_initializers__.current

@@ -498,7 +498,7 @@ return{k:x("aF"),r:x("eT"),I:x("hC"),h:x("b_"),R:x("k<iv>"),J:x("k<An>"),n:x("k<
 D.We=new B.ev("Booking amount including number helpers and stairs",null,null,C.aX,E.di)
 D.qr=new B.dn(63509,"MaterialIcons",null,!1)
 D.fV=new B.c9(D.qr,18,C.S,null)
-D.fl=new B.bG(C.a5,null,null,null,null,null,C.I)
+D.fl=new B.bG(C.a4,null,null,null,null,null,C.I)
 D.a_G=new B.jK(null,D.We,null,!1,D.fV,D.fl,C.cF,null)
 D.ot=new B.d9(E.ee,null,null,D.a_G,null)
 D.Wc=new B.ev("Discount for returning customers. ",null,null,C.aX,E.di)
@@ -513,4 +513,4 @@ D.Ms=B.b(x([]),y.R)
 D.Mr=B.b(x([]),y.q)
 D.a30=new A.GM(0,"top")
 D.hM=new A.GM(1,"middle")})()}
-$__dart_deferred_initializers__["0Q51Q8ZtZQpytGigjhjGTWt+Gtg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["1hxTB8sD5sFH3Eg5T/GOg7JNsY8="] = $__dart_deferred_initializers__.current

@@ -90,8 +90,8 @@ L=c[14]
 G=c[26]
 B.PF.prototype={
 A(d,e){var x,w,v=null,u=A.a_("Welcome")
-u.c3$=C.a5
-u.ch=D.Zc
+u.c3$=C.a4
+u.ch=D.Z6
 u=u.t()
 x=A.a_("Need to move your Apartment, Office, House furniture or dispose your garden refuse? Unite Ndlela is the answer to your needs, it's our specialty ")
 x.ch=D.Xo
@@ -110,15 +110,15 @@ A(d,e){return D.T8}}
 B.PG.prototype={
 A(d,e){var x,w,v,u,t,s,r,q=null,p=A.a_("Welcome")
 p.f=1.5
-p.as=C.a3
-p.ch=D.X5
+p.as=C.a2
+p.ch=D.Wu
 p=A.bg(p.t(),q,q,q)
 x=E.TY("assets/svg/delivery_truck.svg",150)
 w=E.cu("Need to move your Apartment, Office, House furniture or dispose your garden refuse? ")
 w.cx=F.nQ
 v=E.bX("Unite ")
 v.e=C.J
-v.c3$=C.a5
+v.c3$=C.a4
 v=v.t()
 u=E.bX("Ndlela ")
 u.e=C.J
@@ -132,7 +132,7 @@ r.e=C.J
 w.c=A.b([v,u,t,s,r.t()],y.n)
 r=y.p
 r=E.qf(new A.az(A.b([new A.ah(F.N,new A.az(A.b([p,new A.ah(F.N,x,q),A.bg(w.t(),q,q,q)],r),q,q,q,q),q),new B.O3(new B.acX(),q)],r),q,q,q,q))
-r.b=C.a5
+r.b=C.a4
 r.d=new A.cs(A.cy(5),C.p)
 r.c=10
 return new A.aK(1/0,q,A.rg(new A.az(A.b([new A.ah(F.N,r.t(),q)],y.x),q,q,q,q),new A.bG(C.bx,q,q,q,q,q,C.I),C.cm),q)}}
@@ -235,10 +235,10 @@ D.qF=new B.PG(null)
 D.Kq=new B.PF(null)
 D.T8=new E.nC(D.qF,D.qF,D.Kq,null)
 D.V1=new L.Tw(2)
-D.X5=new A.v(!0,C.a5,null,"VisbyRounded",null,null,30,C.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.Wu=new A.v(!0,C.a4,null,"Fredoka",null,null,30,C.J,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.Xo=new A.v(!0,C.k,null,null,null,null,22,C.X,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.Zc=new A.v(!0,null,null,"VisbyRounded",null,null,36,C.cX,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.Z6=new A.v(!0,null,null,"Fredoka",null,null,36,C.cX,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.Zm=new A.v(!0,C.n,null,null,null,null,16,C.X,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a_s=new E.io("Get a Quote","Get a quick quote by filling in the information below",null)
 D.a1q=new B.Hp(null)})()}
-$__dart_deferred_initializers__["DQFhoUGV5PiBQiZec13rBjMYW0w="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["KcfvkoXdcv/LfxKcbqyB+3lQ9rc="] = $__dart_deferred_initializers__.current

@@ -5,8 +5,8 @@ qc:function qc(d){this.a=d},
 a0o:function a0o(d){this.a=null
 this.b=d
 this.c=null},
-aB6:function aB6(d){this.a=d},
 aB7:function aB7(d){this.a=d},
+aB8:function aB8(d){this.a=d},
 aOL(d,e,f){return new D.UP(d,f,e,null)},
 UP:function UP(d,e,f,g){var _=this
 _.c=d
@@ -22,7 +22,7 @@ E=c[36]
 D.qc.prototype={
 X(){return new D.a0o(B.l)}}
 D.a0o.prototype={
-B(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g="The laws of the Country shall govern this Terms and Your use of the Service.\n",f="If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.\n",e=A.bd(F.xp,h,h,h),d=C.cH("Please read these ")
+B(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g="The laws of the Country shall govern this Terms and Your use of the Service.\n",f="If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.\n",e=A.bd(F.xp,h,h,h),d=C.cI("Please read these ")
 d.cx=A.bJ(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.T,h,h,!0,h,h,h,h,h,h,h,h)
 x=C.c5("Terms ")
 x.e=B.a3
@@ -48,7 +48,7 @@ u.ch=A.bJ(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.T,h,h,!0,h,h,h,B.a4,h,h,h,h)
 u=C.bz(u.u(),0,16)
 t=y.w
 s=y.A
-r=C.pe(E.ND,new D.aB6(this),t,s)
+r=C.pe(E.ND,new D.aB7(this),t,s)
 r=C.be(new A.aC(A.b([v,u,C.bz(new A.aC(A.Z(r,!0,r.$ti.i("u.E")),h,h,h,h),16,0)],x),B.r,B.E,h,h),0,16,16,16)
 u=A.a1("Acknowledgment")
 u.ch=A.bJ(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.ah,h,h,!0,h,h,h,h,h,h,h,h)
@@ -113,11 +113,11 @@ i=C.be(new A.aC(A.b([u,C.bz(i.u(),0,16)],x),B.r,B.E,h,h),0,16,16,16)
 u=A.a1("Contact Us")
 u.ch=A.bJ(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.ah,h,h,!0,h,h,h,h,h,h,h,h)
 u=C.bz(u.u(),0,16)
-s=C.pe(E.NJ,new D.aB7(this),t,s)
+s=C.pe(E.NJ,new D.aB8(this),t,s)
 t=y.p
 return new C.jm(A.b([new A.dH(B.O,h,h,new A.aE(500,h,new A.aC(A.b([new A.ab(F.iZ,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.be(new A.aC(A.b([u,C.bz(new A.aC(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.E,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
 D.UP.prototype={
-B(d,e){var x,w=null,v=A.PM(E.JZ,this.c,18),u=C.cH(this.d)
+B(d,e){var x,w=null,v=A.PM(E.JZ,this.c,18),u=C.cI(this.d)
 u.cx=A.bJ(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.ah,w,w,!0,w,w,w,B.a4,w,w,w,w)
 x=C.c5(this.e)
 x.e=B.q
@@ -125,15 +125,15 @@ x.as=A.bJ(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.T,w,w,!0,w,w,w,B.a4,w,w,w,w)
 u.c=A.b([x.u()],y.i)
 return new C.iN(A.b([v,C.d4(C.bz(u.u(),10,0),1,w)],y.u),B.r,B.E,B.aL,w)}}
 var z=a.updateTypes([])
-D.aB6.prototype={
+D.aB7.prototype={
 $2(d,e){return C.bz(D.aOL(B.k,E.NI[e],d),0,5)},
 $S:103}
-D.aB7.prototype={
+D.aB8.prototype={
 $2(d,e){return C.bz(D.aOL(B.k,E.N1[e],d),0,5)},
 $S:103};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(D.qc,A.U)
 x(D.a0o,A.W)
-w(A.h5,[D.aB6,D.aB7])
+w(A.h5,[D.aB7,D.aB8])
 x(D.UP,A.a6)})()
 A.fr(b.typeUniverse,JSON.parse('{"qc":{"U":[],"f":[]},"a0o":{"W":["qc"]},"UP":{"a6":[],"f":[]}}'))
 var y={p:A.K("l<ab>"),x:A.K("l<j>"),i:A.K("l<ep>"),u:A.K("l<f>"),A:A.K("ab"),w:A.K("j")};(function constants(){var x=a.makeConstList
@@ -142,4 +142,4 @@ E.N1=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]
 E.ND=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
 E.NI=A.b(x(["refers to: South Africa",'(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Unite Ndlela Transport Services (UN Movers), 11 Springbok Ave, Clayville East, Olifantsfontein 1666.',"means any device that can access the Service such as a computer, a cell phone or a digital tablet.","refers to the Website.","mean these Terms and Conditions that form the entire agreement between you (customer) and the Company regarding the use of the Service.","means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.","refers to UN Movers, accessible from https://unmovers.co.za/","means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."]),y.x)
 E.NJ=A.b(x(["By email: ","By visiting this page on our website: ","By phone number: "]),y.x)})()}
-$__dart_deferred_initializers__["ksmzpa6SsdrdilaFk4BEhSZqXhM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["8J67nng2dsHjL0ynnypaTTDTN48="] = $__dart_deferred_initializers__.current

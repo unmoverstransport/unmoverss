@@ -22,7 +22,7 @@ E=c[36]
 D.qg.prototype={
 V(){return new D.a0D(B.l)}}
 D.a0D.prototype={
-B(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g="The laws of the Country shall govern this Terms and Your use of the Service.\n",f="If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.\n",e=A.bo(F.xl,h,h,h),d=C.cK("Please read these ")
+B(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g="The laws of the Country shall govern this Terms and Your use of the Service.\n",f="If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.\n",e=A.bo(F.xm,h,h,h),d=C.cK("Please read these ")
 d.cx=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.R,h,h,!0,h,h,h,h,h,h,h,h)
 x=C.c6("Terms ")
 x.e=B.T
@@ -115,7 +115,7 @@ u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.Z,h,h,!0,h,h,h,h,h,h,h,h)
 u=C.bA(u.u(),0,16)
 s=C.pk(E.NK,new D.aBF(this),t,s)
 t=y.p
-return new C.jr(A.b([new A.dG(B.L,h,h,new A.aE(500,h,new A.at(A.b([new A.ab(F.iZ,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.bf(new A.at(A.b([u,C.bA(new A.at(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.F,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
+return new C.jr(A.b([new A.dG(B.L,h,h,new A.aE(500,h,new A.at(A.b([new A.ab(F.j_,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.bf(new A.at(A.b([u,C.bA(new A.at(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.F,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
 D.V0.prototype={
 B(d,e){var x,w=null,v=A.PW(E.K2,this.c,18),u=C.cK(this.d)
 u.cx=A.bC(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.Z,w,w,!0,w,w,w,B.U,w,w,w,w)
@@ -127,10 +127,10 @@ return new C.fE(A.b([v,C.d5(C.bA(u.u(),10,0),1,w)],y.u),B.r,B.F,B.aN,w)}}
 var z=a.updateTypes([])
 D.aBE.prototype={
 $2(d,e){return C.bA(D.aPm(B.k,E.NJ[e],d),0,5)},
-$S:99}
+$S:106}
 D.aBF.prototype={
 $2(d,e){return C.bA(D.aPm(B.k,E.N2[e],d),0,5)},
-$S:99};(function inheritance(){var x=a.inherit,w=a.inheritMany
+$S:106};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(D.qg,A.U)
 x(D.a0D,A.W)
 w(A.ha,[D.aBE,D.aBF])
@@ -142,4 +142,4 @@ E.N2=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]
 E.NE=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
 E.NJ=A.b(x(["refers to: South Africa",'(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Unite Ndlela Transport Services (UN Movers), 11 Springbok Ave, Clayville East, Olifantsfontein 1666.',"means any device that can access the Service such as a computer, a cell phone or a digital tablet.","refers to the Website.","mean these Terms and Conditions that form the entire agreement between you (customer) and the Company regarding the use of the Service.","means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.","refers to UN Movers, accessible from https://unmovers.co.za/","means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."]),y.x)
 E.NK=A.b(x(["By email: ","By visiting this page on our website: ","By phone number: "]),y.x)})()}
-$__dart_deferred_initializers__["8Ly6DfSNR6Ncf2DOsSSiP8Xg3F8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["7K1AYPn2id+TA1eoMj2/RQ/iPe4="] = $__dart_deferred_initializers__.current

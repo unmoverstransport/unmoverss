@@ -1,250 +1,145 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var C={
-aZx(){return new C.oO(null)},
-oO:function oO(d){this.a=d},
-WA:function WA(d,e){var _=this
-_.d=d
-_.a=null
-_.b=e
-_.c=null},
-auk:function auk(d){this.a=d},
-auj:function auj(d){this.a=d},
-aui:function aui(){},
-N_:function N_(d,e,f,g,h,i){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var D={
+b2H(){return new D.qd(null)},
+qd:function qd(d){this.a=d},
+a0D:function a0D(d){this.a=null
+this.b=d
+this.c=null},
+aBE:function aBE(d){this.a=d},
+aBF:function aBF(d){this.a=d},
+aPn(d,e,f){return new D.V0(d,f,e,null)},
+V0:function V0(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
-_.f=g
-_.r=h
-_.a=i},
-a4x:function a4x(d){this.a=d},
-a4w:function a4w(d){this.a=d},
-oG:function oG(d,e,f){this.c=d
-this.d=e
-this.a=f},
-a4t:function a4t(d){this.a=d}},A,B,D,E,G,F,H,K,I,L
-C=a.updateHolder(c[6],C)
-A=c[0]
+_.a=g}},B,A,F,C,E
+D=a.updateHolder(c[5],D)
 B=c[2]
-D=c[20]
-E=c[23]
-G=c[24]
-F=c[25]
-H=c[17]
-K=c[11]
-I=c[26]
-L=c[19]
-C.oO.prototype={
-X(){return new C.WA(A.cG($.aN(),A.T0(),y.D),B.l)}}
-C.WA.prototype={
-ae(){A.lK(B.z,y.z).aY(0,new C.auk(this),y.P)
-this.aA()},
-B(d,e){var x=null
-return new D.jo(A.b([A.hd(new C.auj(e),x,x,x,y.D)],y.p),"/signed-in/bookings",x)}}
-C.N_.prototype={
-B(d,e){var x,w,v,u,t,s,r,q,p=this,o=null,n=A.cE(5),m=A.a2("Description")
-m.Q=B.a2
-m.ch=E.ch
-m=m.v()
-x=A.a2("Total")
-x.Q=B.a2
-x.ch=E.ch
-w=y.p
-x=A.b([new A.ah(E.b5,m,o),B.G,new A.ah(E.b5,x.v(),o)],w)
-m=A.a2("Base Fee")
-m.ch=E.I
-m=m.v()
-v=p.c
-u="R "+A.d(v.z)
-t=A.a2(u)
-t.ch=E.I
-t=A.b([new A.ah(E.b5,m,o),G.oL,new A.ah(E.b5,t.v(),o)],w)
-m=A.a2("Discounts")
-m.ch=E.ch
-m.Q=B.a2
-m=A.b([new A.ah(E.b5,m.v(),o),B.G,B.G],w)
-s=A.a2("Mid Month")
-s.ch=E.I
-s=s.v()
-r=A.a2("R "+A.d(v.Q))
-r.ch=E.I
-r=A.b([new A.ah(E.b5,s,o),F.Bz,new A.ah(E.b5,r.v(),o)],w)
-s=A.a2("Loyal customer")
-s.ch=E.I
-s=s.v()
-q=A.a2("R "+A.d(v.as))
-q.ch=E.I
-q=A.b([new A.ah(E.b5,s,o),G.oK,new A.ah(E.b5,q.v(),o)],w)
-s=A.a2("Total amount due:")
-s.ch=E.ch
-s.Q=B.dB
-s=s.v()
-u=A.a2(u)
-u.Q=B.dB
-u.ch=E.ch
-w=H.aHS(A.b([new H.dK(new A.bz(B.fF,o,o,n,o,o,B.H),x),new H.dK(o,t),new H.dK(G.ej,m),new H.dK(o,r),new H.dK(G.ej,q),new H.dK(G.ej,A.b([new A.ah(E.b5,s,o),B.G,new A.ah(E.b5,u.v(),o)],w))],y.s),G.nZ)
-n=!v.db
-m=D.ape(o,o,!n||p.Mn()?B.bI:B.be,o,o,o,o,o,o,o,o,o,o,B.e4,o,o,o,o)
-n=!n||p.Mn()?o:new C.a4x(p)
-x=A.a2("CANCEL BOOKING")
-x.ch=E.df
-return new A.aB(A.b([w,D.bd(D.z1(x.v(),n,m),0,0,0,20)],y.d),B.r,B.E,o,o)},
-Mn(){var x=Date.now(),w=this.c
-if(B.f.cc(A.bh(0,K.aGx(w.b+" "+w.c).a-x,0).a,1e6)<=0)return!0
-return!1}}
-C.oG.prototype={
-B(d,e){var x,w,v,u,t,s,r,q,p=this,o=null,n=p.c,m=D.cK("INVOICE BOOKING ID: "+n.a)
-m.d0$=B.k
-m.cx=G.o4
-x=y.n
-w=A.b([],x)
-v=n.db
-if(v){u=D.c6("\nBooking Cancelled")
-u.as=F.a00
-u.e=B.a2
-w.push(u.v())}m.c=w
-m=m.v()
-w=D.cK("Created: ")
-w.cx=F.de
-t=K.aGx(n.dx)
-u=D.c6(""+A.b4(t)+"-"+p.xl(A.bo(t))+"-"+p.xl(A.cL(t))+" | "+p.xl(A.xT(t))+":"+p.xl(A.xU(t)))
-u.as=E.I
-u.d0$=B.k
-w.c=A.b([u.v()],x)
-w=w.v()
-u=D.cK("Pickup Date-Time: ")
-u.cx=F.de
-s=D.c6(n.b+" | ")
-s.as=E.I
-s=s.v()
-r=D.c6(n.c+" ")
-r.as=E.I
-u.c=A.b([s,r.v()],x)
-u=u.v()
-r=A.am(B.d.aj(127.5),151,38,120)
-s=v?o:new C.a4t(p)
-w=D.lS(!1,B.Y,o,o,!0,o,!1,o,0,o,!1,o,o,u,o,w,D.lM(o,A.PP(F.K9,v?B.bI:B.aj,o),o,s,r,15,o),o)
-u=D.cK("Distance: ")
-u.cx=F.de
-s=D.c6(A.d(H.aJg(n.at,1))+" kms")
-s.as=I.ea
-u.c=A.b([s.v()],x)
-u=u.v()
-s=D.cK("Driver Note:")
-s.cx=F.de
-s.d0$=B.bI
-v=n.ax
-v=D.c6(v.length!==0?"\n"+v:"")
-v.as=I.ea
-s.c=A.b([v.v()],x)
-v=y.p
-s=D.bd(new A.aB(A.b([u,s.v()],v),B.r,B.E,o,o),16,0,0,0)
-u=D.cK("Additional Helpers: ")
-u.cx=F.de
-r=D.c6(""+n.ay)
-r.as=I.ea
-u.c=A.b([r.v()],x)
-u=u.v()
-r=D.cK("Floors To Carry: ")
-r.cx=F.de
-q=D.c6(""+n.ch)
-q.as=I.ea
-r.c=A.b([q.v()],x)
-r=D.bd(new A.aB(A.b([u,r.v()],v),B.r,B.E,o,o),16,0,0,0)
-u=D.cK("Vehicle type: ")
-u.cx=F.de
-q=D.c6(A.d(n.y)+" Ton")
-q.as=I.ea
-u.c=A.b([q.v()],x)
-u=D.bd(u.v(),16,0,0,0)
-x=$.aN()
-v=L.HB(new A.ah(E.ax,new A.aB(A.b([m,w,s,r,u,D.bd(new C.N_(n,p.gXq(),p.d,A.cG(x,A.aLF(),y.r),A.cG(x,A.T0(),y.D),o),10,0,0,0)],v),B.r,B.E,o,o),o))
-v.c=1
-v.d0$=B.C
-v.d=new A.cb(A.cE(5),new A.bM(B.c4,1,B.O))
-return v.v()},
-Xr(){var x=this.d,w=this.c
-x.z=w.at
-x.a=w.b
-x.b=w.c
-x.w=w.z
-x.y=w.as
-x.x=w.Q
-x.c=w.x
-x.Q=w.ay
-x.r=w.y
-x.e=w.CW
-x.d=w.ax
-x.f=w.ch
-x.as=!1
-x.at=!0},
-xl(d){if(d>=10)return""+d
-return"0"+d}}
-var z=a.updateTypes(["oG(mS,n)","~()"])
-C.auk.prototype={
-$1(d){var x=0,w=A.G(y.P),v=this
-var $async$$1=A.C(function(e,f){if(e===1)return A.D(f,w)
-while(true)switch(x){case 0:x=2
-return A.A(v.a.d.vp(),$async$$1)
-case 2:return A.E(null,w)}})
-return A.F($async$$1,w)},
-$S:38}
-C.auj.prototype={
-$1(d){var x,w,v,u=null
-switch(d.ax.a){case 0:return B.G
-case 1:return new A.aF(u,this.a.G(y.w).f.a.b,new A.aF(1/0,u,new A.ah(E.R,B.e3,u),u),u)
-case 3:return A.a2(d.ch).v()
-case 2:x=y.p
-if(d.ay.d.length!==0){w=A.b([F.a4_],y.A)
-v=D.ph(d.ay.d,new C.aui(),y.V,y.l)
-return D.bd(new A.aF(1/0,u,new A.aB(A.b([new A.aF(500,u,new A.aB(w,B.r,B.E,u,u),u),D.bB(new A.aF(500,u,new A.aB(A.Z(v,!0,v.$ti.i("u.E")),u,u,u,u),u),8,0)],x),B.F,B.v,u,u),u),16,0,0,0)}else{x=A.b([A.a2("Make your first booking!").v()],x)
-return new A.aF(u,this.a.G(y.w).f.a.b,new A.aF(1/0,u,new A.ah(E.R,new A.aB(x,u,u,u,u),u),u),u)}default:return A.a2("there might be an error in your code check your provider").v()}},
-$S:518}
-C.aui.prototype={
-$2(d,e){return new C.oG(d,new H.Cc("","",A.b([],y.O),"","",0,1,0,0,0,0,0,!1,!0),null)},
-$S:z+0}
-C.a4x.prototype={
-$0(){var x=0,w=A.G(y.H),v=this,u
-var $async$$0=A.C(function(d,e){if(d===1)return A.D(e,w)
-while(true)switch(x){case 0:u=v.a
-u.d.$0()
-x=2
-return A.A(u.f.yr(u.e,u.c,new C.a4w(u)),$async$$0)
-case 2:return A.E(null,w)}})
-return A.F($async$$0,w)},
-$S:1}
-C.a4w.prototype={
-$0(){var x=0,w=A.G(y.H),v=this
-var $async$$0=A.C(function(d,e){if(d===1)return A.D(e,w)
-while(true)switch(x){case 0:x=2
-return A.A(v.a.r.vp(),$async$$0)
-case 2:return A.E(null,w)}})
-return A.F($async$$0,w)},
-$S:1}
-C.a4t.prototype={
-$0(){var x=0,w=A.G(y.H),v=this,u,t,s
-var $async$$0=A.C(function(d,e){if(d===1)return A.D(e,w)
-while(true)switch(x){case 0:u=v.a.c
-t=y.N
-s=A.an(["retrieve",u.f],t,t)
-A.ne($.aN(),"/signed-in/bookings/"+u.a,s,y.z)
-return A.E(null,w)}})
-return A.F($async$$0,w)},
-$S:1};(function installTearOffs(){var x=a._instance_0u
-x(C.oG.prototype,"gXq","Xr",1)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(C.oO,A.U)
-x(C.WA,A.W)
-w(A.cg,[C.auk,C.auj])
-x(C.aui,A.h5)
-w(A.a5,[C.N_,C.oG])
-w(A.kg,[C.a4x,C.a4w,C.a4t])})()
-A.fp(b.typeUniverse,JSON.parse('{"oO":{"U":[],"f":[]},"WA":{"W":["oO"]},"N_":{"a5":[],"f":[]},"oG":{"a5":[],"f":[]}}'))
-var y=(function rtii(){var x=A.L
-return{l:x("oG"),V:x("mS"),r:x("oH"),O:x("l<dB>"),d:x("l<av>"),s:x("l<dK>"),n:x("l<eo>"),A:x("l<is>"),p:x("l<f>"),w:x("d8"),P:x("ax"),D:x("kU"),N:x("j"),z:x("@"),H:x("~")}})();(function constants(){F.ZT=new A.eo("Discount given at the middle of the month.",null,null,B.b3,E.df)
-F.a4g=new A.jU(null,F.ZT,null,!1,G.fY,G.fq,B.cD,null)
-F.Bz=new A.dH(E.ei,null,null,F.a4g,null)
-F.K9=new A.dr(983823,"MaterialIcons",null,!1)
-F.a00=new A.q(!0,B.be,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-F.de=new A.q(!0,B.bI,null,null,null,null,14,B.Z,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-F.a4_=new D.is("Your Bookings",null,null)})()}
-$__dart_deferred_initializers__["hAANvLwyTfGzrHNeLYre0D9nwOk="] = $__dart_deferred_initializers__.current
+A=c[0]
+F=c[24]
+C=c[21]
+E=c[37]
+D.qd.prototype={
+V(){return new D.a0D(B.l)}}
+D.a0D.prototype={
+B(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=null,g="The laws of the Country shall govern this Terms and Your use of the Service.\n",f="If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.\n",e=A.bo(F.xl,h,h,h),d=C.cK("Please read these ")
+d.cx=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.R,h,h,!0,h,h,h,h,h,h,h,h)
+x=C.c6("Terms ")
+x.e=B.T
+x=x.u()
+w=C.c6("and ").u()
+v=C.c6("Conditions ")
+v.e=B.T
+d.c=A.b([x,w,v.u(),C.c6("carefully before using Our Service.").u()],y.i)
+d=C.bf(A.bo(d.u(),h,h,h),0,16,16,16)
+v=A.a1("Interpretation and Definitions")
+v.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+v=v.u()
+w=A.a1("The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.")
+w.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+x=y.u
+w=C.bf(new A.av(A.b([v,C.bA(w.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+v=A.a1("Definitions")
+v.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+v=v.u()
+u=A.a1("For the purposes of these Terms and Conditions:")
+u.cx=B.U
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,16,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+u=C.bA(u.u(),0,16)
+t=y.w
+s=y.A
+r=C.t9(E.NE,new D.aBE(this),t,s)
+r=C.bf(new A.av(A.b([v,u,C.bA(new A.av(A.Z(r,!0,r.$ti.i("u.E")),h,h,h,h),16,0)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Acknowledgment")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+v=A.a1("These are the Terms and Conditions governing the use of this Service and the agreement that operates between you and the Company. \n\nThese Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.\nYour access to and use of the Service is conditioned on your acceptance of and compliance with these Terms and Conditions. \nThese Terms and Conditions apply to all visitors, users and others who access or use the Service.\n\nBy accessing or using the Service You agree to be bound by these Terms and Conditions.\nIf you disagree with any part of these Terms and Conditions then you may not access the Service.\nYou represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.\n\nYour access to and use of the Service is also conditioned on your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes our policies and procedures on the collection, use and disclosure of your personal information when you use the Website and tells you about your privacy rights and how the law protects you. Please read Our Privacy Policy carefully before using Our Service.\n")
+v.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+v=C.bf(new A.av(A.b([u,C.bA(v.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Links to Other Websites")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+q=A.a1("Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.\nThe Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.\nWe strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.\n")
+q.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+q=C.bf(new A.av(A.b([u,C.bA(q.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Termination")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+p=A.a1("We may terminate or suspend your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms and Conditions.\nUpon termination, your right to use the Service will cease immediately.\n")
+p.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+p=C.bf(new A.av(A.b([u,C.bA(p.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Limitation of Liability")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+o=A.a1("Despite any damages that you might incur, the entire responsibility of the Company and any of its suppliers under any provision of this Terms and your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by you through the Service if you haven't purchased anything through the Service.\n\nTo the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.\n")
+o.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+o=C.bf(new A.av(A.b([u,C.bA(o.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Governing Law")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+n=A.a1(g)
+n.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+n=C.bf(new A.av(A.b([u,C.bA(n.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Disputes Resolution")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+m=A.a1(g)
+m.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+m=C.bf(new A.av(A.b([u,C.bA(m.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Severability and Waiver")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+l=A.a1(f)
+l.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+l=C.bf(new A.av(A.b([u,C.bA(l.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Waiver")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+k=A.a1(f)
+k.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+k=C.bf(new A.av(A.b([u,C.bA(k.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Translation Interpretation")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+j=A.a1("These Terms and Conditions may have been translated if we have made them available to you on our Service. You agree that the original English text shall prevail in the case of a dispute.\n")
+j.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+j=C.bf(new A.av(A.b([u,C.bA(j.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Changes to These Terms and Conditions")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=u.u()
+i=A.a1("We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What static constitutes a material change will be determined at our sole discretion.\n\nBy continuing to access or use Our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, in whole or in part, please stop using the website and the Service.\n")
+i.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,14,h,B.R,h,h,!0,h,h,h,B.U,h,h,h,h)
+i=C.bf(new A.av(A.b([u,C.bA(i.u(),0,16)],x),B.r,B.F,h,h),0,16,16,16)
+u=A.a1("Contact Us")
+u.ch=A.bC(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a3,h,h,!0,h,h,h,h,h,h,h,h)
+u=C.bA(u.u(),0,16)
+s=C.t9(E.NK,new D.aBF(this),t,s)
+t=y.p
+return new C.jr(A.b([new A.dG(B.L,h,h,new A.aD(500,h,new A.av(A.b([new A.ab(F.j_,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.bf(new A.av(A.b([u,C.bA(new A.av(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.F,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
+D.V0.prototype={
+B(d,e){var x,w=null,v=A.PW(E.K2,this.c,18),u=C.cK(this.d)
+u.cx=A.bC(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.a3,w,w,!0,w,w,w,B.U,w,w,w,w)
+x=C.c6(this.e)
+x.e=B.p
+x.as=A.bC(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.R,w,w,!0,w,w,w,B.U,w,w,w,w)
+u.c=A.b([x.u()],y.i)
+return new C.fE(A.b([v,C.d5(C.bA(u.u(),10,0),1,w)],y.u),B.r,B.F,B.aN,w)}}
+var z=a.updateTypes([])
+D.aBE.prototype={
+$2(d,e){return C.bA(D.aPn(B.k,E.NJ[e],d),0,5)},
+$S:99}
+D.aBF.prototype={
+$2(d,e){return C.bA(D.aPn(B.k,E.N2[e],d),0,5)},
+$S:99};(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(D.qd,A.U)
+x(D.a0D,A.W)
+w(A.ha,[D.aBE,D.aBF])
+x(D.V0,A.a4)})()
+A.fh(b.typeUniverse,JSON.parse('{"qd":{"U":[],"f":[]},"a0D":{"W":["qd"]},"V0":{"a4":[],"f":[]}}'))
+var y={p:A.L("l<ab>"),x:A.L("l<j>"),i:A.L("l<eU>"),u:A.L("l<f>"),A:A.L("ab"),w:A.L("j")};(function constants(){var x=a.makeConstList
+E.K2=new A.ds(57689,"MaterialIcons",null,!1)
+E.N2=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]),y.x)
+E.NE=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
+E.NJ=A.b(x(["refers to: South Africa",'(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Unite Ndlela Transport Services (UN Movers), 11 Springbok Ave, Clayville East, Olifantsfontein 1666.',"means any device that can access the Service such as a computer, a cell phone or a digital tablet.","refers to the Website.","mean these Terms and Conditions that form the entire agreement between you (customer) and the Company regarding the use of the Service.","means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.","refers to UN Movers, accessible from https://unmovers.co.za/","means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."]),y.x)
+E.NK=A.b(x(["By email: ","By visiting this page on our website: ","By phone number: "]),y.x)})()}
+$__dart_deferred_initializers__["YAph6fC96paObP1VdERG6LBEZQw="] = $__dart_deferred_initializers__.current

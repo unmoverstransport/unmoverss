@@ -1,20 +1,21 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B={
-aZl(){return new B.rv(null)},
-rv:function rv(d){this.a=d}},E,A,C,D,F,G,H
-B=a.updateHolder(c[10],B)
-E=c[33]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var C={rG:function rG(d){this.a=d}},A,B,F,D,G,E,H
+C=a.updateHolder(c[50],C)
 A=c[0]
-C=c[2]
-D=c[45]
-F=c[46]
-G=c[47]
-H=c[44]
-B.rv.prototype={
-v(d,e){var x=null,w=y.a
-return new E.ir(A.b([new A.e1(C.O,x,x,new A.aq(450,x,new A.as(A.b([D.a4b,F.pR,G.bc],w),C.p,C.E,x,x),x),x)],w),"/quote",x)}}
+B=c[2]
+F=c[109]
+D=c[58]
+G=c[63]
+E=c[112]
+H=c[61]
+C.rG.prototype={
+v(d,e){var x=null,w=A.bB(5),v=A.W("Unite Ndlela operates in all areas around the Gauteng Province, Unite Ndlela also does long distance trips nationwide from Gauteng and from other provinces to Gauteng")
+v.as=B.P
+v.ch=F.AS
+w=D.b5(D.N8(!0,A.bo(new A.a4(G.a0,v.q(),x),x,x,x),x,B.m,1,x,x,x,new A.bV(w,new A.bx(B.bM,1,B.J)),B.m),16,0)
+return new A.aa(A.b([E.a4j,new A.ad(x,250,new A.ad(610*$.B7().gAq(),x,w,x),x),H.bf],y.a),B.y,B.o,x,x)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(B.rv,A.a0)})()
-A.cz(b.typeUniverse,JSON.parse('{"rv":{"a0":[],"f":[]}}'))
-var y={a:A.z("k<f>")};(function constants(){D.a4b=new H.fh("Get a Quote",null,null,null,null)})()}
-$__dart_deferred_initializers__["B45QotHyAZRW/D9Am3m7uv3RMhg="] = $__dart_deferred_initializers__.current
+x(C.rG,A.a0)})()
+A.bG(b.typeUniverse,JSON.parse('{"rG":{"a0":[],"e":[]}}'))
+var y={a:A.v("k<e>")};(function constants(){E.a4j=new D.e6("Our Coverage","Here's where you can find us also where we work",null,null,null)})()}
+$__dart_deferred_initializers__["r8yncv4/wgFK93+EwPGD4IOZ2HY="] = $__dart_deferred_initializers__.current

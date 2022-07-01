@@ -120,7 +120,7 @@ u.ch=A.bv(h,h,B.k,h,h,h,h,h,h,h,h,18,h,B.a1,h,h,!0,h,h,h,h,h,h,h,h)
 u=C.b5(u.q(),0,16)
 s=H.ps(E.NR,new D.aCl(this),t,s)
 t=y.p
-return new I.eY(A.b([new A.e9(B.P,h,h,new A.ac(500,h,new A.aa(A.b([new A.a4(G.j5,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.aI(new A.aa(A.b([u,C.b5(new A.aa(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.z,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
+return new I.eY(A.b([new A.e9(B.P,h,h,new A.ad(500,h,new A.aa(A.b([new A.a4(G.j5,e,h),d,w,r,v,q,p,o,n,m,l,k,j,i,C.aI(new A.aa(A.b([u,C.b5(new A.aa(A.Z(s,!0,s.$ti.i("u.E")),h,h,h,h),16,0)],t),B.r,B.z,h,h),32,16,16,16)],t),h,h,h,h),h),h)],x),"/terms-and-conditions",h)}}
 D.UK.prototype={
 v(d,e){var x,w=null,v=A.PG(E.K1,this.c,18),u=F.cf(this.d)
 u.cx=A.bv(w,w,B.k,w,w,w,w,w,w,w,w,14,w,B.a1,w,w,!0,w,w,w,B.V,w,w,w,w)
@@ -147,4 +147,4 @@ E.N8=A.b(x(["unitendlela@gmail.com","https://unmovers.co.za","(+27)78 814 0672"]
 E.NL=A.b(x(["Country ","Company ","Device ","Service ",'Terms and Conditions (also referred as "Terms") ',"Third-party Social Media Service ","Website ","You "]),y.x)
 E.NQ=A.b(x(["refers to: South Africa",'(referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Unite Ndlela Transport Services (UN Movers), 11 Springbok Ave, Clayville East, Olifantsfontein 1666.',"means any device that can access the Service such as a computer, a cell phone or a digital tablet.","refers to the Website.","mean these Terms and Conditions that form the entire agreement between you (customer) and the Company regarding the use of the Service.","means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.","refers to UN Movers, accessible from https://unmovers.co.za/","means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."]),y.x)
 E.NR=A.b(x(["By email: ","By visiting this page on our website: ","By phone number: "]),y.x)})()}
-$__dart_deferred_initializers__["1zVXk2FyuURUfLLLn9TCEV/1Pno="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["9H7n2XhewCe5nnhOSj49HmZx6B8="] = $__dart_deferred_initializers__.current

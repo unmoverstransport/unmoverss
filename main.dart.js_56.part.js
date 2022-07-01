@@ -108,7 +108,7 @@ w.cx=D.a0j
 v=E.bO("Unite ")
 v.e=C.U
 v.b=p
-v.da$=C.T
+v.da$=C.S
 v=v.q()
 u=E.bO("Ndlela ")
 u.e=C.U
@@ -126,12 +126,12 @@ r=x.p
 r=S.V1(A.eW(new A.aa(A.b([new A.a4(G.a0,new A.aa(A.b([o,n,M.b5(A.bo(w.q(),q,q,q),16,0)],r),C.r,C.z,q,q),q),new B.Od(new B.adM(),q)],r),q,q,q,q),new A.bg(C.m,q,q,q,q,q,C.G),C.as))
 r.d=new A.bV(A.bB(5),C.t)
 r.c=10
-return new A.ad(1/0,q,A.eW(new A.aa(A.b([new A.a4(G.a0,r.q(),q)],x.x),q,q,q,q),new A.bg(C.bM,q,q,q,q,q,C.G),C.as),q)}}
+return new A.ac(1/0,q,A.eW(new A.aa(A.b([new A.a4(G.a0,r.q(),q)],x.x),q,q,q,q),new A.bg(C.bM,q,q,q,q,q,C.G),C.as),q)}}
 B.Od.prototype={
 v(d,e){var w=null,v=E.H1(w,w,C.ax,w,w,w,w,w,w,w,w,w,w,C.zE,w,w,w,w),u=A.W("QUOTE")
 u.ch=D.a2P
-return new A.ad(w,65,new A.ad(1/0,w,E.qv(new T.eG(A.b([u.q(),H.fi,D.Kk],x.p),C.y,C.o,w,w),this.c,v),w),w)}}
-var z=a.updateTypes(["~(hC?,F)","nr(U,m)"])
+return new A.ac(w,65,new A.ac(1/0,w,E.qv(new T.eG(A.b([u.q(),H.fi,D.Kk],x.p),C.y,C.o,w,w),this.c,v),w),w)}}
+var z=a.updateTypes(["~(hC?,F)","ns(U,m)"])
 B.aGq.prototype={
 $2(d,e){var w
 this.b.dt(0)
@@ -201,7 +201,7 @@ w(A.dc,[B.adL,B.adM])})()
 A.bG(b.typeUniverse,JSON.parse('{"PQ":{"a0":[],"e":[]},"Pr":{"a0":[],"e":[]},"PP":{"a0":[],"e":[]},"PR":{"a0":[],"e":[]},"Od":{"a0":[],"e":[]}}'))
 var y={b:"https://unmovers.netlify.app/quote/vehicle-type"}
 var x=(function rtii(){var w=A.v
-return{x:w("k<a4>"),q:w("k<k5>"),s:w("k<dS>"),n:w("k<e5>"),p:w("k<e>"),w:w("cm"),P:w("ax"),y:w("jj"),h:w("aM<~>"),D:w("a7<~>"),z:w("@"),H:w("~")}})();(function constants(){D.r1=new B.PP(null)
+return{x:w("k<a4>"),q:w("k<k5>"),s:w("k<dS>"),n:w("k<e5>"),p:w("k<e>"),w:w("ch"),P:w("ax"),y:w("jj"),h:w("aM<~>"),D:w("a7<~>"),z:w("@"),H:w("~")}})();(function constants(){D.r1=new B.PP(null)
 D.qO=new B.Pr(null)
 D.zs=new O.k0(C.A,D.qO,D.qO,null)
 D.JC=new A.ai(8,0,8,8)
@@ -210,10 +210,10 @@ D.r2=new B.PR(null)
 D.L8=new B.PQ(null)
 D.X_=new O.k0(D.r2,D.r2,D.L8,null)
 D.YT=new N.TQ(2)
-D.a0_=new A.q(!0,C.ax,null,"VisbyRounded",null,null,20,C.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a0j=new A.q(!0,C.k,null,null,null,null,14,C.O,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a0n=new A.q(!0,C.k,null,null,null,null,22,C.O,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.AW=new A.q(!0,C.k,null,"VisbyRounded",null,null,30,C.a3,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a2P=new A.q(!0,C.m,null,null,null,null,16,C.O,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a0_=new A.q(!0,C.ax,null,"VisbyRounded",null,null,20,C.a1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a0j=new A.q(!0,C.k,null,null,null,null,14,C.T,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a0n=new A.q(!0,C.k,null,null,null,null,22,C.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.AW=new A.q(!0,C.k,null,"VisbyRounded",null,null,30,C.a1,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a2P=new A.q(!0,C.m,null,null,null,null,16,C.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a2V=new A.q(!0,C.k,null,"VisbyRounded",null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["4QntQfr6+KOROdB+OMHfXeQOY+s="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["/pl6jzHHbm5zghj3pwKvsvWDKPA="] = $__dart_deferred_initializers__.current

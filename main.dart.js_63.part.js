@@ -95,10 +95,10 @@ u.ch=D.fm
 w=K.aIW(A.b([new K.dS(new A.bg(n,o,o,m,o,o,B.G),x),new K.dS(o,r),new K.dS(L.ds,l),new K.dS(o,t),new K.dS(L.ds,s),new K.dS(L.ds,A.b([new A.a4(F.bc,q,o),B.A,new A.a4(F.bc,u.q(),o)],w))],y.s),O.oa)
 u=A.bB(5)
 n=!v.db
-m=E.H1(o,o,o,o,o,o,o,o,o,o,o,o,o,new A.bV(u,new A.bx(!n||p.Cs()?B.b5:B.bk,1,B.J)),o,o,o,o)
+m=E.H1(o,o,B.m,o,2,o,o,o,o,o,o,o,B.b_,new A.bV(u,new A.bx(!n||p.Cs()?B.b_:B.bk,1.5,B.J)),o,o,o,o)
 l=!n||p.Cs()?o:new C.a4n(p)
 x=A.W("Cancel Booking")
-x.ch=A.bv(o,o,!n||p.Cs()?B.b5:B.bk,o,o,o,o,o,o,o,o,12,o,B.O,o,o,!0,o,o,o,o,o,o,o,o)
+x.ch=A.bv(o,o,!n||p.Cs()?B.b_:B.bk,o,o,o,o,o,o,o,o,14,o,B.a1,o,o,!0,o,o,o,o,o,o,o,o)
 return new A.aa(A.b([w,H.aI(E.qv(x.q(),l,m),0,0,0,20)],y.d),B.r,B.z,o,o)},
 Cs(){var x=Date.now(),w=this.c
 if(B.f.bN(A.b0(0,M.aHF(w.b+" "+w.c).a-x,0).a,1e6)<=0)return!0
@@ -118,7 +118,7 @@ m=m.q()
 w=A.ah(B.e.ag(127.5),81,79,151)
 u=v?o:new C.a4j(p)
 t=y.p
-w=H.aI(new Q.eG(A.b([m,A.dR(B.w,!0,o,A.iA(!1,!0,A.PG(D.Kd,v?B.b5:B.ax,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,u,o,w,o),B.n,o,0,o,o,o,o,o,B.ah)],t),B.eY,B.z,B.N,o),16,0,0,0)
+w=H.aI(new Q.eG(A.b([m,A.dR(B.w,!0,o,A.iA(!1,!0,A.PG(D.Kd,v?B.b_:B.ax,o),o,!0,o,o,o,o,o,o,o,o,o,o,o,u,o,w,o),B.n,o,0,o,o,o,o,o,B.ah)],t),B.eY,B.z,B.N,o),16,0,0,0)
 u=E.cf("Created: ")
 u.cx=D.dk
 s=M.aHF(n.dx)
@@ -144,7 +144,7 @@ u.c=A.b([q.q()],x)
 u=u.q()
 q=E.cf("Driver Note:")
 q.cx=D.dk
-q.da$=B.b5
+q.da$=B.b_
 v=n.ax
 v=E.bO(v.length!==0?"\n"+v:"")
 v.as=I.bF
@@ -190,7 +190,7 @@ x.as=!1
 x.at=!0},
 x3(d){if(d>=10)return""+d
 return"0"+d}}
-var z=a.updateTypes(["oU(n4,m)","~()"])
+var z=a.updateTypes(["oU(n5,m)","~()"])
 C.av8.prototype={
 $1(d){var x=0,w=A.E(y.P),v=this
 var $async$$1=A.A(function(e,f){if(e===1)return A.B(f,w)
@@ -202,7 +202,7 @@ $S:40}
 C.av7.prototype={
 $1(d){var x,w,v,u=null
 switch(d.ax.a){case 0:return B.A
-case 1:x=E.ce(new A.a4(G.af,new A.aa(A.b([A.lj(B.T,A.b0(500,0,0),50)],y.q),B.y,B.o,u,u),u))
+case 1:x=E.ce(new A.a4(G.af,new A.aa(A.b([A.lj(B.S,A.b0(500,0,0),50)],y.q),B.y,B.o,u,u),u))
 x.f=this.a.F(y.w).f.a.b
 x.r=1/0
 return x.q()
@@ -210,8 +210,8 @@ case 3:return A.W(d.ch).q()
 case 2:x=y.p
 if(d.ay.d.length!==0){w=A.b([D.a43],y.A)
 v=T.ps(d.ay.d,new C.av6(),y.V,y.l)
-return H.aI(new A.ad(1/0,u,new A.aa(A.b([new A.ad(500,u,new A.aa(w,B.r,B.z,u,u),u),H.b5(new A.ad(500,u,new A.aa(A.Z(v,!0,v.$ti.i("u.E")),u,u,u,u),u),8,0)],x),B.y,B.o,u,u),u),16,0,0,0)}else{x=A.b([A.W("Make your first booking!").q()],x)
-return new A.ad(u,this.a.F(y.w).f.a.b,new A.ad(1/0,u,new A.a4(F.a0,new A.aa(x,u,u,u,u),u),u),u)}default:return A.W("there might be an error in your code check your provider").q()}},
+return H.aI(new A.ac(1/0,u,new A.aa(A.b([new A.ac(500,u,new A.aa(w,B.r,B.z,u,u),u),H.b5(new A.ac(500,u,new A.aa(A.Z(v,!0,v.$ti.i("u.E")),u,u,u,u),u),8,0)],x),B.y,B.o,u,u),u),16,0,0,0)}else{x=A.b([A.W("Make your first booking!").q()],x)
+return new A.ac(u,this.a.F(y.w).f.a.b,new A.ac(1/0,u,new A.a4(F.a0,new A.aa(x,u,u,u,u),u),u),u)}default:return A.W("there might be an error in your code check your provider").q()}},
 $S:525}
 C.av6.prototype={
 $2(d,e){return new C.oU(d,new U.wn("","",A.b([],y.O),"","",0,1,0,0,0,0,0,!1,!0,!0),null)},
@@ -253,12 +253,12 @@ w(A.a0,[C.MS,C.oU])
 w(A.dc,[C.a4n,C.a4m,C.a4j])})()
 A.bG(b.typeUniverse,JSON.parse('{"p2":{"M":[],"e":[]},"Wx":{"Q":["p2"]},"MS":{"a0":[],"e":[]},"oU":{"a0":[],"e":[]}}'))
 var y=(function rtii(){var x=A.v
-return{l:x("oU"),V:x("n4"),r:x("oV"),O:x("k<cQ>"),x:x("k<a4>"),d:x("k<aB>"),q:x("k<k5>"),s:x("k<dS>"),n:x("k<e5>"),A:x("k<e6>"),p:x("k<e>"),w:x("cm"),P:x("ax"),D:x("l5"),N:x("i"),z:x("@"),H:x("~")}})();(function constants(){D.a_3=new A.e5("Discount given at the middle of the month.",null,null,B.bs,G.cM)
-D.a4r=new A.mG(null,D.a_3,null,!1,L.h5,V.ep,B.eh,null)
+return{l:x("oU"),V:x("n5"),r:x("oV"),O:x("k<cQ>"),x:x("k<a4>"),d:x("k<aB>"),q:x("k<k5>"),s:x("k<dS>"),n:x("k<e5>"),A:x("k<e6>"),p:x("k<e>"),w:x("ch"),P:x("ax"),D:x("l5"),N:x("i"),z:x("@"),H:x("~")}})();(function constants(){D.a_3=new A.e5("Discount given at the middle of the month.",null,null,B.bt,G.cM)
+D.a4r=new A.mH(null,D.a_3,null,!1,L.h5,V.ep,B.eh,null)
 D.BA=new A.e9(G.en,null,null,D.a4r,null)
 D.Kd=new A.dP(983823,"MaterialIcons",null,!1)
 D.a0b=new A.q(!0,B.bk,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.dk=new A.q(!0,B.b5,null,null,null,null,12,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.dk=new A.q(!0,B.b_,null,null,null,null,12,B.a1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.fm=new A.q(!0,B.k,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a43=new H.e6("Your Bookings",null,null,null,null)})()}
-$__dart_deferred_initializers__["rfmFBqct0+WB8RbonnAc1I4Qpac="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["hONBA+aNIFhLc4iBwYL4TBAl4Pw="] = $__dart_deferred_initializers__.current

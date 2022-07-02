@@ -1,58 +1,58 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var G={xp:function xp(d,e){this.c=d
+$__dart_deferred_initializers__.current=function(a,b,c,$){var G={xE:function xE(d,e){this.c=d
 this.a=e}},A,B,C,D,H,F,I,E,K,L
-G=a.updateHolder(c[36],G)
+G=a.updateHolder(c[34],G)
 A=c[0]
-B=c[104]
+B=c[102]
 C=c[2]
-D=c[64]
+D=c[61]
 H=c[58]
-F=c[65]
-I=c[105]
+F=c[62]
+I=c[103]
 E=c[42]
-K=c[66]
-L=c[69]
-G.xp.prototype={
-v(d,e){var x,w,v,u,t,s,r,q=null,p=A.ah(150,151,38,120),o=A.bB(5),n=A.W("Description")
-n.ch=B.i4
+K=c[63]
+L=c[66]
+G.xE.prototype={
+B(d,e){var x,w,v,u,t,s,r,q=null,p=A.ao(150,151,38,120),o=A.bA(5),n=A.W("Description")
+n.ch=B.ik
 n=n.q()
 x=A.W("Total")
-x.ch=B.i4
+x.ch=B.ik
 w=y.d
-x=A.b([new A.a4(new A.ai(4,4,4,4),n,q),C.A,new A.a4(new A.ai(4,4,4,4),x.q(),q)],w)
+x=A.b([new A.a2(new A.a6(4,4,4,4),n,q),C.B,new A.a2(new A.a6(4,4,4,4),x.q(),q)],w)
 n=A.W("Base Fee")
-n.ch=D.a8
+n.ch=D.ae
 n=H.aI(n.q(),0,4,0,0)
 v=this.c
-u=A.W("R "+A.d(v.w+v.x+v.y))
-u.ch=D.a8
-u=A.b([n,F.oY,new A.a4(new A.ai(4,4,4,4),u.q(),q)],w)
+u=A.W("R "+A.e(v.w+v.x+v.y))
+u.ch=D.ae
+u=A.b([n,F.pg,new A.a2(new A.a6(4,4,4,4),u.q(),q)],w)
 n=A.W("Discounts")
-n.ch=B.i4
-n=A.b([new A.a4(new A.ai(4,4,4,4),n.q(),q),C.A,C.A],w)
+n.ch=B.ik
+n=A.b([new A.a2(new A.a6(4,4,4,4),n.q(),q),C.B,C.B],w)
 t=A.W("Off Pick")
-t.ch=D.a8
+t.ch=D.ae
 t=t.q()
-s=A.W("R "+A.d(v.x))
-s.ch=D.a8
-s=A.b([new A.a4(new A.ai(4,4,4,4),t,q),B.BB,new A.a4(new A.ai(4,4,4,4),s.q(),q)],w)
+s=A.W("R "+A.e(v.x))
+s.ch=D.ae
+s=A.b([new A.a2(new A.a6(4,4,4,4),t,q),B.C8,new A.a2(new A.a6(4,4,4,4),s.q(),q)],w)
 t=A.W("Return Customer")
-t.ch=D.a8
+t.ch=D.ae
 t=t.q()
-r=A.W("R "+A.d(v.y))
-r.ch=D.a8
-r=A.b([new A.a4(new A.ai(4,4,4,4),t,q),F.oZ,new A.a4(new A.ai(4,4,4,4),r.q(),q)],w)
+r=A.W("R "+A.e(v.y))
+r.ch=D.ae
+r=A.b([new A.a2(new A.a6(4,4,4,4),t,q),F.ph,new A.a2(new A.a6(4,4,4,4),r.q(),q)],w)
 t=A.W("Amount due:")
-t.ch=B.i4
+t.ch=B.ik
 t=t.q()
-v=A.W("R "+A.d(v.w))
-v.ch=I.AV
-return A.c2(D.cQ,E.aIW(A.b([new E.dS(new A.bg(p,q,q,o,q,q,C.G),x),new E.dS(q,u),new E.dS(F.ds,n),new E.dS(q,s),new E.dS(F.ds,r),new E.dS(F.ds,A.b([new A.a4(new A.ai(4,4,4,4),t,q),C.A,new A.a4(new A.ai(4,4,4,4),v.q(),q)],w))],y.e),K.oa),C.n,q,q,q,q,q,q,q,q,q,q,q)}}
+v=A.W("R "+A.e(v.w))
+v.ch=I.Bq
+return A.bJ(D.d_,E.aKD(A.b([new E.dV(new A.bi(p,q,q,o,q,q,C.G),x),new E.dV(q,u),new E.dV(F.dD,n),new E.dV(q,s),new E.dV(F.dD,r),new E.dV(F.dD,A.b([new A.a2(new A.a6(4,4,4,4),t,q),C.B,new A.a2(new A.a6(4,4,4,4),v.q(),q)],w))],y.e),K.ou),C.n,q,q,q,q,q,q,q,q,q,q,q)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(G.xp,A.a0)})()
-A.bG(b.typeUniverse,JSON.parse('{"xp":{"a0":[],"e":[]}}'))
-var y={e:A.v("k<dS>"),d:A.v("k<e>")};(function constants(){B.a_2=new A.e5("Discount given at the middle of the month.",null,null,C.bt,D.AX)
-B.a4q=new A.mH(null,B.a_2,null,!1,F.h5,L.ep,C.eh,null)
-B.BB=new A.e9(D.en,null,null,B.a4q,null)
-B.i4=new A.q(!0,C.k,null,null,null,null,12,C.U,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["s4gsQBDdd5TXDgc7n7UWcnmF3WA="] = $__dart_deferred_initializers__.current
+x(G.xE,A.a_)})()
+A.bI(b.typeUniverse,JSON.parse('{"xE":{"a_":[],"d":[]}}'))
+var y={e:A.v("k<dV>"),d:A.v("k<d>")};(function constants(){B.a_U=new A.ea("Discount given at the middle of the month.",null,null,C.bD,D.Bs)
+B.a5l=new A.mR(null,B.a_U,null,!1,F.hi,L.eB,C.et,null)
+B.C8=new A.eZ(D.ez,null,null,B.a5l,null)
+B.ik=new A.q(!0,C.l,null,null,null,null,12,C.R,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
+$__dart_deferred_initializers__["nk7mWiyV3c/P1ApEN+uWG4dGD6Q="] = $__dart_deferred_initializers__.current

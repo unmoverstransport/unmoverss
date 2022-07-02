@@ -585,7 +585,7 @@ gra(){return null}}
 C.AQ.prototype={
 A0(d,e,f,g){var w,v,u,t=C.a3I(B.Na,g,A.aMd())
 t.toString
-w=$.aW()?A.b8():new A.b5(new A.b6())
+w=$.aW()?A.b8():new A.b6(new A.b7())
 w.sc6(0,D.aO)
 w.sa7(0,A.ao(D.e.ak(255*((e.gm(e)>>>24&255)/255*t)),e.gm(e)>>>16&255,e.gm(e)>>>8&255,e.gm(e)&255))
 v=f.$0()
@@ -768,7 +768,7 @@ v.a.toString
 v.dx=B.pS
 v.cy=B.EE
 v.db=B.pS
-v.cx=A.c3(u,new A.b3(4e5),u,1,1,v)
+v.cx=A.c3(u,new A.b4(4e5),u,1,1,v)
 v.dy=A.c3(u,D.w,u,1,u,v)},
 aO(d){this.a0Z(d)
 this.a.toString},
@@ -1165,7 +1165,7 @@ w=this.c
 v=this.d
 u=C.aPt(v,w)
 t=C.aPt(v,w)
-s=G.b7(A.bn(new H.eM(B.NZ,o,o,o,o),o,o,o),0,10)
+s=G.b2(A.bn(new H.eM(B.NZ,o,o,o,o),o,o,o),0,10)
 r=E.cg("Terms ")
 r.e=D.O
 r=r.jG(new C.amn())
@@ -1434,7 +1434,7 @@ w.a=A.aS2(w.a)
 w.d=D.ij
 w.e=D.R
 u.c=A.b([w.jG(new C.anB()).q()],x.o)
-return new A.aa(v,30,new H.eM(A.b([G.b7(A.bn(u.q(),v,v,v),10,0),G.aI(new E.eJ(new C.anC(),"BOOKINGS",v,v,v),0,0,10,0),G.aI(new E.eJ(new C.anD(this),"SIGN OUT",v,v,v),0,0,24,0)],x.x),v,v,v,v),v)},
+return new A.aa(v,30,new H.eM(A.b([G.b2(A.bn(u.q(),v,v,v),10,0),G.aI(new E.eJ(new C.anC(),"BOOKINGS",v,v,v),0,0,10,0),G.aI(new E.eJ(new C.anD(this),"SIGN OUT",v,v,v),0,0,24,0)],x.x),v,v,v,v),v)},
 gv2(){var w=null,v=A.W(E.a5I())
 v.a=v.a.toUpperCase()
 v.ch=B.a3t
@@ -1975,7 +1975,7 @@ v(C.KI,A.a8)
 w(C.a_O,A.dd)
 v(C.Mn,A.eo)
 v(C.Mj,A.hj)})()
-A.bI(b.typeUniverse,JSON.parse('{"EG":{"u":["1"],"u.E":"1"},"ww":{"bR":["1"],"ai":[]},"BR":{"bR":["1"],"ai":[]},"Nr":{"a_":[],"d":[]},"Wx":{"ai":[]},"AR":{"vo":[]},"it":{"vo":[]},"a_2":{"vo":[]},"IA":{"bR":["1"],"ai":[]},"Jp":{"N":[],"d":[]},"yy":{"N":[],"d":[]},"b6V":{"N":[],"d":[]},"iu":{"O":[]},"a0m":{"ai":[]},"IE":{"aC":[]},"WR":{"a_":[],"d":[]},"Jq":{"P":["Jp"]},"mz":{"P":["yy"]},"a0n":{"be":[],"b4":[],"d":[]},"eO":{"dZ":[],"f1":["G"],"d2":[]},"Gj":{"dd":["G","eO"],"G":[],"a8":["G","eO"],"y":[],"V":[],"ar":[],"a8.1":"eO","dd.1":"eO","a8.0":"G"},"Gs":{"G":[],"aY":["G"],"y":[],"V":[],"ar":[]},"Ey":{"e4":["eO"],"b4":[],"d":[],"e4.T":"eO"},"wI":{"eC":[],"ax":[],"d":[]},"QZ":{"b0":[],"ax":[],"d":[]},"G8":{"N":[],"d":[]},"KC":{"P":["G8"]},"aL4":{"Rp":["aL4"]},"H2":{"N":[],"d":[]},"H3":{"P":["H2"]},"a0p":{"be":[],"b4":[],"d":[]},"Hh":{"N":[],"d":[]},"Uv":{"P":["Hh"]},"Dx":{"N":[],"d":[]},"Yt":{"P":["Dx"]},"Nv":{"a_":[],"d":[]},"Up":{"a_":[],"d":[]},"Un":{"a_":[],"d":[]},"U2":{"a_":[],"d":[]},"Qx":{"a_":[],"d":[]},"Qw":{"a_":[],"d":[]},"fu":{"N":[],"d":[]},"Ya":{"P":["fu"]},"Pp":{"a_":[],"d":[]},"DF":{"N":[],"d":[]},"Jv":{"P":["DF"]},"pe":{"a_":[],"d":[]},"jc":{"a_":[],"d":[]},"Rw":{"a_":[],"d":[]},"Uo":{"a_":[],"d":[]},"Ur":{"a_":[],"d":[]},"jp":{"a_":[],"d":[]},"GG":{"O":[]},"TL":{"a_":[],"d":[]},"wL":{"a_":[],"d":[]},"Rn":{"a_":[],"d":[],"Ro":[]},"b3p":{"e1":[],"be":[],"b4":[],"d":[]},"b1Y":{"N":[],"d":[]},"b1Z":{"P":["b1Y"]}}'))
+A.bI(b.typeUniverse,JSON.parse('{"EG":{"u":["1"],"u.E":"1"},"ww":{"bR":["1"],"ai":[]},"BR":{"bR":["1"],"ai":[]},"Nr":{"a_":[],"d":[]},"Wx":{"ai":[]},"AR":{"vo":[]},"it":{"vo":[]},"a_2":{"vo":[]},"IA":{"bR":["1"],"ai":[]},"Jp":{"N":[],"d":[]},"yy":{"N":[],"d":[]},"b6V":{"N":[],"d":[]},"iu":{"O":[]},"a0m":{"ai":[]},"IE":{"aC":[]},"WR":{"a_":[],"d":[]},"Jq":{"P":["Jp"]},"mz":{"P":["yy"]},"a0n":{"be":[],"b5":[],"d":[]},"eO":{"dZ":[],"f1":["G"],"d2":[]},"Gj":{"dd":["G","eO"],"G":[],"a8":["G","eO"],"y":[],"V":[],"ar":[],"a8.1":"eO","dd.1":"eO","a8.0":"G"},"Gs":{"G":[],"aY":["G"],"y":[],"V":[],"ar":[]},"Ey":{"e4":["eO"],"b5":[],"d":[],"e4.T":"eO"},"wI":{"eC":[],"ax":[],"d":[]},"QZ":{"b0":[],"ax":[],"d":[]},"G8":{"N":[],"d":[]},"KC":{"P":["G8"]},"aL4":{"Rp":["aL4"]},"H2":{"N":[],"d":[]},"H3":{"P":["H2"]},"a0p":{"be":[],"b5":[],"d":[]},"Hh":{"N":[],"d":[]},"Uv":{"P":["Hh"]},"Dx":{"N":[],"d":[]},"Yt":{"P":["Dx"]},"Nv":{"a_":[],"d":[]},"Up":{"a_":[],"d":[]},"Un":{"a_":[],"d":[]},"U2":{"a_":[],"d":[]},"Qx":{"a_":[],"d":[]},"Qw":{"a_":[],"d":[]},"fu":{"N":[],"d":[]},"Ya":{"P":["fu"]},"Pp":{"a_":[],"d":[]},"DF":{"N":[],"d":[]},"Jv":{"P":["DF"]},"pe":{"a_":[],"d":[]},"jc":{"a_":[],"d":[]},"Rw":{"a_":[],"d":[]},"Uo":{"a_":[],"d":[]},"Ur":{"a_":[],"d":[]},"jp":{"a_":[],"d":[]},"GG":{"O":[]},"TL":{"a_":[],"d":[]},"wL":{"a_":[],"d":[]},"Rn":{"a_":[],"d":[],"Ro":[]},"b3p":{"e1":[],"be":[],"b5":[],"d":[]},"b1Y":{"N":[],"d":[]},"b1Z":{"P":["b1Y"]}}'))
 A.vw(b.typeUniverse,JSON.parse('{"Zh":1,"ww":1,"IP":1,"IQ":1,"IR":1,"b5i":1}'))
 var y={x:"_floatingActionButtonVisibilityController",z:"https://unmovers.netlify.app/frequestly-asked-questions",t:"https://unmovers.netlify.app/signed-in/bookings",s:"https://unmovers.netlify.app/signed-in/userprofile",f:"https://unmovers.netlify.app/terms-and-conditions",B:"https://www.facebook.com/Unite-Ndlela-Transport-Services-PTY-LTD-107201647849564/"}
 var x=(function rtii(){var w=A.v
@@ -2309,4 +2309,4 @@ B.pb=new C.iu(9,"drawer")})();(function staticFields(){$.abt=null})();(function 
 w($,"beQ","aWF",()=>A.ip(0.75,1,x.i))
 w($,"beR","aWG",()=>A.f5(B.a4w))
 w($,"beD","aWA",()=>A.ip(0.875,1,x.i).iG(A.f5(D.bc)))})()}
-$__dart_deferred_initializers__["FytYWs8AicJ/Ldv/VsHHjstvrJw="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["tAbJtYr+rqprPBscV218rQI3GYY="] = $__dart_deferred_initializers__.current

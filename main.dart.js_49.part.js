@@ -53,7 +53,7 @@ if(x===B.zV)return this.d
 else return this.e}}}
 A.W6.prototype={
 B(d,e){var x=E.pC(B.rW,new A.ata(),y.N,y.w)
-return new C.ac(C.b([B.BE,F.b7(E.aR4(C.a0(x,!0,x.$ti.i("u.E"))),8,0),G.b4],y.D),D.y,D.o,null,null)}}
+return new C.ac(C.b([B.BE,F.b2(E.aR4(C.a0(x,!0,x.$ti.i("u.E"))),8,0),G.b4],y.D),D.y,D.o,null,null)}}
 A.TM.prototype={
 a3U(d,e,f,g){var x,w,v,u=this,t=u.c
 if(C.R4(t,new A.alr(g))!=null)try{A.GI(u.d)}catch(x){t=C.Qj(C.b([C.t5("A ResponsiveCondition was caught referencing a nonexistant breakpoint."),C.bd("A ResponsiveCondition requires a parent ResponsiveWrapper to reference breakpoints. Add a ResponsiveWrapper or remove breakpoint references.")],y.p))
@@ -150,4 +150,4 @@ B.rO=C.b(x(["Cost","Drivers","Helpers","EQUIPMENT","Handle With Care","Tolerance
 B.rW=C.b(x(["We provide competitive and cost effective prices","Our drivers are experts in the industry","We bring extra trained helpers at your request","In case of rain, we protect your goods from any damages that may arise from the rain","We pride ourselves in simplifying your move and handling goods with care","Our motto is 0% damage tolerance\n","We provide exceptional and professional services","We have the most reliable and well maintained vehicles to ensure your goods are delivered on time without any delays due to breakdowns"]),y.s)
 B.k7=C.b(x(["assets/svg/money.svg","assets/svg/driver.svg","assets/svg/helpers.svg","assets/svg/care.svg","assets/svg/care.svg","assets/svg/percentage.svg","assets/svg/services.svg","assets/svg/reliable_transport.svg"]),y.s)
 B.BE=new F.dW("Why Choose Us","Here's why our services are valued by many of our customers",null,null,null)})()}
-$__dart_deferred_initializers__["8ti0uBVTbJC1gcXL4k0eKobS/Do="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["RnnVacD45AQXFbZoF4jIi3TeLiY="] = $__dart_deferred_initializers__.current

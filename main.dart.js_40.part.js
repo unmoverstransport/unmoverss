@@ -9,7 +9,7 @@ G=c[90]
 F=c[2]
 C.u_.prototype={
 B(d,e){var x=null,w=D.pC(B.NE,new C.ai1(),y.g,y.o)
-return new A.ac(A.b([B.a58,A.bn(E.b7(D.aR4(A.a0(w,!0,w.$ti.i("u.E"))),8,0),x,x,x),G.b4],y.e),F.y,F.o,x,x)}}
+return new A.ac(A.b([B.a58,A.bn(E.b2(D.aR4(A.a0(w,!0,w.$ti.i("u.E"))),8,0),x,x,x),G.b4],y.e),F.y,F.o,x,x)}}
 var z=a.updateTypes(["mx(i,m)"])
 C.ai1.prototype={
 $2(d,e){return D.aR3(D.aKq(null,null,d,B.Ne,e,B.rF),3,6,12)},
@@ -22,4 +22,4 @@ B.rF=A.b(x(["assets/svg/cart.svg","assets/svg/garden.svg","assets/svg/house-offi
 B.Ne=A.b(x(["HOUSE|APARTMENT","DISPOSING","COLLECTIONS"]),y.h)
 B.NE=A.b(x(["Relocating from your house/apartment or offices","Disposing your garden refuse\n","Collecting any purchased goods and deliver them to your required destination"]),y.h)
 B.a58=new E.dW("Our Services","Safest, reliable way to transport anything",null,null,null)})()}
-$__dart_deferred_initializers__["i/yGTvdNDc/84uzuAWOGFbQfbII="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["c0alEahizcHUXCRJCme7yOh21MU="] = $__dart_deferred_initializers__.current

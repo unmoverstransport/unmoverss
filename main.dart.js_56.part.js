@@ -102,7 +102,7 @@ B.R3.prototype={
 B(d,e){var w,v,u,t,s,r,q=null,p="VisbyRounded",o=A.bn(new A.a2(G.a5,F.aqw("assets/svg/cover-page.svg",q,300),q),q,q,q),n=A.W("Need a Transportation Service?")
 n.f=1.5
 n.ch=D.Br
-n=M.b7(n.q(),16,0)
+n=M.b2(n.q(),16,0)
 w=E.cg("Need to move your Apartment, Office, House furniture or dispose your garden refuse? ")
 w.cx=D.a1c
 v=E.bQ("Unite ")
@@ -123,7 +123,7 @@ r=E.bQ("Gallery.\n")
 r.as=D.a0T
 w.c=A.b([v,u,t,s,r.jG(new B.aeY()).q()],x.n)
 r=x.p
-r=S.W1(A.fM(new A.ac(A.b([new A.a2(G.a5,new A.ac(A.b([o,n,M.b7(A.bn(w.q(),q,q,q),16,0)],r),C.p,C.z,q,q),q),new B.Po(new B.aeZ(),q)],r),q,q,q,q),new A.bi(C.m,q,q,q,q,q,C.G),C.aJ))
+r=S.W1(A.fM(new A.ac(A.b([new A.a2(G.a5,new A.ac(A.b([o,n,M.b2(A.bn(w.q(),q,q,q),16,0)],r),C.p,C.z,q,q),q),new B.Po(new B.aeZ(),q)],r),q,q,q,q),new A.bi(C.m,q,q,q,q,q,C.G),C.aJ))
 r.d=new A.bW(A.bA(5),C.t)
 r.c=10
 return new A.aa(1/0,q,A.fM(new A.ac(A.b([new A.a2(G.a5,r.q(),q)],x.x),q,q,q,q),new A.bi(C.bU,q,q,q,q,q,C.G),C.aJ),q)}}
@@ -212,4 +212,4 @@ D.a1g=new A.q(!0,C.l,null,null,null,null,22,C.X,null,null,null,null,null,null,nu
 D.Br=new A.q(!0,C.l,null,"VisbyRounded",null,null,30,C.a0,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a3J=new A.q(!0,C.m,null,null,null,null,16,C.X,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a3P=new A.q(!0,C.l,null,"VisbyRounded",null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["zzsNk4CzOBsopHUGXBsZibVxUW0="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["QtUn0JvAD+MInyszUY6uIH32YfY="] = $__dart_deferred_initializers__.current

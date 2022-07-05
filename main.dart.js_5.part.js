@@ -42,11 +42,11 @@ C(d,e){var x=null
 return new A.fI(A.b([A.eH(new C.awl(e),x,x,x,y.D)],y.p),"/signed-in/bookings",x)}}
 C.NR.prototype={
 C(d,e){var x,w,v,u,t,s,r,q,p=this,o=null,n=A.ao(150,151,38,120),m=A.bC(5),l=A.S("Description")
-l.Q=B.P
+l.Q=B.O
 l.ch=D.fA
 l=l.q()
 x=A.S("Total")
-x.Q=B.P
+x.Q=B.O
 x.ch=D.fA
 w=y.p
 x=A.b([new A.a2(B.bu,l,o),B.w,new A.a2(B.bu,x.q(),o)],w)
@@ -62,7 +62,7 @@ r.ch=B.W
 r=A.b([new A.a2(B.bu,l,o),E.pf,new A.a2(B.bu,r.q(),o)],w)
 l=A.S("Discounts")
 l.ch=D.fA
-l.Q=B.P
+l.Q=B.O
 l=A.b([new A.a2(B.bu,l.q(),o),B.w,B.w],w)
 q=A.S("Off Peak")
 q.ch=B.W
@@ -87,32 +87,32 @@ n=!v.db
 m=A.HD(o,o,B.m,o,2,o,o,o,o,o,o,o,B.aU,new A.bW(u,new A.bw(!n||p.CY()?B.aU:B.b7,1.5,B.L)),o,o,o,o)
 l=!n||p.CY()?o:new C.a5v(p)
 x=A.S("Cancel Booking")
-x.ch=A.bb(o,o,!n||p.CY()?B.aU:B.b7,o,o,o,o,o,o,o,o,14,o,B.a2,o,o,!0,o,o,o,o,o,o,o,o)
-return new A.ab(A.b([w,A.aM(A.mt(x.q(),l,m),0,0,0,20)],y.d),B.p,B.A,o,o)},
+x.ch=A.bb(o,o,!n||p.CY()?B.aU:B.b7,o,o,o,o,o,o,o,o,14,o,B.a3,o,o,!0,o,o,o,o,o,o,o,o)
+return new A.ab(A.b([w,A.aK(A.mt(x.q(),l,m),0,0,0,20)],y.d),B.p,B.A,o,o)},
 CY(){var x=Date.now(),w=this.c
 if(B.f.c7(A.bo(0,F.aJp(w.b+" "+w.c).a-x,0).a,1e6)<=0)return!0
 return!1}}
 C.oS.prototype={
-C(d,e){var x,w,v,u,t,s,r,q=this,p=null,o=q.c,n=A.cH("INVOICE BOOKING ID: "+o.a)
+C(d,e){var x,w,v,u,t,s,r,q=this,p=null,o=q.c,n=A.cJ("INVOICE BOOKING ID: "+o.a)
 n.dn$=B.l
 n.cx=B.oz
 x=y.n
 w=A.b([],x)
 v=o.db
 if(v){u=A.cd("\nBooking Cancelled")
-u.as=D.a11
-u.e=B.P
+u.as=D.a10
+u.e=B.O
 w.push(u.q())}n.c=w
 n=n.q()
 w=A.ao(B.e.ak(127.5),81,79,151)
 u=v?p:new C.a5r(q)
 t=y.p
-w=A.aM(new A.dh(A.b([n,A.dR(B.x,!0,p,A.it(!1,!0,A.QN(D.KU,v?B.aU:B.aN,p),p,!0,p,p,p,p,p,p,p,p,p,p,p,u,p,w,p),B.n,p,0,p,p,p,p,p,B.an)],t),B.bJ,B.A,B.J,p),16,0,0,0)
+w=A.aK(new A.dh(A.b([n,A.dR(B.x,!0,p,A.it(!1,!0,A.QN(D.KU,v?B.aU:B.aN,p),p,!0,p,p,p,p,p,p,p,p,p,p,p,u,p,w,p),B.n,p,0,p,p,p,p,p,B.an)],t),B.bJ,B.A,B.J,p),16,0,0,0)
 u=A.S("Created: ")
 u.ch=D.ds
 u=u.q()
 s=F.aJp(o.dx)
-n=A.S(""+A.b0(s)+"-"+q.xu(A.bi(s))+"-"+q.xu(A.cE(s))+"  "+q.xu(A.pR(s))+":"+q.xu(A.pS(s)))
+n=A.S(""+A.b0(s)+"-"+q.xu(A.bi(s))+"-"+q.xu(A.cG(s))+"  "+q.xu(A.pR(s))+":"+q.xu(A.pS(s)))
 n.ch=B.W
 n.dn$=B.l
 n=A.b([u,n.q()],t)
@@ -122,21 +122,21 @@ u=u.q()
 r=A.S(o.b+" "+o.c)
 r.ch=B.W
 r.dn$=B.l
-r=A.aM(new A.ab(A.b([new A.dh(n,B.bJ,p,B.J,p),new A.dh(A.b([u,r.q()],t),B.bJ,p,B.J,p)],t),B.p,B.A,p,p),16,0,0,0)
+r=A.aK(new A.ab(A.b([new A.dh(n,B.bJ,p,B.J,p),new A.dh(A.b([u,r.q()],t),B.bJ,p,B.J,p)],t),B.p,B.A,p,p),16,0,0,0)
 u=A.S("Distance: ")
 u.ch=D.ds
 u=u.q()
 n=A.S(A.d(G.aM7(o.at,1))+" kms")
 n.ch=B.W
 n=A.b([u,n.q()],t)
-u=A.cH("Driver Note:")
+u=A.cJ("Driver Note:")
 u.cx=D.ds
 u.dn$=B.aU
 v=o.ax
 v=A.cd(v.length!==0?"\n"+v:"")
 v.as=H.fz
 u.c=A.b([v.q()],x)
-u=A.aM(new A.ab(A.b([new A.dh(n,B.bJ,p,B.J,p),u.q()],t),B.p,B.A,p,p),16,0,0,0)
+u=A.aK(new A.ab(A.b([new A.dh(n,B.bJ,p,B.J,p),u.q()],t),B.p,B.A,p,p),16,0,0,0)
 n=A.S("Additional Helpers: ")
 n.ch=D.ds
 n=n.q()
@@ -148,15 +148,15 @@ n.ch=D.ds
 n=n.q()
 v=A.S(""+o.ch)
 v.ch=B.W
-v=A.aM(new A.ab(A.b([new A.dh(x,B.bJ,p,B.J,p),new A.dh(A.b([n,v.q()],t),B.bJ,p,B.J,p)],t),B.p,B.A,p,p),16,0,0,0)
+v=A.aK(new A.ab(A.b([new A.dh(x,B.bJ,p,B.J,p),new A.dh(A.b([n,v.q()],t),B.bJ,p,B.J,p)],t),B.p,B.A,p,p),16,0,0,0)
 n=A.S("Vehicle type: ")
 n.ch=D.ds
 n=n.q()
 x=A.S(A.d(o.y)+" Ton")
 x.ch=B.W
-t=A.aM(new A.dh(A.b([n,x.q()],t),B.bJ,p,B.J,p),16,0,0,0)
+t=A.aK(new A.dh(A.b([n,x.q()],t),B.bJ,p,B.J,p),16,0,0,0)
 x=$.aB()
-x=A.W_(A.fo(new A.a2(B.M,new A.ab(A.b([w,r,u,v,t,A.aM(new C.NR(o,q.gXm(),q.d,A.c3(x,A.aOF(),y.r),A.c3(x,A.alK(),y.D),p),10,0,0,0)],y.x),B.p,B.A,p,p),p),new A.bf(B.m,p,p,p,p,p,B.G),B.aB))
+x=A.W_(A.fo(new A.a2(B.M,new A.ab(A.b([w,r,u,v,t,A.aK(new C.NR(o,q.gXm(),q.d,A.c3(x,A.aOF(),y.r),A.c3(x,A.alK(),y.D),p),10,0,0,0)],y.x),B.p,B.A,p,p),p),new A.bf(B.m,p,p,p,p,p,B.G),B.aB))
 x.c=0
 x.d=new A.bW(A.bC(5),new A.bw(B.dI,1,B.L))
 return x.q()},
@@ -182,7 +182,7 @@ C.awm.prototype={
 $1(d){var x=0,w=A.C(y.P),v=this
 var $async$$1=A.y(function(e,f){if(e===1)return A.z(f,w)
 while(true)switch(x){case 0:x=2
-return A.v(v.a.d.vx(),$async$$1)
+return A.u(v.a.d.vx(),$async$$1)
 case 2:return A.A(null,w)}})
 return A.B($async$$1,w)},
 $S:46}
@@ -195,7 +195,7 @@ return u.q()}else if(u===B.qw)return A.S(d.ch).q()
 else if(u===B.qv){u=y.p
 if(d.ay.d.length!==0){x=A.b([D.a54],y.A)
 w=A.pp(d.ay.d,new C.awk(),y.V,y.l)
-return A.aM(new A.a7(1/0,v,new A.ab(A.b([new A.a7(500,v,new A.ab(x,B.p,B.A,v,v),v),A.aL(new A.a7(500,v,new A.ab(A.a_(w,!0,w.$ti.i("t.E")),v,v,v,v),v),8,0)],u),B.z,B.o,v,v),v),16,0,0,0)}else{u=A.b([A.S("Make your first booking!").q()],u)
+return A.aK(new A.a7(1/0,v,new A.ab(A.b([new A.a7(500,v,new A.ab(x,B.p,B.A,v,v),v),A.aM(new A.a7(500,v,new A.ab(A.a_(w,!0,w.$ti.i("t.E")),v,v,v,v),v),8,0)],u),B.z,B.o,v,v),v),16,0,0,0)}else{u=A.b([A.S("Make your first booking!").q()],u)
 return new A.a7(v,this.a.G(y.w).f.a.b,new A.a7(1/0,v,new A.a2(B.Z,new A.ab(u,v,v,v,v),v),v),v)}}return B.w},
 $S:643}
 C.awk.prototype={
@@ -207,7 +207,7 @@ var $async$$0=A.y(function(d,e){if(d===1)return A.z(e,w)
 while(true)switch(x){case 0:u=v.a
 u.d.$0()
 x=2
-return A.v(u.f.yx(u.e,u.c,new C.a5u(u)),$async$$0)
+return A.u(u.f.yx(u.e,u.c,new C.a5u(u)),$async$$0)
 case 2:return A.A(null,w)}})
 return A.B($async$$0,w)},
 $S:2}
@@ -215,7 +215,7 @@ C.a5u.prototype={
 $0(){var x=0,w=A.C(y.H),v=this
 var $async$$0=A.y(function(d,e){if(d===1)return A.z(e,w)
 while(true)switch(x){case 0:x=2
-return A.v(v.a.r.vx(),$async$$0)
+return A.u(v.a.r.vx(),$async$$0)
 case 2:return A.A(null,w)}})
 return A.B($async$$0,w)},
 $S:2}
@@ -238,12 +238,12 @@ w(A.a1,[C.NR,C.oS])
 w(A.eF,[C.a5v,C.a5u,C.a5r])})()
 A.dG(b.typeUniverse,JSON.parse('{"p1":{"P":[],"e":[]},"XE":{"U":["p1"]},"NR":{"a1":[],"e":[]},"oS":{"a1":[],"e":[]}}'))
 var y=(function rtii(){var x=A.F
-return{l:x("oS"),V:x("mX"),r:x("oV"),c:x("l<nv>"),O:x("l<cD>"),x:x("l<a2>"),d:x("l<az>"),s:x("l<e6>"),n:x("l<eP>"),A:x("l<dS>"),p:x("l<e>"),w:x("cL"),P:x("aC"),D:x("mh"),N:x("j"),z:x("@"),H:x("~")}})();(function constants(){D.a_R=new A.eP("Discount given at the middle of the month.",null,null,B.bD,B.dt)
+return{l:x("oS"),V:x("mX"),r:x("oV"),c:x("l<nv>"),O:x("l<cF>"),x:x("l<a2>"),d:x("l<az>"),s:x("l<e6>"),n:x("l<eP>"),A:x("l<dS>"),p:x("l<e>"),w:x("cN"),P:x("aD"),D:x("mh"),N:x("j"),z:x("@"),H:x("~")}})();(function constants(){D.a_R=new A.eP("Discount given at the middle of the month.",null,null,B.bD,B.dt)
 D.a5m=new A.mx(null,D.a_R,null,!1,E.hj,K.eB,B.et,null)
 D.C2=new A.eW(B.ez,null,null,D.a5m,null)
 D.KU=new A.dO(983823,"MaterialIcons",null,!1)
-D.a11=new A.p(!0,B.b7,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.ds=new A.p(!0,B.aU,null,null,null,null,12,B.a2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a10=new A.p(!0,B.b7,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.ds=new A.p(!0,B.aU,null,null,null,null,12,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.fA=new A.p(!0,B.l,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a54=new A.dS("Your Bookings",null,null,null,null,null)})()}
-$__dart_deferred_initializers__["Tt0ivD2hHHyr4SWx9kkAjG5JGds="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["CMyFsgwAqZezhumWVYhS5PuNXLM="] = $__dart_deferred_initializers__.current

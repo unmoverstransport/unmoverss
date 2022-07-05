@@ -18,7 +18,7 @@ w=y.d
 x=A.b([new A.a2(new A.a6(4,4,4,4),n,q),B.w,new A.a2(new A.a6(4,4,4,4),x.q(),q)],w)
 n=A.S("Base Fee")
 n.ch=B.W
-n=A.aM(n.q(),0,4,0,0)
+n=A.aK(n.q(),0,4,0,0)
 v=this.c
 u=A.S("R "+A.d(v.w+v.x+v.y))
 u.ch=B.W
@@ -47,9 +47,9 @@ return A.bG(B.cX,A.aKG(A.b([new A.e6(new A.bf(p,q,q,o,q,q,B.G),x),new A.e6(q,u),
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(E.xs,A.a1)})()
 A.dG(b.typeUniverse,JSON.parse('{"xs":{"a1":[],"e":[]}}'))
-var y={e:A.F("l<e6>"),d:A.F("l<e>")};(function constants(){C.a37=new A.p(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.a_Q=new A.eP("Discount given at the middle of the month.",null,null,B.bD,C.a37)
+var y={e:A.F("l<e6>"),d:A.F("l<e>")};(function constants(){C.a36=new A.p(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.a_Q=new A.eP("Discount given at the middle of the month.",null,null,B.bD,C.a36)
 C.a5l=new A.mx(null,C.a_Q,null,!1,D.hj,G.eB,B.et,null)
 C.C3=new A.eW(B.ez,null,null,C.a5l,null)
-C.ik=new A.p(!0,B.l,null,null,null,null,12,B.P,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["FfvqZxeIB4+EZBSQM56o/W1qw0I="] = $__dart_deferred_initializers__.current
+C.ik=new A.p(!0,B.l,null,null,null,null,12,B.O,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
+$__dart_deferred_initializers__["2GwkAabcTFBUk9eKjBiR3ZTakAM="] = $__dart_deferred_initializers__.current

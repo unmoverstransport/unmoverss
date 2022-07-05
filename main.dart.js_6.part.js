@@ -40,7 +40,7 @@ var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(D.wn,B.L)})()
 B.dG(b.typeUniverse,JSON.parse("{}"))
 var y={g:B.F("j"),a:B.F("L?")};(function constants(){A.a_T=new B.eP("Booking amount including number helpers and stairs",null,null,C.bD,C.dt)
-A.hj=new B.cK(E.rh,18,C.aN,null)
+A.hj=new B.cM(E.rh,18,C.aN,null)
 A.a5n=new B.mx(null,A.a_T,null,!1,A.hj,E.eB,C.et,null)
 A.pf=new B.eW(C.ez,null,null,A.a5n,null)
 A.a_S=new B.eP("Discount for returning customers. ",null,null,C.bD,C.dt)
@@ -49,4 +49,4 @@ A.pg=new B.eW(C.ez,null,null,A.a5o,null)
 A.CK=new B.bw(C.aU,1,C.L)
 A.CL=new B.df(C.t,C.t,A.CK,C.t)
 A.dC=new B.bf(null,null,A.CL,null,null,null,C.G)})()}
-$__dart_deferred_initializers__["/U18rKaRMFr5zIjJQ3w+TYPNQM8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["zF2eeTg5Oyud6IDwJRz3Jz+nUEs="] = $__dart_deferred_initializers__.current

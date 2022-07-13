@@ -54,7 +54,7 @@ C(d,e){var x,w,v,u,t,s,r,q,p,o=this,n=null,m=A.Q("Extra information for booking"
 m.ch=N.im
 m=A.aG(m.q(),16,0,0,0)
 x=A.Q("Additional helpers")
-x.ch=D.er
+x.ch=D.eq
 x=A.aG(x.q(),10,0,0,0)
 w=A.Q("Number of helpers in addition to the driver")
 w.ch=A.ba(n,n,C.cI,n,n,n,n,n,n,n,n,12,n,C.q,n,n,!0,n,n,n,C.N,n,n,n,n)
@@ -62,9 +62,9 @@ w.as=C.O
 v=o.d
 u=y.e
 t=y.u
-v=A.b([x,A.aG(w.q(),10,0,0,0),A.cX(new B.atD(o),v,u),new A.cI(A.b([A.fq(n,D.e0,new B.atE(o),n,n,n),A.cX(new B.atF(),v,u),A.fq(n,D.e_,new B.atI(o),n,n,n)],t),n,n,n,n)],t)
+v=A.b([x,A.aG(w.q(),10,0,0,0),A.cX(new B.atD(o),v,u),new A.cI(A.b([A.fq(n,D.e_,new B.atE(o),n,n,n),A.cX(new B.atF(),v,u),A.fq(n,D.dZ,new B.atI(o),n,n,n)],t),n,n,n,n)],t)
 w=A.Q("Stairs to carry")
-w.ch=D.er
+w.ch=D.eq
 w=w.q()
 x=A.Q("Number of floors to carry at pick up and drop off addresses")
 x.ch=A.ba(n,n,C.cI,n,n,n,n,n,n,n,n,12,n,C.q,n,n,!0,n,n,n,C.N,n,n,n,n)
@@ -72,13 +72,13 @@ x.as=C.O
 x=A.aG(x.q(),10,0,0,0)
 s=o.e
 r=A.fo(A.cX(new B.atJ(o),s,u),new A.be(A.ap(50,151,38,120),n,n,n,n,n,C.G),C.aF)
-u=A.aL(new A.a5(1/0,n,new A.ab(A.b([new A.a2(new A.a7(10,10,10,10),w,n),x,G.wf(A.bj(100),r),new A.cI(A.b([A.fq(n,D.e0,new B.atK(o),n,n,n),A.cX(new B.atL(),s,u),A.fq(n,D.e_,new B.atM(o),n,n,n)],t),n,n,n,n)],t),C.w,C.o,n,n),n),0,10)
+u=A.aK(new A.a5(1/0,n,new A.ab(A.b([new A.a3(new A.a7(10,10,10,10),w,n),x,G.wf(A.bj(100),r),new A.cI(A.b([A.fq(n,D.e_,new B.atK(o),n,n,n),A.cX(new B.atL(),s,u),A.fq(n,D.dZ,new B.atM(o),n,n,n)],t),n,n,n,n)],t),C.w,C.o,n,n),n),0,10)
 s=A.Q("Note to driver")
 s.ch=H.c1
 s=A.aG(s.q(),5,0,0,10)
 r=A.bj(5)
 x=A.bj(5)
-x=A.aG(A.qt(!0,C.b7,!1,n,o.r,n,n,n,2,A.h4(n,new A.e0(4,A.bj(5),new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,!0,new A.e0(4,r,new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,n,n,n,n,new A.e0(4,x,C.iW),n,n,n,n,n,n,"Optional",n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,D.oL,n,n,n,n),!0,!0,!0,n,!1,o.f,n,n,C.cg,500,C.hU,5,n,n,!1,"\u2022",new B.atN(),new B.atO(e),n,new B.atP(),!1,n,n,C.M,n,n,n,n,n,n,C.aH,C.R,n,C.ae,n,C.bx,n),10,0,0,0)
+x=A.aG(A.qt(!0,C.b7,!1,n,o.r,n,n,n,2,A.h4(n,new A.e0(4,A.bj(5),new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,!0,new A.e0(4,r,new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,n,n,n,n,new A.e0(4,x,C.iW),n,n,n,n,n,n,"Optional",n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,D.oL,n,n,n,n),!0,!0,!0,n,!1,o.f,n,n,C.cg,500,C.hU,5,n,n,!1,"\u2022",new B.atN(),new B.atO(e),n,new B.atP(),!1,n,n,C.M,n,n,n,n,n,n,C.aH,C.S,n,C.ae,n,C.bx,n),10,0,0,0)
 r=A.Q("Payment Options")
 r.ch=H.c1
 r=A.aG(r.q(),5,0,0,0)
@@ -86,7 +86,7 @@ w=A.cX(new B.atG(o,e),o.w,y.A)
 q=A.mu(n,n,C.m,n,2,n,n,n,n,n,n,n,C.ap,new A.bH(A.bj(5),I.eC),n,n,n,n)
 p=A.Q("Continue")
 p.ch=I.fz
-return new A.fH(A.b([new A.a5(1/0,n,new A.ab(A.b([A.aL(new A.a5(450,n,new A.ab(A.b([K.a5h,m,new A.a5(1/0,n,new A.ab(v,C.w,C.o,n,n),n),u,s,x,r,w,new A.a5(1/0,n,A.aL(A.ia(new A.cI(A.b([new A.hY(1,C.bV,p.q(),n),C.cf,O.dZ],t),C.w,C.o,C.aw,n),new B.atH(o),q),0,16),n)],t),C.w,C.A,n,n),n),32,24)],y.p),C.w,C.o,n,n),n)],t),"/quote/additional-information",n)}}
+return new A.fH(A.b([new A.a5(1/0,n,new A.ab(A.b([A.aK(new A.a5(450,n,new A.ab(A.b([K.a5i,m,new A.a5(1/0,n,new A.ab(v,C.w,C.o,n,n),n),u,s,x,r,w,new A.a5(1/0,n,A.aK(A.ia(new A.cI(A.b([new A.hY(1,C.bV,p.q(),n),C.cf,O.dY],t),C.w,C.o,C.aw,n),new B.atH(o),q),0,16),n)],t),C.w,C.A,n,n),n),32,24)],y.p),C.w,C.o,n,n),n)],t),"/quote/additional-information",n)}}
 var z=a.updateTypes(["lI(W,n,e?)","kG(W,n,e?)","e(W,f5,e?)"])
 B.atD.prototype={
 $3(d,e,f){var x=null,w=A.fo(E.Fc(C.ax,1,10,0,new B.atC(this.a),D.oH,1,e),new A.be(A.ap(50,151,38,120),x,x,x,x,x,C.G),C.aF)
@@ -146,7 +146,7 @@ u=A.c3("(ABSA, FNB, CAPITEC, NEDBANK)")
 u.as=L.b5
 v.c=A.b([u.q()],x)
 v.cx=C.aC
-v=A.cq(new A.a2(new A.a7(5,5,5,5),new A.ab(A.b([s,A.dR(C.y,!0,D.eB,E.C5(C.au,C.U,M.cQ,new B.atA(r,w),t,F.Ah,C.m,v.q(),e.b),C.al,t,0,t,t,t,t,t,C.an)],y.C),t,t,t,t),t))
+v=A.cq(new A.a3(new A.a7(5,5,5,5),new A.ab(A.b([s,A.dR(C.y,!0,D.eB,E.C5(C.au,C.U,M.cQ,new B.atA(r,w),t,F.Ah,C.m,v.q(),e.b),C.al,t,0,t,t,t,t,t,C.an)],y.C),t,t,t,t),t))
 v.as=new A.be(C.E,t,A.NT(C.bE,1),A.bj(5),t,t,C.G)
 return v.q()},
 $S:z+2}
@@ -173,5 +173,5 @@ x(B.Wq,A.U)
 w(A.bM,[B.atD,B.atC,B.atF,B.atJ,B.atB,B.atL,B.atN,B.atG,B.atz,B.atA])
 w(A.eI,[B.atE,B.atI,B.atK,B.atM,B.atO,B.atP,B.atH])})()
 A.dG(b.typeUniverse,JSON.parse('{"oN":{"P":[],"e":[]},"Wq":{"U":["oN"]}}'))
-var y={C:A.F("l<iB>"),p:A.F("l<a2>"),i:A.F("l<eE>"),u:A.F("l<e>"),A:A.F("f5"),b:A.F("@"),e:A.F("n")};(function constants(){K.a5h=new A.dS("4/5 Additional information",null,null,0,0,null)})()}
-$__dart_deferred_initializers__["uYcpTa6VQA+ma/x2OSfy8Em8zd4="] = $__dart_deferred_initializers__.current
+var y={C:A.F("l<iB>"),p:A.F("l<a3>"),i:A.F("l<eE>"),u:A.F("l<e>"),A:A.F("f5"),b:A.F("@"),e:A.F("n")};(function constants(){K.a5i=new A.dS("4/5 Additional information",null,null,0,0,null)})()}
+$__dart_deferred_initializers__["T3SCZ2+mkdnpSj/RU9Nqc6hBv/0="] = $__dart_deferred_initializers__.current

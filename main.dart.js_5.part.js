@@ -49,35 +49,35 @@ x=A.Q("Total")
 x.Q=B.P
 x.ch=D.fB
 w=y.p
-x=A.b([new A.a2(B.bu,k,s),B.x,new A.a2(B.bu,x.q(),s)],w)
+x=A.b([new A.a3(B.bu,k,s),B.x,new A.a3(B.bu,x.q(),s)],w)
 k=A.Q("Base Fee")
 k.ch=B.X
 k=k.q()
 v=A.Q("R "+A.d(n))
 v.ch=B.X
-v=A.b([new A.a2(B.bu,k,s),E.pk,new A.a2(B.bu,v.q(),s)],w)
+v=A.b([new A.a3(B.bu,k,s),E.pk,new A.a3(B.bu,v.q(),s)],w)
 k=A.Q("Discounts")
 k.ch=D.fB
 k.Q=B.P
-k=A.b([new A.a2(B.bu,k.q(),s),B.x,B.x],w)
+k=A.b([new A.a3(B.bu,k.q(),s),B.x,B.x],w)
 u=A.Q("Off Peak")
 u.ch=B.X
 u=u.q()
 p=A.Q("R "+A.d(p))
 p.ch=B.X
-p=A.b([new A.a2(B.bu,u,s),D.Ca,new A.a2(B.bu,p.q(),s)],w)
+p=A.b([new A.a3(B.bu,u,s),D.Ca,new A.a3(B.bu,p.q(),s)],w)
 u=A.Q("Return Customer")
 u.ch=B.X
 u=u.q()
 o=A.Q("R "+A.d(o))
 o.ch=B.X
-o=A.b([new A.a2(B.bu,u,s),E.pl,new A.a2(B.bu,o.q(),s)],w)
+o=A.b([new A.a3(B.bu,u,s),E.pl,new A.a3(B.bu,o.q(),s)],w)
 u=A.Q("Total Amount")
 u.ch=D.fB
 u=u.q()
 q=A.Q("R "+A.d(q))
 q.ch=D.fB
-w=A.aKO(A.b([new A.e6(new A.be(m,s,s,l,s,s,B.G),x),new A.e6(s,v),new A.e6(E.dF,k),new A.e6(s,p),new A.e6(E.dF,o),new A.e6(E.dF,A.b([new A.a2(B.bu,u,s),B.x,new A.a2(B.bu,q.q(),s)],w))],y.s),B.ov)
+w=A.aKO(A.b([new A.e6(new A.be(m,s,s,l,s,s,B.G),x),new A.e6(s,v),new A.e6(E.dE,k),new A.e6(s,p),new A.e6(E.dE,o),new A.e6(E.dE,A.b([new A.a3(B.bu,u,s),B.x,new A.a3(B.bu,q.q(),s)],w))],y.s),B.ov)
 q=A.bj(5)
 r=!r.db
 q=A.mu(s,s,B.m,s,2,s,s,s,s,s,s,s,B.ap,new A.bH(q,new A.bq(!r||t.D_()?B.ap:B.aS,1.5,B.L)),s,s,s,s)
@@ -96,7 +96,7 @@ x=y.n
 w=A.b([],x)
 v=o.db
 if(v){u=A.c3("\nBooking Cancelled")
-u.as=D.a14
+u.as=D.a15
 u.e=B.P
 w.push(u.q())}n.c=w
 n=n.q()
@@ -152,9 +152,9 @@ x=A.Q(A.d(o.y)+" Ton")
 x.ch=B.X
 t=A.aG(new A.cI(A.b([n,x.q()],t),B.bJ,p,B.K,p),16,0,0,0)
 x=$.aC()
-x=A.W0(A.fo(new A.a2(B.M,new A.ab(A.b([w,r,u,v,t,A.aG(new C.NS(o,q.gXo(),q.d,A.c2(x,A.aON(),y.r),A.c2(x,A.alN(),y.D),p),10,0,0,0)],y.x),B.p,B.A,p,p),p),new A.be(B.m,p,p,p,p,p,B.G),B.aF))
+x=A.W0(A.fo(new A.a3(B.M,new A.ab(A.b([w,r,u,v,t,A.aG(new C.NS(o,q.gXo(),q.d,A.c2(x,A.aON(),y.r),A.c2(x,A.alN(),y.D),p),10,0,0,0)],y.x),B.p,B.A,p,p),p),new A.be(B.m,p,p,p,p,p,B.G),B.aF))
 x.c=0
-x.d=new A.bH(A.bj(5),new A.bq(B.dL,1,B.L))
+x.d=new A.bH(A.bj(5),new A.bq(B.dK,1,B.L))
 return x.q()},
 Xp(){var x=this.d,w=this.c
 x.z=w.at
@@ -184,15 +184,15 @@ return A.B($async$$1,w)},
 $S:42}
 C.awp.prototype={
 $1(d){var x,w,v=null,u=d.ax
-if(u===B.qz){u=A.cq(new A.a2(B.M,new A.ab(A.b([B.b4],y.c),B.w,B.o,v,v),v))
+if(u===B.qz){u=A.cq(new A.a3(B.M,new A.ab(A.b([B.b4],y.c),B.w,B.o,v,v),v))
 u.f=this.a.G(y.w).f.a.b
 u.r=1/0
 return u.q()}else if(u===B.qB)return A.Q(d.ch).q()
 else if(u===B.qA){u=y.p
-if(d.ay.d.length!==0){x=A.b([D.a57],y.A)
+if(d.ay.d.length!==0){x=A.b([D.a58],y.A)
 w=A.pq(d.ay.d,new C.awo(),y.V,y.l)
-return A.aG(new A.a5(1/0,v,new A.ab(A.b([new A.a5(500,v,new A.ab(x,B.p,B.A,v,v),v),A.aL(new A.a5(500,v,new A.ab(A.a_(w,!0,w.$ti.i("u.E")),v,v,v,v),v),8,0)],u),B.w,B.o,v,v),v),16,0,0,0)}else{u=A.b([A.Q("Make your first booking!").q()],u)
-return new A.a5(v,this.a.G(y.w).f.a.b,new A.a5(1/0,v,new A.a2(B.a_,new A.ab(u,v,v,v,v),v),v),v)}}return B.x},
+return A.aG(new A.a5(1/0,v,new A.ab(A.b([new A.a5(500,v,new A.ab(x,B.p,B.A,v,v),v),A.aK(new A.a5(500,v,new A.ab(A.a_(w,!0,w.$ti.i("u.E")),v,v,v,v),v),8,0)],u),B.w,B.o,v,v),v),16,0,0,0)}else{u=A.b([A.Q("Make your first booking!").q()],u)
+return new A.a5(v,this.a.G(y.w).f.a.b,new A.a5(1/0,v,new A.a3(B.a_,new A.ab(u,v,v,v,v),v),v),v)}}return B.x},
 $S:644}
 C.awo.prototype={
 $2(d,e){return new C.oT(d,new I.wp("","",A.b([],y.O),"","",0,1,0,0,0,0,0,!1,!0,!0),null)},
@@ -234,12 +234,12 @@ w(A.a1,[C.NS,C.oT])
 w(A.eI,[C.a5w,C.a5v,C.a5s])})()
 A.dG(b.typeUniverse,JSON.parse('{"p2":{"P":[],"e":[]},"XF":{"U":["p2"]},"NS":{"a1":[],"e":[]},"oT":{"a1":[],"e":[]}}'))
 var y=(function rtii(){var x=A.F
-return{l:x("oT"),V:x("mX"),r:x("oW"),c:x("l<nv>"),O:x("l<cT>"),x:x("l<a2>"),d:x("l<az>"),s:x("l<e6>"),n:x("l<eE>"),A:x("l<dS>"),p:x("l<e>"),w:x("cN"),P:x("aD"),D:x("mi"),N:x("j"),z:x("@"),H:x("~")}})();(function constants(){D.a_V=new A.eE("Discount given at the middle of the month.",null,null,B.bD,B.dw)
-D.a5p=new A.mx(null,D.a_V,null,!1,E.hk,K.eD,B.eu,null)
-D.Ca=new A.eX(B.eA,null,null,D.a5p,null)
+return{l:x("oT"),V:x("mX"),r:x("oW"),c:x("l<nv>"),O:x("l<cT>"),x:x("l<a3>"),d:x("l<az>"),s:x("l<e6>"),n:x("l<eE>"),A:x("l<dS>"),p:x("l<e>"),w:x("cN"),P:x("aD"),D:x("mi"),N:x("j"),z:x("@"),H:x("~")}})();(function constants(){D.a_V=new A.eE("Discount given at the middle of the month.",null,null,B.bD,B.es)
+D.a5q=new A.mx(null,D.a_V,null,!1,E.hk,K.eD,B.eu,null)
+D.Ca=new A.eX(B.eA,null,null,D.a5q,null)
 D.L_=new A.dO(983823,"MaterialIcons",null,!1)
-D.a14=new A.p(!0,B.aS,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a15=new A.p(!0,B.aS,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.dv=new A.p(!0,B.ap,null,null,null,null,12,B.a7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.fB=new A.p(!0,B.l,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a57=new A.dS("Your Bookings",null,null,null,null,null)})()}
-$__dart_deferred_initializers__["l1z4B+q3EtlYXUZJ39XiNuDLpZE="] = $__dart_deferred_initializers__.current
+D.a58=new A.dS("Your Bookings",null,null,null,null,null)})()}
+$__dart_deferred_initializers__["6x8A9JwN8mE4/kHAdVzVeiD0J3Y="] = $__dart_deferred_initializers__.current

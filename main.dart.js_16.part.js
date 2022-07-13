@@ -325,7 +325,7 @@ w=v?p:w.b
 if(w==null)w=1
 v=B.a(q.w,"_invertColors")
 q.a.toString
-r=new B.bA(B.bR(p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,"",p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p),!1,!1,!1,new A.T6(u,t,p,p,w,p,p,C.r6,p,s.as,C.V,C.e1,p,!1,v,!1,p),p)
+r=new B.bA(B.bR(p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,"",p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p),!1,!1,!1,new A.T6(u,t,p,p,w,p,p,C.r6,p,s.as,C.V,C.e0,p,!1,v,!1,p),p)
 return r}}
 A.a2P.prototype={}
 A.GR.prototype={
@@ -355,7 +355,7 @@ w.x1$=$.ar()
 w.to$=0
 this.ao(0)},
 C(d,e){var w=this,v=null,u=x.g,t=x.p
-return new B.ab(B.b([new B.eR(C.V,v,C.bg,C.J,B.b([B.aL(new B.a5(1/0,v,G.aSi(!1,!1,v,!1,new A.aFu(),3,new A.aFv(w),B.a(w.r,"_pageController")),v),16,10),new B.a5(1/0,v,new B.cI(B.b([B.aL(B.eK(new A.aFw(w),v,v,v,u),34,0),B.aL(B.eK(new A.aFx(w),v,v,v,u),34,0)],x.x),C.bJ,C.o,v,v),v)],t),v),new B.a5(1/0,v,B.aL(new B.ab(B.b([B.cX(new A.aFy(),B.a(w.w,y.a),x.S)],x.O),C.w,C.o,v,v),20,0),v)],t),v,v,v,v)}}
+return new B.ab(B.b([new B.eR(C.V,v,C.bg,C.J,B.b([B.aK(new B.a5(1/0,v,G.aSi(!1,!1,v,!1,new A.aFu(),3,new A.aFv(w),B.a(w.r,"_pageController")),v),16,10),new B.a5(1/0,v,new B.cI(B.b([B.aK(B.eK(new A.aFw(w),v,v,v,u),34,0),B.aK(B.eK(new A.aFx(w),v,v,v,u),34,0)],x.x),C.bJ,C.o,v,v),v)],t),v),new B.a5(1/0,v,B.aK(new B.ab(B.b([B.cX(new A.aFy(),B.a(w.w,y.a),x.S)],x.O),C.w,C.o,v,v),20,0),v)],t),v,v,v,v)}}
 var z=a.updateTypes(["M(M)","~(j8,G)"])
 A.azB.prototype={
 $0(){var w,v=this.a
@@ -395,7 +395,7 @@ A.aFu.prototype={
 $2(d,e){var w=B.W0(new E.vR(1.7777777777777777,new A.DS(new B.oR(C.hA[e]),C.D7,null),null))
 w.e=C.al
 w.d=new B.bH(B.bj(5),C.t)
-return B.aL(w.q(),10,0)},
+return B.aK(w.q(),10,0)},
 $S:640}
 A.aFw.prototype={
 $1(d){var w=null
@@ -420,11 +420,11 @@ t.ch=H.Bs
 t=B.bf(t.q(),u,u,u)
 w=B.cm(D.rJ[e])
 w.e=C.O
-w.cx=D.a1b
+w.cx=D.a1c
 v=B.c3(D.N1[e])
 v.as=C.oI
 w.c=B.b([v.q()],x.H)
-return new B.ab(B.b([new B.a2(C.ca,t,u),w.q()],x.p),C.w,C.o,u,u)},
+return new B.ab(B.b([new B.a3(C.ca,t,u),w.q()],x.p),C.w,C.o,u,u)},
 $S:65};(function installTearOffs(){var w=a._instance_1u,v=a._instance_2u
 var u
 w(u=A.Gg.prototype,"gaZ","aW",0)
@@ -447,12 +447,12 @@ B.dG(b.typeUniverse,JSON.parse('{"Gg":{"I":[],"y":[],"V":[],"at":[]},"T6":{"az":
 B.aF1(b.typeUniverse,JSON.parse('{"PD":1}'))
 var y={b:" is good when loading a double bed, 2 or 3 seater couch, double door fridge, a washing machine and a few other items E.G boxes and plastics",a:"_truckSizeCapabiltyDescriptionValueNotifier"}
 var x=(function rtii(){var w=B.F
-return{g:w("iV"),k:w("aF"),x:w("l<a2>"),s:w("l<j>"),H:w("l<eE>"),O:w("l<uO<n>>"),p:w("l<e>"),t:w("GR<L>"),z:w("vg"),S:w("n"),m:w("vg?")}})();(function constants(){var w=a.makeConstList
-D.L1=new B.cC(C.dY,30,C.ap,null)
+return{g:w("iV"),k:w("aF"),x:w("l<a3>"),s:w("l<j>"),H:w("l<eE>"),O:w("l<uO<n>>"),p:w("l<e>"),t:w("GR<L>"),z:w("vg"),S:w("n"),m:w("vg?")}})();(function constants(){var w=a.makeConstList
+D.L1=new B.cC(C.dX,30,C.ap,null)
 D.L8=new B.cC(F.f_,30,C.ay,null)
-D.Lf=new B.cC(C.dY,30,C.ay,null)
+D.Lf=new B.cC(C.dX,30,C.ay,null)
 D.Ll=new B.cC(F.f_,30,C.ap,null)
 D.rJ=B.b(w(["1.0 Ton Vehicle","1.5 Ton Vehicle","2.0 Ton Vehicle"]),x.s)
 D.N1=B.b(w([" is good when loading a double bed, single door fridge, a washing machine, dishwasher or tumble dryer machine and a few other stuff E.G boxes and plastics",y.b,y.b]),x.s)
-D.a1b=new B.p(!0,C.l,null,null,null,null,12,C.P,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["JMSV1yXL5YLgKikTHL2H0f1/oCM="] = $__dart_deferred_initializers__.current
+D.a1c=new B.p(!0,C.l,null,null,null,null,12,C.P,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)})()}
+$__dart_deferred_initializers__["hIsaGZiCXN/YZSYEFNUt6TJiG78="] = $__dart_deferred_initializers__.current

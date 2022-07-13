@@ -36,7 +36,7 @@ I=c[46]
 F=c[40]
 B.px.prototype={
 V(){var x=A.c2($.aC(),A.a8p(),y.x),w=$.ar()
-return new B.K_(x,new A.c8(new A.cl("",C.aP,C.af),w),new A.bo(A.b([new A.cJ("University of Pretoria","Lynnwood Rd, Hatfield, Pretoria, South Africa",-25.7545492,28.2314476),new A.cJ("Wits University","Jan Smuts Avenue, Braamfontein, Johannesburg, South Africa",-26.1929137,28.0305614)],y.r),w),new A.bo(!1,w),new A.bo(!1,w),C.k)}}
+return new B.K_(x,new A.c8(new A.cl("",C.aP,C.af),w),new A.bo(A.b([],y.r),w),new A.bo(!1,w),new A.bo(!1,w),C.k)}}
 B.K_.prototype={
 l(d){var x=this,w=x.f,v=w.x1$=$.ar()
 w.to$=0
@@ -110,7 +110,7 @@ o.aJ(0)
 return u/1000+2}o.ay=D.bG
 o.aJ(0)
 return 0}}
-var z=a.updateTypes(["M(v<cJ>)","dB(cJ)"])
+var z=a.updateTypes(["M(v<cT>)","dB(cT)"])
 B.aAh.prototype={
 $3(d,e,f){var x,w=null
 if(e){x=A.Q("Atleast 2 locations are required, please pick a location")
@@ -176,7 +176,7 @@ s=A.dD(t.a,!0,y.e)
 q=q.e
 r=q.a
 q=q.b
-s.push(new A.cJ(d.c+" ",d.d+" ",r,q))
+s.push(new A.cT(d.c+" ",d.d+" ",r,q))
 t.sm(0,s)
 u.e.fo(0,C.cC)}q=v.a
 u=q.f
@@ -249,5 +249,5 @@ w(A.eI,[B.aAg,B.aAn])
 x(B.aAk,A.fn)})()
 A.dG(b.typeUniverse,JSON.parse('{"px":{"P":[],"e":[]},"K_":{"U":["px"]}}'))
 var y=(function rtii(){var x=A.F
-return{x:x("jH"),u:x("l<jc>"),r:x("l<cJ>"),_:x("l<iB>"),s:x("l<a2>"),q:x("l<nH>"),p:x("l<e>"),h:x("dB"),I:x("jc"),T:x("v<cJ>"),e:x("cJ"),y:x("kM<dB>"),v:x("G"),i:x("M"),z:x("@"),Q:x("ex?"),H:x("~")}})();(function constants(){H.a56=new A.dS("2/5 Choose Locations",null,null,0,0,null)})()}
-$__dart_deferred_initializers__["u4slusRALCRlAbCcEeDplQ9Ta1Y="] = $__dart_deferred_initializers__.current
+return{x:x("jH"),u:x("l<jc>"),r:x("l<cT>"),_:x("l<iB>"),s:x("l<a2>"),q:x("l<nH>"),p:x("l<e>"),h:x("dB"),I:x("jc"),T:x("v<cT>"),e:x("cT"),y:x("kM<dB>"),v:x("G"),i:x("M"),z:x("@"),Q:x("ex?"),H:x("~")}})();(function constants(){H.a56=new A.dS("2/5 Choose Locations",null,null,0,0,null)})()}
+$__dart_deferred_initializers__["VwDrwAN1H9GrppTro0BpH34ZIfA="] = $__dart_deferred_initializers__.current

@@ -1,5 +1,5 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var D={wr:function wr(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var D={ws:function ws(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -15,12 +15,12 @@ _.Q=o
 _.as=p
 _.at=q
 _.ax=r}},B,A,C,E
-D=a.updateHolder(c[29],D)
+D=a.updateHolder(c[30],D)
 B=c[0]
-A=c[36]
+A=c[40]
 C=c[2]
-E=c[38]
-D.wr.prototype={
+E=c[42]
+D.ws.prototype={
 cD(){var x,w,v,u,t,s,r,q,p=this,o=p.a,n=p.b,m=p.c,l=p.z,k=p.e
 k.toString
 x=p.f
@@ -37,16 +37,16 @@ q=p.Q
 q.toString
 return B.ak(["pickup_date",o,"pickup_time",n,"routes",m,"distance",l,"payment_option",k,"carry_floor",x,"vehicle_type",w,"drivers_note",v,"quote_price",u,"mid_month_discount",t,"loyal_customer_discount",s,"did_apply_loyal_discount",r,"additional_helpers",q,"booking_completed",p.as,"booking_cancelled",p.at],y.g,y.a)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(D.wr,B.L)})()
-B.dI(b.typeUniverse,JSON.parse("{}"))
-var y={g:B.G("j"),a:B.G("L?")};(function constants(){A.a_U=new B.eF("Booking amount including number helpers and stairs",null,null,C.bD,C.ev)
-A.hp=new B.cE(E.rs,18,C.au,null)
-A.a5x=new B.my(null,A.a_U,null,!1,A.hp,E.eG,C.ex,null)
-A.po=new B.eY(C.dD,null,null,A.a5x,null)
-A.a_T=new B.eF("Discount for returning customers. ",null,null,C.bD,C.ev)
-A.a5y=new B.my(null,A.a_T,null,!1,A.hp,E.eG,C.ex,null)
-A.pp=new B.eY(C.dD,null,null,A.a5y,null)
-A.CT=new B.bq(C.al,1,C.L)
-A.CU=new B.dg(C.t,C.t,A.CT,C.t)
-A.dG=new B.bl(null,null,A.CU,null,null,null,C.I)})()}
-$__dart_deferred_initializers__["9F2wZLjvI86qERQuEKIRbylu7SM="] = $__dart_deferred_initializers__.current
+x(D.ws,B.M)})()
+B.dw(b.typeUniverse,JSON.parse("{}"))
+var y={g:B.F("j"),a:B.F("M?")};(function constants(){A.a00=new B.ep("Booking amount including number helpers and stairs",null,null,C.bI,C.ex)
+A.hr=new B.cC(E.rv,18,C.aq,null)
+A.a5F=new B.my(null,A.a00,null,!1,A.hr,E.eI,C.ez,null)
+A.pr=new B.eZ(C.dH,null,null,A.a5F,null)
+A.a0_=new B.ep("Discount for returning customers. ",null,null,C.bI,C.ex)
+A.a5G=new B.my(null,A.a0_,null,!1,A.hr,E.eI,C.ez,null)
+A.ps=new B.eZ(C.dH,null,null,A.a5G,null)
+A.CX=new B.bq(C.am,1,C.L)
+A.CY=new B.dg(C.u,C.u,A.CX,C.u)
+A.dK=new B.bl(null,null,A.CY,null,null,null,C.J)})()}
+$__dart_deferred_initializers__["/SE+KwqCEk0++LYtgqIYXple/W8="] = $__dart_deferred_initializers__.current

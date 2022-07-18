@@ -1,177 +1,184 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B={
-b0N(){return new B.oN(null)},
-oN:function oN(d){this.a=d},
-Wq:function Wq(d,e,f,g,h,i){var _=this
+b29(){return new B.p6(null)},
+p6:function p6(d){this.a=d},
+J0:function J0(d,e,f,g,h,i,j,k){var _=this
 _.d=d
 _.e=e
 _.f=f
 _.r=g
 _.w=h
+_.x=i
+_.z=_.y=null
+_.Q=j
 _.a=null
-_.b=i
+_.b=k
 _.c=null},
-atD:function atD(d){this.a=d},
-atC:function atC(d){this.a=d},
-atE:function atE(d){this.a=d},
-atF:function atF(){},
-atI:function atI(d){this.a=d},
-atJ:function atJ(d){this.a=d},
-atB:function atB(d){this.a=d},
-atK:function atK(d){this.a=d},
-atL:function atL(){},
-atM:function atM(d){this.a=d},
-atO:function atO(d){this.a=d},
-atN:function atN(){},
-atP:function atP(){},
-atG:function atG(d,e){this.a=d
+awM:function awM(){},
+awN:function awN(d){this.a=d},
+awO:function awO(d,e){this.a=d
 this.b=e},
-atz:function atz(d,e){this.a=d
+awP:function awP(){},
+awQ:function awQ(d){this.a=d},
+awR:function awR(d,e){this.a=d
 this.b=e},
-atA:function atA(d,e){this.a=d
-this.b=e},
-atH:function atH(d){this.a=d}},A,C,E,N,D,G,H,I,K,O,L,M,F,J
-B=a.updateHolder(c[19],B)
+awS:function awS(){},
+awT:function awT(d){this.a=d}},A,C,E,I,G,D,K,L,J,F,H
+B=a.updateHolder(c[18],B)
 A=c[0]
 C=c[2]
-E=c[23]
-N=c[50]
-D=c[44]
-G=c[31]
-H=c[42]
-I=c[51]
-K=c[52]
-O=c[53]
-L=c[40]
-M=c[48]
-F=c[54]
+E=c[25]
+I=c[53]
+G=c[46]
+D=c[58]
+K=c[54]
+L=c[56]
 J=c[1]
-B.oN.prototype={
-V(){var x=$.ar(),w=A.bQ(!0,null,!0,!0,null,null,!1)
-return new B.Wq(new A.bo(0,x),new A.bo(0,x),w,new A.c8(new A.cl("",C.aP,C.af),x),new A.bo(new E.f5(!0,!1),x),C.k)}}
-B.Wq.prototype={
-C(d,e){var x,w,v,u,t,s,r,q,p,o=this,n=null,m=A.Q("Extra information for booking")
-m.ch=N.im
-m=A.aG(m.q(),16,0,0,0)
-x=A.Q("Additional helpers")
-x.ch=D.eq
-x=A.aG(x.q(),10,0,0,0)
-w=A.Q("Number of helpers in addition to the driver")
-w.ch=A.ba(n,n,C.cI,n,n,n,n,n,n,n,n,12,n,C.q,n,n,!0,n,n,n,C.N,n,n,n,n)
-w.as=C.O
-v=o.d
-u=y.e
-t=y.u
-v=A.b([x,A.aG(w.q(),10,0,0,0),A.cX(new B.atD(o),v,u),new A.cI(A.b([A.fq(n,D.e_,new B.atE(o),n,n,n),A.cX(new B.atF(),v,u),A.fq(n,D.dZ,new B.atI(o),n,n,n)],t),n,n,n,n)],t)
-w=A.Q("Stairs to carry")
-w.ch=D.eq
-w=w.q()
-x=A.Q("Number of floors to carry at pick up and drop off addresses")
-x.ch=A.ba(n,n,C.cI,n,n,n,n,n,n,n,n,12,n,C.q,n,n,!0,n,n,n,C.N,n,n,n,n)
-x.as=C.O
-x=A.aG(x.q(),10,0,0,0)
-s=o.e
-r=A.fo(A.cX(new B.atJ(o),s,u),new A.be(A.ap(50,151,38,120),n,n,n,n,n,C.G),C.aF)
-u=A.aK(new A.a5(1/0,n,new A.ab(A.b([new A.a3(new A.a7(10,10,10,10),w,n),x,G.wf(A.bj(100),r),new A.cI(A.b([A.fq(n,D.e_,new B.atK(o),n,n,n),A.cX(new B.atL(),s,u),A.fq(n,D.dZ,new B.atM(o),n,n,n)],t),n,n,n,n)],t),C.w,C.o,n,n),n),0,10)
-s=A.Q("Note to driver")
-s.ch=H.c1
-s=A.aG(s.q(),5,0,0,10)
-r=A.bj(5)
-x=A.bj(5)
-x=A.aG(A.qt(!0,C.b7,!1,n,o.r,n,n,n,2,A.h4(n,new A.e0(4,A.bj(5),new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,!0,new A.e0(4,r,new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,n,n,n,n,new A.e0(4,x,C.iW),n,n,n,n,n,n,"Optional",n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,D.oL,n,n,n,n),!0,!0,!0,n,!1,o.f,n,n,C.cg,500,C.hU,5,n,n,!1,"\u2022",new B.atN(),new B.atO(e),n,new B.atP(),!1,n,n,C.M,n,n,n,n,n,n,C.aH,C.S,n,C.ae,n,C.bx,n),10,0,0,0)
-r=A.Q("Payment Options")
-r.ch=H.c1
-r=A.aG(r.q(),5,0,0,0)
-w=A.cX(new B.atG(o,e),o.w,y.A)
-q=A.mu(n,n,C.m,n,2,n,n,n,n,n,n,n,C.ap,new A.bH(A.bj(5),I.eC),n,n,n,n)
-p=A.Q("Continue")
-p.ch=I.fz
-return new A.fH(A.b([new A.a5(1/0,n,new A.ab(A.b([A.aK(new A.a5(450,n,new A.ab(A.b([K.a5i,m,new A.a5(1/0,n,new A.ab(v,C.w,C.o,n,n),n),u,s,x,r,w,new A.a5(1/0,n,A.aK(A.ia(new A.cI(A.b([new A.hY(1,C.bV,p.q(),n),C.cf,O.dY],t),C.w,C.o,C.aw,n),new B.atH(o),q),0,16),n)],t),C.w,C.A,n,n),n),32,24)],y.p),C.w,C.o,n,n),n)],t),"/quote/additional-information",n)}}
-var z=a.updateTypes(["lI(W,n,e?)","kG(W,n,e?)","e(W,f5,e?)"])
-B.atD.prototype={
-$3(d,e,f){var x=null,w=A.fo(E.Fc(C.ax,1,10,0,new B.atC(this.a),D.oH,1,e),new A.be(A.ap(50,151,38,120),x,x,x,x,x,C.G),C.aF)
-return G.wf(A.bj(100),w)},
-$S:z+0}
-B.atC.prototype={
-$1(d){this.a.d.sm(0,d)},
-$S:20}
-B.atE.prototype={
-$0(){var x=this.a.d,w=x.a
-if(w>0)x.sm(0,w-1)},
-$S:0}
-B.atF.prototype={
-$3(d,e,f){return A.Q("Additional Helpers: "+A.d(e)).q()},
-$S:213}
-B.atI.prototype={
-$0(){var x=this.a.d,w=x.a
-if(w<10)x.sm(0,w+1)},
-$S:0}
-B.atJ.prototype={
-$3(d,e,f){return E.Fc(C.ax,1,20,0,new B.atB(this.a),D.oG,1,e)},
-$S:z+1}
-B.atB.prototype={
-$1(d){this.a.e.sm(0,d)},
-$S:20}
-B.atK.prototype={
-$0(){var x=this.a.e,w=x.a
-if(w>0)x.sm(0,w-1)},
-$S:0}
-B.atL.prototype={
-$3(d,e,f){return A.Q("Stairs to Carry: "+A.d(e)).q()},
-$S:65}
-B.atM.prototype={
-$0(){var x=this.a.e,w=x.a
-if(w<20)x.sm(0,w+1)},
-$S:0}
-B.atO.prototype={
-$0(){A.dp(this.a).eh(A.bQ(!0,null,!0,!0,null,null,!1))},
-$S:0}
-B.atN.prototype={
-$1(d){},
+F=c[51]
+H=c[50]
+B.p6.prototype={
+V(){var x=$.ar(),w=y.o
+return new B.J0(new A.cb(new A.co("",C.aS,C.ai),x),new A.cb(new A.co("",C.aS,C.ai),x),new A.bf(!1,x),new A.bf(new E.rI(),x),new A.aN(null,w),new A.aN(null,w),new E.rI(),C.k)}}
+B.J0.prototype={
+l(d){var x=this,w=x.f,v=w.x1$=$.ar()
+w.to$=0
+w=x.d
+w.x1$=v
+w.to$=0
+w=x.e
+w.x1$=v
+w.to$=0
+x.ao(0)},
+B(d,e){var x,w,v,u,t,s,r,q,p=this,o=null,n=A.J("Choose booking date and time")
+n.ch=I.iu
+n=A.av(n.n(),16,0,0,0)
+x=A.cu(new B.awM(),p.f,y.e)
+w=A.J("Booking Date")
+w.ch=G.c6
+w=A.av(w.n(),5,0,0,0)
+v=A.jK(o,A.fD(!0,o,!1,o,p.d,2,A.fM(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g "+p.kU(A.b1(new A.bF(Date.now(),!1)))+"-"+p.kU(A.bi(new A.bF(Date.now(),!1)))+"-"+p.kU(A.bi(new A.bF(Date.now(),!1))),o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,D.L5,o,o,o,o),o,o,!1,o,o,o,C.dz,1,!1,o,o,new B.awN(p),o,new B.awO(p,e),!0,o,C.M,o,C.a1,C.R,C.ah,C.bC,new B.awP()),p.w)
+u=A.J("Booking Time")
+u.ch=G.c6
+u=A.av(u.n(),5,0,0,10)
+t=A.jK(o,A.fD(!0,o,!1,o,p.e,2,A.fM(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g "+p.kU(A.pU(new A.bF(Date.now(),!1)))+":"+p.kU(A.pV(new A.bF(Date.now(),!1))),o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,D.Lf,o,o,o,o),o,o,!1,o,o,o,C.dz,1,!1,o,o,new B.awQ(p),o,new B.awR(p,e),!0,o,C.M,o,C.a1,C.R,C.ah,C.bC,new B.awS()),p.x)
+s=A.mv(o,o,C.m,o,2,o,o,o,o,o,o,o,C.am,new A.bK(A.bj(5),K.eG),o,o,o,o)
+r=A.J("Continue")
+r.ch=C.eu
+q=y.u
+return new A.fr(A.a([new A.aa(1/0,o,new A.a7(A.a([A.aI(new A.aa(450,o,new A.a7(A.a([D.a5n,n,x,w,v,u,t,A.av(new A.aa(1/0,o,A.id(new A.bB(A.a([new A.dY(1,C.bl,r.n(),o),C.bS,L.e1],q),C.x,C.p,C.ax,o),p.ga78(),s),o),0,0,0,16)],q),C.x,C.r,o,o),o),32,24)],y.p),C.x,C.p,o,o),o)],q),"/quote/date-time",o)},
+kU(d){if(d>=10)return""+d
+return"0"+d},
+CH(){var x=0,w=A.B(y.b),v,u=this,t
+var $async$CH=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:if(u.w.gZ().de()&&u.x.gZ().de()){if(u.F0()){x=1
+break}t=$.aB()
+J.ez($.cf().to.c,"pickup-date",u.d.a.a)
+J.ez($.cf().to.c,"pickup-time",u.e.a.a)
+A.ft(t,"/quote/additional-information",$.cf().to.c,null,y.b)}case 1:return A.z(v,w)}})
+return A.A($async$CH,w)},
+ht(d){return this.as_(d)},
+as_(d){var x=0,w=A.B(y.b),v,u=this,t,s,r,q,p
+var $async$ht=A.x(function(e,f){if(e===1)return A.y(f,w)
+while(true)switch(x){case 0:q=new A.bF(Date.now(),!1)
+p=u.c
+p.toString
+x=3
+return A.t(E.a42(p,q,q,A.cy(A.b1(new A.bF(Date.now(),!1))+100,1,1,0,0)),$async$ht)
+case 3:p=f
+u.z=p
+if(p==null){x=1
+break}u.F0()
+p=u.d
+t=u.z
+t.toString
+s=u.kU(A.bi(t))
+r=u.z
+r.toString
+p.sbL(0,""+A.b1(t)+"-"+s+"-"+u.kU(A.cM(r)))
+p.a.toString
+u.r.sm(0,u.Q)
+u.w.gZ().de()
+case 1:return A.z(v,w)}})
+return A.A($async$ht,w)},
+F0(){var x,w,v,u=this
+if(u.z!=null&&u.y!=null){x=Date.now()
+w=u.z
+w.toString
+v=u.y
+x=C.f.c7(A.bm(0,A.cy(A.b1(w),A.bi(w),A.cM(w),v.a,v.b).a-x,0).a,1e6)
+x=x<5400||x<0
+w=u.f
+if(x){w.sm(0,!0)
+return w.a}else{w.sm(0,!1)
+return w.a}}return!0},
+hu(d){return this.as2(d)},
+as2(d){var x=0,w=A.B(y.b),v,u=this,t
+var $async$hu=A.x(function(e,f){if(e===1)return A.y(f,w)
+while(true)switch(x){case 0:t=new A.bF(Date.now(),!1)
+x=3
+return A.t(E.a43(new B.awT(d),d,new E.bw(A.pU(t),A.pV(t))),$async$hu)
+case 3:t=f
+u.y=t
+if(t==null){x=1
+break}u.F0()
+t=u.e
+t.sbL(0,u.kU(u.y.a)+":"+u.kU(u.y.b))
+t.a.toString
+u.r.sm(0,u.Q)
+u.x.gZ().de()
+case 1:return A.z(v,w)}})
+return A.A($async$hu,w)}}
+var z=a.updateTypes(["~()"])
+B.awM.prototype={
+$3(d,e,f){var x,w=null
+if(e){x=A.J("Time of booking must be atleast 1hr 30 min prior")
+x.ch=F.oJ
+x=A.c6(new A.a2(new A.a6(15,15,15,15),A.bb(x.n(),w,w,w),w))
+x.y=H.f2
+x.as=new A.bl(H.dP,w,w,A.bj(5),w,w,C.J)
+return x.n()}return C.z},
+$S:30}
+B.awN.prototype={
+$1(d){this.a.w.gZ().de()},
 $S:9}
-B.atP.prototype={
-$0(){},
-$S:0}
-B.atG.prototype={
-$3(d,e,f){var x,w,v,u,t=null,s=A.cm("Cash "),r=A.c3("(RANDS)")
-r.as=L.b5
-x=y.i
-s.c=A.b([r.q()],x)
-s.cx=C.aC
-r=this.a
-w=this.b
-s=A.dR(C.y,!0,t,E.C5(C.au,C.U,M.cQ,new B.atz(r,w),C.au,F.i6,C.m,s.q(),e.a),C.al,t,0,t,t,F.i6,t,t,C.an)
-v=A.cm("EFT ")
-u=A.c3("(ABSA, FNB, CAPITEC, NEDBANK)")
-u.as=L.b5
-v.c=A.b([u.q()],x)
-v.cx=C.aC
-v=A.cq(new A.a3(new A.a7(5,5,5,5),new A.ab(A.b([s,A.dR(C.y,!0,D.eB,E.C5(C.au,C.U,M.cQ,new B.atA(r,w),t,F.Ah,C.m,v.q(),e.b),C.al,t,0,t,t,t,t,t,C.an)],y.C),t,t,t,t),t))
-v.as=new A.be(C.E,t,A.NT(C.bE,1),A.bj(5),t,t,C.G)
-return v.q()},
-$S:z+2}
-B.atz.prototype={
-$1(d){A.dp(this.b).eh(A.bQ(!0,null,!0,!0,null,null,!1))
-d.toString
-if(d)this.a.w.sm(0,new E.f5(!0,!1))},
-$S:46}
-B.atA.prototype={
-$1(d){if(d===!0){A.dp(this.b).eh(A.bQ(!0,null,!0,!0,null,null,!1))
-this.a.w.sm(0,new E.f5(!1,!0))}},
-$S:46}
-B.atH.prototype={
-$0(){var x,w=$.aC(),v=this.a
-J.ew($.cb().to.c,"additional-helpers",v.d.a)
-J.ew($.cb().to.c,"carry-stairs",v.e.a)
-J.ew($.cb().to.c,"driver-note",v.r.a.a)
-x=$.cb().to.c
-J.ew(x,"payment-option",v.w.a.a?"CASH":"EFT")
-A.h2(w,"/quote/quote-booking",$.cb().to.c,null,y.b)},
-$S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(B.oN,A.P)
-x(B.Wq,A.U)
-w(A.bM,[B.atD,B.atC,B.atF,B.atJ,B.atB,B.atL,B.atN,B.atG,B.atz,B.atA])
-w(A.eI,[B.atE,B.atI,B.atK,B.atM,B.atO,B.atP,B.atH])})()
-A.dG(b.typeUniverse,JSON.parse('{"oN":{"P":[],"e":[]},"Wq":{"U":["oN"]}}'))
-var y={C:A.F("l<iB>"),p:A.F("l<a3>"),i:A.F("l<eE>"),u:A.F("l<e>"),A:A.F("f5"),b:A.F("@"),e:A.F("n")};(function constants(){K.a5i=new A.dS("4/5 Additional information",null,null,0,0,null)})()}
-$__dart_deferred_initializers__["T3SCZ2+mkdnpSj/RU9Nqc6hBv/0="] = $__dart_deferred_initializers__.current
+B.awO.prototype={
+$0(){var x=0,w=A.B(y.v),v=this
+var $async$$0=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:x=2
+return A.t(v.a.ht(v.b),$async$$0)
+case 2:return A.z(null,w)}})
+return A.A($async$$0,w)},
+$S:2}
+B.awP.prototype={
+$1(d){if(d.length===0)return"Date needed"
+return null},
+$S:13}
+B.awQ.prototype={
+$1(d){this.a.x.gZ().de()},
+$S:9}
+B.awR.prototype={
+$0(){var x=0,w=A.B(y.v),v=this
+var $async$$0=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:x=2
+return A.t(v.a.hu(v.b),$async$$0)
+case 2:return A.z(null,w)}})
+return A.A($async$$0,w)},
+$S:2}
+B.awS.prototype={
+$1(d){if(d.length===0)return"Time needed"
+return null},
+$S:13}
+B.awT.prototype={
+$2(d,e){return new A.cL(this.a.H(y.x).f.FF(!0),e,null)},
+$S:114};(function installTearOffs(){var x=a._instance_0u
+x(B.J0.prototype,"ga78","CH",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(B.p6,A.Q)
+x(B.J0,A.U)
+w(A.bP,[B.awM,B.awN,B.awP,B.awQ,B.awS])
+w(A.eK,[B.awO,B.awR])
+x(B.awT,A.fq)})()
+A.dw(b.typeUniverse,JSON.parse('{"p6":{"Q":[],"e":[]},"J0":{"U":["p6"]}}'))
+var y={p:A.F("l<a2>"),u:A.F("l<e>"),o:A.F("aN<lT>"),x:A.F("cL"),e:A.F("G"),b:A.F("@"),v:A.F("~")};(function constants(){D.L5=new A.cC(F.rs,18,C.aq,null)
+D.Lf=new A.cC(F.rr,18,C.aq,null)
+D.a5n=new A.dP("3/5 Booking Date Time",null,null,0,0,null)})()}
+$__dart_deferred_initializers__["7Om5TnKgxnqVtwbuC/QAo5VH/hI="] = $__dart_deferred_initializers__.current

@@ -157,7 +157,7 @@ k.ch=B.a1
 s=A.av(new A.a7(A.a([new A.bB(w,B.af,m,B.y,m),new A.bB(A.a([p,k.n()],s),B.af,m,B.y,m)],s),B.o,B.r,m,m),16,0,0,0)
 k=$.aB()
 k=A.a([v,o,t,s,A.av(new C.NY(l,n.gXt(),n.d,A.c5(k,A.aPa(),x.r),A.c5(k,A.alX(),x.D),m),10,0,0,0)],x.x)
-if(q.length===4){l=A.HK(m)
+if(q.length<4){l=A.HK(m)
 l.bj=new C.a5y()
 k.push(A.av(A.TV(m,m,B.N,!0,m,A.eq(D.Ml,l,D.a1F,"Company Banking Details"),B.R,m,m,1,B.aJ),10,0,0,0))}l=A.W6(A.ir(new A.a2(B.M,new A.a7(k,B.o,B.r,m,m),m),new A.bl(B.m,m,m,m,m,m,B.J),B.b8))
 l.c=0
@@ -272,4 +272,4 @@ D.dA=new A.o(!0,B.am,null,null,null,null,12,B.W,null,null,null,null,null,null,nu
 D.Bz=new A.o(!0,B.m,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.oP=new A.o(!0,B.l,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a5k=new A.dP("Your Bookings",null,null,null,null,null)})()}
-$__dart_deferred_initializers__["vqdTAWQeHAv1TkRLNQVce/hgMK8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["VPk+1FXktSzkFFE5/apXYI4wEck="] = $__dart_deferred_initializers__.current

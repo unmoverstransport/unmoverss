@@ -4,53 +4,53 @@ this.d=e
 this.a=f}},A,C,B,D,F,G
 E=a.updateHolder(c[27],E)
 A=c[0]
-C=c[70]
+C=c[71]
 B=c[2]
 D=c[40]
-F=c[71]
+F=c[72]
 G=c[42]
 E.xx.prototype={
-B(d,e){var x,w,v,u,t,s,r,q=null,p=A.aq(150,151,38,120),o=A.bj(5),n=A.J("Description")
-n.ch=C.is
+B(d,e){var x,w,v,u,t,s,r,q=null,p=A.ac(150,151,38,120),o=A.bm(5),n=A.J("Description")
+n.ch=C.it
 n=n.n()
 x=A.J("Total")
-x.ch=C.is
+x.ch=C.it
 w=y.d
-x=A.a([new A.a2(new A.a6(4,4,4,4),n,q),B.z,new A.a2(new A.a6(4,4,4,4),x.n(),q)],w)
+x=A.a([new A.a5(new A.a2(4,4,4,4),n,q),B.A,new A.a5(new A.a2(4,4,4,4),x.n(),q)],w)
 n=A.J("Base Fee")
-n.ch=B.a1
-n=A.av(n.n(),0,4,0,0)
+n.ch=B.Z
+n=A.aK(n.n(),0,4,0,0)
 v=A.J("R "+A.d(this.d))
-v.ch=B.a1
-v=A.a([n,D.pr,new A.a2(new A.a6(4,4,4,4),v.n(),q)],w)
+v.ch=B.Z
+v=A.a([n,D.pw,new A.a5(new A.a2(4,4,4,4),v.n(),q)],w)
 n=A.J("Discounts")
-n.ch=C.is
-n=A.a([new A.a2(new A.a6(4,4,4,4),n.n(),q),B.z,B.z],w)
+n.ch=C.it
+n=A.a([new A.a5(new A.a2(4,4,4,4),n.n(),q),B.A,B.A],w)
 u=A.J("Off Peak")
-u.ch=B.a1
+u.ch=B.Z
 u=u.n()
 t=this.c
 s=A.J("R "+A.d(t.x))
-s.ch=B.a1
-s=A.a([new A.a2(new A.a6(4,4,4,4),u,q),C.Cf,new A.a2(new A.a6(4,4,4,4),s.n(),q)],w)
+s.ch=B.Z
+s=A.a([new A.a5(new A.a2(4,4,4,4),u,q),C.Cf,new A.a5(new A.a2(4,4,4,4),s.n(),q)],w)
 u=A.J("Return Customer")
-u.ch=B.a1
+u.ch=B.Z
 u=u.n()
 r=A.J("R "+A.d(t.y))
-r.ch=B.a1
-r=A.a([new A.a2(new A.a6(4,4,4,4),u,q),D.ps,new A.a2(new A.a6(4,4,4,4),r.n(),q)],w)
+r.ch=B.Z
+r=A.a([new A.a5(new A.a2(4,4,4,4),u,q),D.px,new A.a5(new A.a2(4,4,4,4),r.n(),q)],w)
 u=A.J("Amount Due:")
-u.ch=C.is
+u.ch=C.it
 u=u.n()
 t=A.J("R "+A.d(t.w))
 t.ch=F.By
-return A.bJ(B.d2,A.aLb(A.a([new A.e9(new A.bl(p,q,q,o,q,q,B.J),x),new A.e9(q,v),new A.e9(D.dK,n),new A.e9(q,s),new A.e9(D.dK,r),new A.e9(D.dK,A.a([new A.a2(new A.a6(4,4,4,4),u,q),B.z,new A.a2(new A.a6(4,4,4,4),t.n(),q)],w))],y.e),B.oC),B.n,q,q,q,q,q,q,q,q,q,q,q)}}
+return A.bJ(B.d0,A.aLd(A.a([new A.e9(new A.bo(p,q,q,o,q,q,B.L),x),new A.e9(q,v),new A.e9(D.dI,n),new A.e9(q,s),new A.e9(D.dI,r),new A.e9(D.dI,A.a([new A.a5(new A.a2(4,4,4,4),u,q),B.A,new A.a5(new A.a2(4,4,4,4),t.n(),q)],w))],y.e),B.oG),B.n,q,q,q,q,q,q,q,q,q,q,q)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(E.xx,A.a1)})()
-A.dw(b.typeUniverse,JSON.parse('{"xx":{"a1":[],"e":[]}}'))
-var y={e:A.F("l<e9>"),d:A.F("l<e>")};(function constants(){C.a3n=new A.o(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.a_Y=new A.ep("Discount given at the middle of the month.",null,null,B.bI,C.a3n)
-C.a5D=new A.my(null,C.a_Y,null,!1,D.hr,G.eI,B.ez,null)
-C.Cf=new A.eZ(B.dH,null,null,C.a5D,null)
-C.is=new A.o(!0,B.l,null,null,null,null,12,B.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["An0Eo0RmFzrnBR9TxrwszQszg9o="] = $__dart_deferred_initializers__.current
+x(E.xx,A.a4)})()
+A.dv(b.typeUniverse,JSON.parse('{"xx":{"a4":[],"e":[]}}'))
+var y={e:A.G("l<e9>"),d:A.G("l<e>")};(function constants(){C.a3m=new A.o(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.a_W=new A.dP("Discount given at the middle of the month.",null,null,B.bk,C.a3m)
+C.a5C=new A.mA(null,C.a_W,null,!1,D.hs,G.eH,B.ey,null)
+C.Cf=new A.fn(B.dF,null,null,C.a5C,null)
+C.it=new A.o(!0,B.i,null,null,null,null,12,B.P,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
+$__dart_deferred_initializers__["R4uby4Jqc+ybC4e7rDdBUO+9Pk4="] = $__dart_deferred_initializers__.current

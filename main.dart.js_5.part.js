@@ -226,7 +226,7 @@ var $async$$0=A.x(function(d,e){if(d===1)return A.y(e,v)
 while(true)switch(w){case 0:t=u.a.c
 s=x.N
 r=A.al(["retrieve",t.f],s,s)
-A.f5($.aA(),"/signed-in/edit-booking/"+t.a,null,r,x.z)
+A.f5($.aA(),"/signed-in/bookings"+t.a,null,r,x.z)
 return A.z(null,v)}})
 return A.A($async$$0,v)},
 $S:2}
@@ -270,4 +270,4 @@ D.dy=new A.o(!0,B.ak,null,null,null,null,12,B.aQ,null,null,null,null,null,null,n
 D.BA=new A.o(!0,B.m,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.oU=new A.o(!0,B.i,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a5i=new A.dI("Your Bookings",null,null,0,16,null)})()}
-$__dart_deferred_initializers__["jtkoDOneDKBEHcTRIg9pyDHaV3c="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["JSDaer0KaNy3VTL9eXn8udbMViQ="] = $__dart_deferred_initializers__.current

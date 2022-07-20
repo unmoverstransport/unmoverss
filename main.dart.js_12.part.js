@@ -125,7 +125,7 @@ B.Yg.prototype={
 af(){A.j4(C.G,null,y.z).b3(0,new B.axG(this),y.P)
 this.au()},
 B(d,e){var x=null
-return new A.fq(A.a([A.eL(new B.axF(e),x,x,x,y.V)],y.p),"/signed-in/edit-booking/",x)}}
+return new A.fq(A.a([A.eL(new B.axF(e),x,x,x,y.V)],y.p),"/signed-in/bookings",x)}}
 B.Da.prototype={
 V(){var x=null,w=$.aA(),v=y.l
 return new B.Yh(A.c5(w,A.aSA(),y.o),A.c5(w,A.BB(),y.g),A.c5(w,A.aKg(),y.V),A.c5(w,A.abQ(),y.N),A.c5(w,A.a8w(),y.x),new A.aP(x,v),new A.aP(x,v),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),C.l)}}
@@ -834,4 +834,4 @@ G.LP=new A.h4(null,null,null,null,null,null,null,null,null,"Optional",null,null,
 G.ZO=new A.a_(null,5,null,null)
 G.a1k=new A.o(!0,C.i,null,null,null,null,16,C.P,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 G.a5e=new A.dI("Your Booking",null,null,0,16,null)})()}
-$__dart_deferred_initializers__["Cvx1eokhmGVo5rTFA3KTlMYVpiM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["KuayDr8APPHjYZqM1tQC7b4z1z8="] = $__dart_deferred_initializers__.current

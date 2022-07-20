@@ -32,7 +32,7 @@ u=u.n()
 t=this.c
 s=A.J("R "+A.d(t.x))
 s.ch=B.Z
-s=A.a([new A.a5(new A.a2(4,4,4,4),u,q),C.Cf,new A.a5(new A.a2(4,4,4,4),s.n(),q)],w)
+s=A.a([new A.a5(new A.a2(4,4,4,4),u,q),C.Cg,new A.a5(new A.a2(4,4,4,4),s.n(),q)],w)
 u=A.J("Return Customer")
 u.ch=B.Z
 u=u.n()
@@ -43,14 +43,14 @@ u=A.J("Amount Due:")
 u.ch=C.it
 u=u.n()
 t=A.J("R "+A.d(t.w))
-t.ch=F.By
-return A.bJ(B.d0,A.aLd(A.a([new A.e9(new A.bo(p,q,q,o,q,q,B.L),x),new A.e9(q,v),new A.e9(D.dI,n),new A.e9(q,s),new A.e9(D.dI,r),new A.e9(D.dI,A.a([new A.a5(new A.a2(4,4,4,4),u,q),B.A,new A.a5(new A.a2(4,4,4,4),t.n(),q)],w))],y.e),B.oG),B.n,q,q,q,q,q,q,q,q,q,q,q)}}
+t.ch=F.Bz
+return A.bJ(B.d0,A.aLi(A.a([new A.e9(new A.bn(p,q,q,o,q,q,B.J),x),new A.e9(q,v),new A.e9(D.dK,n),new A.e9(q,s),new A.e9(D.dK,r),new A.e9(D.dK,A.a([new A.a5(new A.a2(4,4,4,4),u,q),B.A,new A.a5(new A.a2(4,4,4,4),t.n(),q)],w))],y.e),B.oG),B.n,q,q,q,q,q,q,q,q,q,q,q)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(E.xx,A.a4)})()
 A.dv(b.typeUniverse,JSON.parse('{"xx":{"a4":[],"e":[]}}'))
-var y={e:A.G("l<e9>"),d:A.G("l<e>")};(function constants(){C.a3m=new A.o(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.a_W=new A.dP("Discount given at the middle of the month.",null,null,B.bk,C.a3m)
-C.a5C=new A.mA(null,C.a_W,null,!1,D.hs,G.eH,B.ey,null)
-C.Cf=new A.fn(B.dF,null,null,C.a5C,null)
+var y={e:A.H("l<e9>"),d:A.H("l<e>")};(function constants(){C.a3m=new A.o(!0,B.m,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.a_X=new A.dH("Discount given at the middle of the month.",null,null,B.b9,C.a3m)
+C.a5C=new A.lg(null,C.a_X,null,!1,D.hs,G.eH,B.dC,null)
+C.Cg=new A.fo(B.dH,null,null,C.a5C,null)
 C.it=new A.o(!0,B.i,null,null,null,null,12,B.P,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["R4uby4Jqc+ybC4e7rDdBUO+9Pk4="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["30tuwVRd0q8fyWF2/r8zgTxeZvo="] = $__dart_deferred_initializers__.current

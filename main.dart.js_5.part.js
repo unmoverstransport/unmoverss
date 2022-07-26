@@ -80,7 +80,7 @@ t.ch=D.oS
 t=t.n()
 p=A.J("R "+A.d(p))
 p.ch=D.oS
-v=A.aLg(A.a([new A.e9(new A.be(r,r,r,l,r,B.k2,B.G),w),new A.e9(r,u),new A.e9(new A.be(r,r,new A.cH(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),k),new A.e9(r,o),new A.e9(new A.be(r,r,new A.cH(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),n),new A.e9(new A.be(r,r,new A.cH(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),A.a([new A.a5(B.bC,t,r),B.A,new A.a5(B.bC,p.n(),r)],v))],x.S),B.oE)
+v=A.aLg(A.a([new A.e9(new A.be(r,r,r,l,r,B.k2,B.G),w),new A.e9(r,u),new A.e9(new A.be(r,r,new A.cG(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),k),new A.e9(r,o),new A.e9(new A.be(r,r,new A.cG(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),n),new A.e9(new A.be(r,r,new A.cG(B.r,B.r,new A.bk(B.cc,1.5,B.I),B.r),r,r,r,B.G),A.a([new A.a5(B.bC,t,r),B.A,new A.a5(B.bC,p.n(),r)],v))],x.S),B.oE)
 p=A.bo(5)
 q=!q.db
 p=A.mz(r,r,B.m,r,2,r,r,r,r,r,r,r,B.ay,new A.bK(p,new A.bk(!q||s.D1()?B.ay:B.aH,1.5,B.I)),r,r,r,r)
@@ -111,7 +111,7 @@ t=A.J("Pickup Date-Time: ")
 t.ch=D.dz
 t=t.n()
 r=G.aK_(l.b+" "+l.c)
-k=A.J(""+A.b4(r)+"-"+n.e[A.bn(r)-1]+"-"+n.E0(A.cL(r))+"  "+n.E0(A.pU(r))+":"+n.E0(A.pV(r)))
+k=A.J(""+A.b4(r)+"-"+n.e[A.bn(r)-1]+"-"+n.E0(A.cK(r))+"  "+n.E0(A.pU(r))+":"+n.E0(A.pV(r)))
 k.ch=B.a_
 k.d6$=B.i
 k=A.a([t,k.n()],s)
@@ -255,12 +255,12 @@ v(A.eJ,[C.a5B,C.a5A,C.a5w,C.a5x])})()
 A.dv(b.typeUniverse,JSON.parse('{"p4":{"Q":[],"e":[]},"XK":{"U":["p4"]},"NZ":{"a4":[],"e":[]},"oV":{"a4":[],"e":[]}}'))
 var y={d:"https://untransport.co.za/comapy-banking-details"}
 var x=(function rtii(){var w=A.H
-return{l:w("oV"),V:w("n0"),r:w("oY"),c:w("l<py>"),O:w("l<cC>"),x:w("l<a5>"),d:w("l<aC>"),s:w("l<j>"),S:w("l<e9>"),n:w("l<dH>"),A:w("l<dI>"),p:w("l<e>"),w:w("cQ"),P:w("aE"),D:w("mm"),N:w("j"),z:w("@"),H:w("~")}})();(function constants(){var w=a.makeConstList
+return{l:w("oV"),V:w("n0"),r:w("oY"),c:w("l<py>"),O:w("l<cV>"),x:w("l<a5>"),d:w("l<aC>"),s:w("l<j>"),S:w("l<e9>"),n:w("l<dH>"),A:w("l<dI>"),p:w("l<e>"),w:w("cP"),P:w("aE"),D:w("mm"),N:w("j"),z:w("@"),H:w("~")}})();(function constants(){var w=a.makeConstList
 D.a_U=new A.dH("Discount given at the middle of the month.",null,null,B.b9,B.dA)
 D.a5y=new A.lh(null,D.a_U,null,!1,E.hq,K.eG,B.dD,null)
 D.Cg=new A.fo(B.dI,null,null,D.a5y,null)
 D.L0=new A.dB(983823,"MaterialIcons",null,!1)
-D.Lf=new A.cP(B.de,20,B.S,null)
+D.Lf=new A.cO(B.de,20,B.S,null)
 D.a7h=new A.ll(D.Lf,B.fv,null,null)
 D.Mg=A.a(w([D.a7h]),A.H("l<h3>"))
 D.a15=new A.o(!0,B.aH,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -270,4 +270,4 @@ D.dz=new A.o(!0,B.ay,null,null,null,null,12,B.aQ,null,null,null,null,null,null,n
 D.BA=new A.o(!0,B.m,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.oS=new A.o(!0,B.i,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 D.a5d=new A.dI("Your Bookings",null,null,0,16,null)})()}
-$__dart_deferred_initializers__["MHdrr0JohAJbd5NLI6ReR1eSUq8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["QXQH34tCoe6krvVuQm3swQ+FTlc="] = $__dart_deferred_initializers__.current

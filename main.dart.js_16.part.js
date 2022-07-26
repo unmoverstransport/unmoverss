@@ -521,9 +521,9 @@ B.aFq(b.typeUniverse,JSON.parse('{"PK":1}'))
 var y={b:" is good when loading a double bed, 2 or 3 seater couch, double door fridge, a washing machine and a few other items E.G boxes and plastics",a:"_truckSizeCapabiltyDescriptionValueNotifier"}
 var x=(function rtii(){var w=B.H
 return{g:w("iU"),k:w("aH"),x:w("l<a5>"),T:w("l<E>"),s:w("l<j>"),H:w("l<dH>"),O:w("l<uS<n>>"),p:w("l<e>"),t:w("GZ<M>"),z:w("vk"),S:w("n"),m:w("vk?")}})();(function constants(){var w=a.makeConstList
-D.L2=new B.cP(C.de,30,C.ay,null)
-D.L7=new B.cP(F.f3,30,C.S,null)
-D.Le=new B.cP(C.de,30,C.S,null)
+D.L2=new B.cO(C.de,30,C.ay,null)
+D.L7=new B.cO(F.f3,30,C.S,null)
+D.Le=new B.cO(C.de,30,C.S,null)
 D.Lu=new A.ti(0,"repeat")
 D.Lv=new A.ti(1,"repeatX")
 D.Lw=new A.ti(2,"repeatY")
@@ -531,4 +531,4 @@ D.e4=new A.ti(3,"noRepeat")
 D.rR=B.a(w(["1.0 Ton Vehicle","1.5 Ton Vehicle","2.0 Ton Vehicle"]),x.s)
 D.N0=B.a(w([" is good when loading a double bed, single door fridge, a washing machine, dishwasher or tumble dryer machine and a few other stuff E.G boxes and plastics",y.b,y.b]),x.s)
 D.a1c=new B.o(!0,C.i,null,null,null,null,12,C.N,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null)})()}
-$__dart_deferred_initializers__["Oo9q+lMvTSPCINy+3ay4tpP/9wc="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["TP4rznaGOiiki66rKnHx5Dptfrk="] = $__dart_deferred_initializers__.current

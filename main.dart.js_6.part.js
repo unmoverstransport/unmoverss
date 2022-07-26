@@ -40,10 +40,10 @@ var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(D.ws,B.M)})()
 B.dv(b.typeUniverse,JSON.parse("{}"))
 var y={g:B.H("j"),a:B.H("M?")};(function constants(){A.a_W=new B.dH("Booking amount including number helpers and stairs",null,null,C.b9,C.dA)
-A.hq=new B.cP(E.ry,18,C.S,null)
+A.hq=new B.cO(E.ry,18,C.S,null)
 A.a5z=new B.lh(null,A.a_W,null,!1,A.hq,E.eG,C.dD,null)
 A.pu=new B.fo(C.dI,null,null,A.a5z,null)
 A.a_V=new B.dH("Discount for returning customers. ",null,null,C.b9,C.dA)
 A.a5A=new B.lh(null,A.a_V,null,!1,A.hq,E.eG,C.dD,null)
 A.pv=new B.fo(C.dI,null,null,A.a5A,null)})()}
-$__dart_deferred_initializers__["00rg0O8CrucbZpdp3k/UGfMKcxM="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["/bvTEDRnefaczlyxu0S1Cxh7/VQ="] = $__dart_deferred_initializers__.current

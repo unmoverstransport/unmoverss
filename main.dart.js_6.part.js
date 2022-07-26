@@ -39,14 +39,11 @@ return B.al(["pickup_date",o,"pickup_time",n,"routes",m,"distance",l,"payment_op
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(D.ws,B.M)})()
 B.dv(b.typeUniverse,JSON.parse("{}"))
-var y={g:B.H("j"),a:B.H("M?")};(function constants(){A.a00=new B.dH("Booking amount including number helpers and stairs",null,null,C.b9,C.dz)
-A.hs=new B.cC(E.rA,18,C.aq,null)
-A.a5E=new B.lg(null,A.a00,null,!1,A.hs,E.eH,C.dC,null)
-A.pw=new B.fo(C.dH,null,null,A.a5E,null)
-A.a0_=new B.dH("Discount for returning customers. ",null,null,C.b9,C.dz)
-A.a5F=new B.lg(null,A.a0_,null,!1,A.hs,E.eH,C.dC,null)
-A.px=new B.fo(C.dH,null,null,A.a5F,null)
-A.CY=new B.bs(C.ak,1,C.O)
-A.CZ=new B.df(C.v,C.v,A.CY,C.v)
-A.dK=new B.bn(null,null,A.CZ,null,null,null,C.J)})()}
-$__dart_deferred_initializers__["BFXn8co6mcYhdvsnOHlApVUE7e8="] = $__dart_deferred_initializers__.current
+var y={g:B.H("j"),a:B.H("M?")};(function constants(){A.a_W=new B.dH("Booking amount including number helpers and stairs",null,null,C.b9,C.dA)
+A.hq=new B.cP(E.ry,18,C.S,null)
+A.a5z=new B.lh(null,A.a_W,null,!1,A.hq,E.eG,C.dD,null)
+A.pu=new B.fo(C.dI,null,null,A.a5z,null)
+A.a_V=new B.dH("Discount for returning customers. ",null,null,C.b9,C.dA)
+A.a5A=new B.lh(null,A.a_V,null,!1,A.hq,E.eG,C.dD,null)
+A.pv=new B.fo(C.dI,null,null,A.a5A,null)})()}
+$__dart_deferred_initializers__["00rg0O8CrucbZpdp3k/UGfMKcxM="] = $__dart_deferred_initializers__.current

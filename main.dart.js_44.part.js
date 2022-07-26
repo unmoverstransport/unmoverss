@@ -1,177 +1,182 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B={
-b18(){return new B.oR(null)},
-oR:function oR(d){this.a=d},
-Wu:function Wu(d,e,f,g,h,i){var _=this
+b2d(){return new B.p6(null)},
+p6:function p6(d){this.a=d},
+J1:function J1(d,e,f,g,h,i,j,k){var _=this
 _.d=d
 _.e=e
 _.f=f
 _.r=g
 _.w=h
+_.x=i
+_.z=_.y=null
+_.Q=j
 _.a=null
-_.b=i
+_.b=k
 _.c=null},
-atM:function atM(d){this.a=d},
-atL:function atL(d){this.a=d},
-atN:function atN(d){this.a=d},
-atO:function atO(){},
-atR:function atR(d){this.a=d},
-atS:function atS(d){this.a=d},
-atK:function atK(d){this.a=d},
-atT:function atT(d){this.a=d},
-atU:function atU(){},
-atV:function atV(d){this.a=d},
-atX:function atX(d){this.a=d},
-atW:function atW(){},
-atY:function atY(){},
-atP:function atP(d,e){this.a=d
+awP:function awP(){},
+awQ:function awQ(d){this.a=d},
+awR:function awR(d,e){this.a=d
 this.b=e},
-atI:function atI(d,e){this.a=d
+awS:function awS(){},
+awT:function awT(d){this.a=d},
+awU:function awU(d,e){this.a=d
 this.b=e},
-atJ:function atJ(d,e){this.a=d
-this.b=e},
-atQ:function atQ(d){this.a=d}},A,C,E,M,D,G,H,N,I,O,K,L,F,J
-B=a.updateHolder(c[19],B)
+awV:function awV(){},
+awW:function awW(d){this.a=d}},A,C,D,I,F,E,K,G,L,J,H
+B=a.updateHolder(c[18],B)
 A=c[0]
 C=c[2]
-E=c[23]
-M=c[50]
-D=c[44]
-G=c[31]
-H=c[42]
-N=c[51]
-I=c[52]
-O=c[53]
-K=c[40]
-L=c[48]
-F=c[54]
+D=c[25]
+I=c[54]
+F=c[46]
+E=c[47]
+K=c[55]
+G=c[59]
+L=c[57]
 J=c[1]
-B.oR.prototype={
-V(){var x=$.ar(),w=A.bQ(!0,null,!0,!0,null,null,!1)
-return new B.Wu(new A.bf(0,x),new A.bf(0,x),w,new A.c9(new A.cm("",C.aP,C.ah),x),new A.bf(new E.f8(!0,!1),x),C.k)}}
-B.Wu.prototype={
-B(d,e){var x,w,v,u,t,s,r,q,p,o=this,n=null,m=A.Q("Extra information for booking")
-m.ch=M.iq
-m=A.aC(m.q(),16,0,0,0)
-x=A.Q("Additional helpers")
-x.ch=D.et
-x=A.aC(x.q(),10,0,0,0)
-w=A.Q("Number of helpers in addition to the driver")
-w.ch=A.b1(n,n,C.cJ,n,n,n,n,n,n,n,n,12,n,C.p,n,n,!0,n,n,n,C.N,n,n,n,n)
-w.as=C.P
-v=o.d
-u=y.e
-t=y.u
-v=A.b([x,A.aC(w.q(),10,0,0,0),A.cr(new B.atM(o),v,u),new A.cz(A.b([A.eB(n,D.e1,new B.atN(o),n,n),A.cr(new B.atO(),v,u),A.eB(n,D.e0,new B.atR(o),n,n)],t),n,n,n,n)],t)
-w=A.Q("Stairs to carry")
-w.ch=D.et
-w=w.q()
-x=A.Q("Number of floors to carry at pick up and drop off addresses")
-x.ch=A.b1(n,n,C.cJ,n,n,n,n,n,n,n,n,12,n,C.p,n,n,!0,n,n,n,C.N,n,n,n,n)
-x.as=C.P
-x=A.aC(x.q(),10,0,0,0)
-s=o.e
-r=A.ir(A.cr(new B.atS(o),s,u),new A.bl(A.aq(50,151,38,120),n,n,n,n,n,C.I),C.b6)
-u=A.aI(new A.a9(1/0,n,new A.ab(A.b([new A.a1(new A.a6(10,10,10,10),w,n),x,G.wh(A.bj(100),r),new A.cz(A.b([A.eB(n,D.e1,new B.atT(o),n,n),A.cr(new B.atU(),s,u),A.eB(n,D.e0,new B.atV(o),n,n)],t),n,n,n,n)],t),C.w,C.o,n,n),n),0,10)
-s=A.Q("Note to driver")
-s.ch=H.c3
-s=A.aC(s.q(),5,0,0,10)
-r=A.bj(5)
-x=A.bj(5)
-x=A.aC(A.qv(!0,C.b7,!1,n,o.r,n,n,n,2,A.fK(n,new A.e1(4,A.bj(5),new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,!0,new A.e1(4,r,new A.bq(C.bE,1,C.L)),n,n,n,n,n,n,n,n,n,n,new A.e1(4,x,C.j_),n,n,n,n,n,n,"Optional",n,n,n,n,!1,n,n,n,n,n,n,n,n,n,n,n,n,D.oP,n,n,n,n),!0,!0,!0,n,!1,o.f,n,n,C.cg,500,C.hZ,5,n,n,!1,"\u2022",new B.atW(),new B.atX(e),n,new B.atY(),!1,n,n,C.M,n,n,n,n,n,n,C.aG,C.S,n,C.ag,n,C.bx,n),10,0,0,0)
-r=A.Q("Payment Options")
-r.ch=H.c3
-r=A.aC(r.q(),5,0,0,0)
-w=A.cr(new B.atP(o,e),o.w,y.A)
-q=A.mv(n,n,C.m,n,2,n,n,n,n,n,n,n,C.al,new A.bH(A.bj(5),N.eE),n,n,n,n)
-p=A.Q("Continue")
-p.ch=C.es
-return new A.fH(A.b([new A.a9(1/0,n,new A.ab(A.b([A.aI(new A.a9(450,n,new A.ab(A.b([I.a5o,m,new A.a9(1/0,n,new A.ab(v,C.w,C.o,n,n),n),u,s,x,r,w,new A.a9(1/0,n,A.aI(A.id(new A.cz(A.b([new A.hZ(1,C.bX,p.q(),n),C.bO,O.e_],t),C.w,C.o,C.aw,n),new B.atQ(o),q),0,16),n)],t),C.w,C.A,n,n),n),32,24)],y.p),C.w,C.o,n,n),n)],t),"/quote/additional-information",n)}}
-var z=a.updateTypes(["lI(W,n,e?)","kG(W,n,e?)","e(W,f8,e?)"])
-B.atM.prototype={
-$3(d,e,f){var x=null,w=A.ir(E.Fi(C.ax,1,10,0,new B.atL(this.a),D.oL,1,e),new A.bl(A.aq(50,151,38,120),x,x,x,x,x,C.I),C.b6)
-return G.wh(A.bj(100),w)},
-$S:z+0}
-B.atL.prototype={
-$1(d){this.a.d.sm(0,d)},
-$S:18}
-B.atN.prototype={
-$0(){var x=this.a.d,w=x.a
-if(w>0)x.sm(0,w-1)},
-$S:0}
-B.atO.prototype={
-$3(d,e,f){return A.Q("Additional Helpers: "+A.d(e)).q()},
-$S:172}
-B.atR.prototype={
-$0(){var x=this.a.d,w=x.a
-if(w<10)x.sm(0,w+1)},
-$S:0}
-B.atS.prototype={
-$3(d,e,f){return E.Fi(C.ax,1,20,0,new B.atK(this.a),D.oK,1,e)},
-$S:z+1}
-B.atK.prototype={
-$1(d){this.a.e.sm(0,d)},
-$S:18}
-B.atT.prototype={
-$0(){var x=this.a.e,w=x.a
-if(w>0)x.sm(0,w-1)},
-$S:0}
-B.atU.prototype={
-$3(d,e,f){return A.Q("Stairs to Carry: "+A.d(e)).q()},
-$S:67}
-B.atV.prototype={
-$0(){var x=this.a.e,w=x.a
-if(w<20)x.sm(0,w+1)},
-$S:0}
-B.atX.prototype={
-$0(){A.di(this.a).ei(A.bQ(!0,null,!0,!0,null,null,!1))},
-$S:0}
-B.atW.prototype={
-$1(d){},
-$S:9}
-B.atY.prototype={
-$0(){},
-$S:0}
-B.atP.prototype={
-$3(d,e,f){var x,w,v,u,t=null,s=A.cn("Cash "),r=A.c_("(RANDS)")
-r.as=K.b4
-x=y.i
-s.c=A.b([r.q()],x)
-s.cx=C.aC
-r=this.a
-w=this.b
-s=A.dF(C.y,!0,t,E.Cb(C.az,C.T,L.cR,new B.atI(r,w),C.az,F.ib,C.m,s.q(),e.a),C.ad,t,0,t,t,F.ib,t,t,C.af)
-v=A.cn("EFT ")
-u=A.c_("(ABSA, FNB, CAPITEC, NEDBANK)")
-u.as=K.b4
-v.c=A.b([u.q()],x)
-v.cx=C.aC
-v=A.c4(new A.a1(new A.a6(5,5,5,5),new A.ab(A.b([s,A.dF(C.y,!0,D.eD,E.Cb(C.az,C.T,L.cR,new B.atJ(r,w),t,F.Ak,C.m,v.q(),e.b),C.ad,t,0,t,t,t,t,t,C.af)],y.C),t,t,t,t),t))
-v.as=new A.bl(C.E,t,A.NX(C.bE,1),A.bj(5),t,t,C.I)
-return v.q()},
-$S:z+2}
-B.atI.prototype={
-$1(d){A.di(this.b).ei(A.bQ(!0,null,!0,!0,null,null,!1))
-d.toString
-if(d)this.a.w.sm(0,new E.f8(!0,!1))},
-$S:41}
-B.atJ.prototype={
-$1(d){if(d===!0){A.di(this.b).ei(A.bQ(!0,null,!0,!0,null,null,!1))
-this.a.w.sm(0,new E.f8(!1,!0))}},
-$S:41}
-B.atQ.prototype={
-$0(){var x,w=$.aD(),v=this.a
-J.ew($.cd().to.c,"additional-helpers",v.d.a)
-J.ew($.cd().to.c,"carry-stairs",v.e.a)
-J.ew($.cd().to.c,"driver-note",v.r.a.a)
-x=$.cd().to.c
-J.ew(x,"payment-option",v.w.a.a?"CASH":"EFT")
-A.h1(w,"/quote/quote-booking",$.cd().to.c,null,y.b)},
-$S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(B.oR,A.P)
-x(B.Wu,A.U)
-w(A.bM,[B.atM,B.atL,B.atO,B.atS,B.atK,B.atU,B.atW,B.atP,B.atI,B.atJ])
-w(A.eJ,[B.atN,B.atR,B.atT,B.atV,B.atX,B.atY,B.atQ])})()
-A.dI(b.typeUniverse,JSON.parse('{"oR":{"P":[],"e":[]},"Wu":{"U":["oR"]}}'))
-var y={C:A.G("l<iB>"),p:A.G("l<a1>"),i:A.G("l<eF>"),u:A.G("l<e>"),A:A.G("f8"),b:A.G("@"),e:A.G("n")};(function constants(){I.a5o=new A.dS("4/5 Additional information",null,null,0,0,null)})()}
-$__dart_deferred_initializers__["m3gTgCjBKwJ3znTm+34nk38Dwt4="] = $__dart_deferred_initializers__.current
+H=c[50]
+B.p6.prototype={
+V(){var x=$.ar(),w=y.o
+return new B.J1(new A.ca(new A.cq("",C.aS,C.ah),x),new A.ca(new A.cq("",C.aS,C.ah),x),new A.bg(!1,x),new A.bg(new D.rI(),x),new A.aP(null,w),new A.aP(null,w),new D.rI(),C.l)}}
+B.J1.prototype={
+l(d){var x=this,w=x.f,v=w.x1$=$.ar()
+w.to$=0
+w=x.d
+w.x1$=v
+w.to$=0
+w=x.e
+w.x1$=v
+w.to$=0
+x.ao(0)},
+B(d,e){var x,w,v,u,t,s,r,q,p=this,o=null,n=A.J("Choose booking date and time")
+n.ch=I.is
+n=A.aK(n.n(),16,0,0,0)
+x=A.cr(new B.awP(),p.f,y.e)
+w=A.J("Booking Date")
+w.ch=F.c6
+w=A.aK(w.n(),5,0,0,0)
+v=A.jJ(o,A.fB(!0,o,!1,o,p.d,2,A.fL(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g "+p.kW(A.b4(new A.bF(Date.now(),!1)))+"-"+p.kW(A.bn(new A.bF(Date.now(),!1)))+"-"+p.kW(A.bn(new A.bF(Date.now(),!1))),o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,E.jK,o,o,o,o),o,o,!1,o,o,o,C.dy,1,!1,o,o,new B.awQ(p),o,new B.awR(p,e),!0,o,C.a6,o,C.a_,C.O,C.ag,C.bF,new B.awS()),p.w)
+u=A.J("Booking Time")
+u.ch=F.c6
+u=A.aK(u.n(),5,0,0,10)
+t=A.jJ(o,A.fB(!0,o,!1,o,p.e,2,A.fL(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g "+p.kW(A.pU(new A.bF(Date.now(),!1)))+":"+p.kW(A.pV(new A.bF(Date.now(),!1))),o,o,o,o,!1,o,o,o,o,o,o,o,o,o,o,o,o,E.jM,o,o,o,o),o,o,!1,o,o,o,C.dy,1,!1,o,o,new B.awT(p),o,new B.awU(p,e),!0,o,C.a6,o,C.a_,C.O,C.ag,C.bF,new B.awV()),p.x)
+s=A.mz(o,o,C.m,o,2,o,o,o,o,o,o,o,C.ay,new A.bK(A.bo(5),K.eE),o,o,o,o)
+r=A.J("Continue")
+r.ch=C.ev
+q=y.u
+return new A.fq(A.a([new A.a_(1/0,o,new A.a3(A.a([A.aM(new A.a_(450,o,new A.a3(A.a([G.a5g,n,x,w,v,u,t,A.aK(new A.a_(1/0,o,A.id(A.aM(new A.bG(A.a([new A.dY(1,C.bm,r.n(),o),C.bS,L.e1],q),C.x,C.q,C.aG,o),0,5),p.ga7a(),s),o),0,0,0,16)],q),C.x,C.p,o,o),o),32,24)],y.p),C.x,C.q,o,o),o)],q),"/quote/date-time",o)},
+kW(d){if(d>=10)return""+d
+return"0"+d},
+CJ(){var x=0,w=A.B(y.b),v,u=this,t
+var $async$CJ=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:if(u.w.gZ().de()&&u.x.gZ().de()){if(u.F2()){x=1
+break}t=$.aA()
+J.ey($.cf().to.c,"pickup-date",u.d.a.a)
+J.ey($.cf().to.c,"pickup-time",u.e.a.a)
+A.f5(t,"/quote/additional-information",$.cf().to.c,null,y.b)}case 1:return A.z(v,w)}})
+return A.A($async$CJ,w)},
+ht(d){return this.as1(d)},
+as1(d){var x=0,w=A.B(y.b),v,u=this,t,s,r,q,p
+var $async$ht=A.x(function(e,f){if(e===1)return A.y(f,w)
+while(true)switch(x){case 0:q=new A.bF(Date.now(),!1)
+p=u.c
+p.toString
+x=3
+return A.t(D.a41(p,q,q,A.cy(A.b4(new A.bF(Date.now(),!1))+100,1,1,0,0)),$async$ht)
+case 3:p=f
+u.z=p
+if(p==null){x=1
+break}u.F2()
+p=u.d
+t=u.z
+t.toString
+s=u.kW(A.bn(t))
+r=u.z
+r.toString
+p.sbL(0,""+A.b4(t)+"-"+s+"-"+u.kW(A.cL(r)))
+p.a.toString
+u.r.sm(0,u.Q)
+u.w.gZ().de()
+case 1:return A.z(v,w)}})
+return A.A($async$ht,w)},
+F2(){var x,w,v,u=this
+if(u.z!=null&&u.y!=null){x=Date.now()
+w=u.z
+w.toString
+v=u.y
+x=C.f.c7(A.bi(0,A.cy(A.b4(w),A.bn(w),A.cL(w),v.a,v.b).a-x,0).a,1e6)
+x=x<5400||x<0
+w=u.f
+if(x){w.sm(0,!0)
+return w.a}else{w.sm(0,!1)
+return w.a}}return!0},
+hu(d){return this.as4(d)},
+as4(d){var x=0,w=A.B(y.b),v,u=this,t
+var $async$hu=A.x(function(e,f){if(e===1)return A.y(f,w)
+while(true)switch(x){case 0:t=new A.bF(Date.now(),!1)
+x=3
+return A.t(D.a42(new B.awW(d),d,new D.by(A.pU(t),A.pV(t))),$async$hu)
+case 3:t=f
+u.y=t
+if(t==null){x=1
+break}u.F2()
+t=u.e
+t.sbL(0,u.kW(u.y.a)+":"+u.kW(u.y.b))
+t.a.toString
+u.r.sm(0,u.Q)
+u.x.gZ().de()
+case 1:return A.z(v,w)}})
+return A.A($async$hu,w)}}
+var z=a.updateTypes(["~()"])
+B.awP.prototype={
+$3(d,e,f){var x,w=null
+if(e){x=A.J("Time of booking must be atleast 1hr 30 min prior")
+x.ch=E.oM
+x=A.hd(new A.a5(new A.a2(15,15,15,15),A.b2(x.n(),w,w,w),w))
+x.y=H.f0
+x.as=new A.be(H.dP,w,w,A.bo(5),w,w,C.G)
+return x.n()}return C.A},
+$S:31}
+B.awQ.prototype={
+$1(d){this.a.w.gZ().de()},
+$S:7}
+B.awR.prototype={
+$0(){var x=0,w=A.B(y.v),v=this
+var $async$$0=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:x=2
+return A.t(v.a.ht(v.b),$async$$0)
+case 2:return A.z(null,w)}})
+return A.A($async$$0,w)},
+$S:2}
+B.awS.prototype={
+$1(d){if(d.length===0)return"Date needed"
+return null},
+$S:13}
+B.awT.prototype={
+$1(d){this.a.x.gZ().de()},
+$S:7}
+B.awU.prototype={
+$0(){var x=0,w=A.B(y.v),v=this
+var $async$$0=A.x(function(d,e){if(d===1)return A.y(e,w)
+while(true)switch(x){case 0:x=2
+return A.t(v.a.hu(v.b),$async$$0)
+case 2:return A.z(null,w)}})
+return A.A($async$$0,w)},
+$S:2}
+B.awV.prototype={
+$1(d){if(d.length===0)return"Time needed"
+return null},
+$S:13}
+B.awW.prototype={
+$2(d,e){return new A.cQ(this.a.J(y.x).f.FH(!0),e,null)},
+$S:125};(function installTearOffs(){var x=a._instance_0u
+x(B.J1.prototype,"ga7a","CJ",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(B.p6,A.Q)
+x(B.J1,A.U)
+w(A.bP,[B.awP,B.awQ,B.awS,B.awT,B.awV])
+w(A.eJ,[B.awR,B.awU])
+x(B.awW,A.fH)})()
+A.dv(b.typeUniverse,JSON.parse('{"p6":{"Q":[],"e":[]},"J1":{"U":["p6"]}}'))
+var y={p:A.H("l<a5>"),u:A.H("l<e>"),o:A.H("aP<lW>"),x:A.H("cQ"),e:A.H("F"),b:A.H("@"),v:A.H("~")};(function constants(){G.a5g=new A.dI("3/5 Booking Date Time",null,null,0,0,null)})()}
+$__dart_deferred_initializers__["5sXR3Q3R2A4f30lZvRxKHRGI3Bg="] = $__dart_deferred_initializers__.current

@@ -1,6 +1,6 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B={
-b2I(){return new B.pd(null)},
+b2H(){return new B.pd(null)},
 pd:function pd(d){this.a=d},
 Yg:function Yg(d,e,f){var _=this
 _.d=d
@@ -128,7 +128,7 @@ B(d,e){var x=null
 return new A.fq(A.a([A.eL(new B.axD(e),x,x,x,y.V)],y.p),"/signed-in/bookings",x)}}
 B.Da.prototype={
 V(){var x=null,w=$.aA(),v=y.l
-return new B.Yh(A.c5(w,A.aSy(),y.o),A.c5(w,A.BB(),y.g),A.c5(w,A.aKe(),y.V),A.c5(w,A.abQ(),y.N),A.c5(w,A.a8w(),y.x),new A.aP(x,v),new A.aP(x,v),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),C.l)}}
+return new B.Yh(A.c5(w,A.aSx(),y.o),A.c5(w,A.BB(),y.g),A.c5(w,A.aKe(),y.V),A.c5(w,A.abQ(),y.N),A.c5(w,A.a8w(),y.x),new A.aP(x,v),new A.aP(x,v),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),A.bT(!0,x,!0,!0,x,x,!1),C.l)}}
 B.Yh.prototype={
 af(){var x,w,v,u=this,t=u.a.c,s=$.ar(),r=new A.ca(new A.cq(t.b,C.aS,C.ah),s)
 u.ay=r
@@ -201,13 +201,13 @@ x.x1$=w
 x.to$=0
 v.ao(0)},
 b5(){var x,w,v
-for(x=0;x<3;++x){w=C.hG[x]
+for(x=0;x<3;++x){w=C.hE[x]
 v=this.c
 v.toString
 A.aMC(new A.oT(w),v)}this.ca()},
 B(d,a0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j=this,i=null,h="Continue",g="_additionalHelpersController",f="_floorsToCarryController",e=A.J("BOOKING ID: "+j.a.c.a)
 e.as=C.P
-e.ch=G.a1f
+e.ch=G.a1h
 e=A.aK(A.b2(e.n(),i,i,i),0,16,16,16)
 x=A.a1(a0).ka(C.J)
 w=A.J("Vehicle type")
@@ -229,7 +229,7 @@ r=r.n()
 q=y.B
 p=A.cr(new B.ayk(),A.b(j.fr,"_locationsErrorMsg"),q)
 o=A.cr(new B.ayp(j),A.b(j.cy,"_userChoosenLocationsValueNotifier"),y.u)
-n=H.aLh(A.b(j.cx,"_searchLocation"),G.LF,j.ok,C.aA)
+n=H.aLh(A.b(j.cx,"_searchLocation"),G.LH,j.ok,C.aA)
 s=F.nf(i,A.a([p,o,A.aM(H.aLv(A.bi(0,500,0),!0,new B.ayq(),new B.ayr(j),H.aMp(),n,y.Q),10,0),A.eL(new B.ays(),i,i,i,y.x),new F.i1(h,new B.ayt(j),new B.ayu(j),i)],t),C.b6,new B.ay_(j),i,!1,"2",r,s,C.A)
 r=A.a1(a0).ka(C.J)
 n=A.J("Date Time")
@@ -242,7 +242,7 @@ o=A.aK(o.n(),5,0,0,0)
 p=A.jJ(i,A.fB(!0,i,!1,i,A.b(j.ay,"_date"),2,A.fL(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,"e.g "+j.kS(A.b4(new A.bF(Date.now(),!1)))+"-"+j.kS(A.bn(new A.bF(Date.now(),!1)))+"-"+j.kS(A.bn(new A.bF(Date.now(),!1))),i,i,i,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,R.jK,i,i,i,i),i,i,!1,i,i,i,C.dy,1,!1,i,i,new B.ay1(j),i,new B.ay2(j,a0),!0,i,C.a6,i,C.a_,C.O,C.ag,C.bF,new B.ay3()),j.x)
 m=A.J("Booking Time")
 m.ch=Q.c6
-n=F.nf(i,A.a([A.aM(new A.a3(A.a([q,o,p,G.ZJ,A.aK(m.n(),5,0,0,10),A.aK(A.jJ(i,A.fB(!0,i,!1,i,A.b(j.ch,"_time"),2,A.fL(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,"e.g "+j.kS(A.pU(new A.bF(Date.now(),!1)))+":"+j.kS(A.pV(new A.bF(Date.now(),!1))),i,i,i,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,R.jM,i,i,i,i),i,i,!1,i,i,i,C.dy,1,!1,i,i,new B.ay4(j),i,new B.ay5(j,a0),!0,i,C.a6,i,C.a_,C.O,C.ag,C.bF,new B.ay6()),j.y),15,0,0,0)],t),C.o,C.p,i,i),10,0),new F.i1(h,new B.ay7(j,a0),new B.ay8(j),i)],t),C.b6,new B.aya(j),i,!1,"3",i,n,C.A)
+n=F.nf(i,A.a([A.aM(new A.a3(A.a([q,o,p,G.ZL,A.aK(m.n(),5,0,0,10),A.aK(A.jJ(i,A.fB(!0,i,!1,i,A.b(j.ch,"_time"),2,A.fL(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,"e.g "+j.kS(A.pU(new A.bF(Date.now(),!1)))+":"+j.kS(A.pV(new A.bF(Date.now(),!1))),i,i,i,i,!1,i,i,i,i,i,i,i,i,i,i,i,i,R.jM,i,i,i,i),i,i,!1,i,i,i,C.dy,1,!1,i,i,new B.ay4(j),i,new B.ay5(j,a0),!0,i,C.a6,i,C.a_,C.O,C.ag,C.bF,new B.ay6()),j.y),15,0,0,0)],t),C.o,C.p,i,i),10,0),new F.i1(h,new B.ay7(j,a0),new B.ay8(j),i)],t),C.b6,new B.aya(j),i,!1,"3",i,n,C.A)
 m=A.a1(a0).ka(C.J)
 p=A.J("Additional Information")
 p.ch=O.cl
@@ -266,7 +266,7 @@ u=A.aM(new A.a_(1/0,i,new A.a3(A.a([new A.a5(new A.a2(10,10,10,10),o,i),l,S.wi(A
 k=A.J("Note to Driver")
 k.ch=C.aB
 k=A.aK(k.n(),5,10,10,10)
-l=A.aM(A.qv(!0,C.bb,!1,i,A.b(j.CW,"_driversNote"),i,i,i,2,G.LL,!0,!0,!0,i,!1,j.k4,i,i,C.ck,500,C.i_,5,i,i,!1,"\u2022",new B.ayf(j),new B.ayg(a0),i,new B.ayh(),!1,i,i,C.a6,i,i,i,i,i,i,C.a_,C.O,i,C.ag,i,C.bF,i),10,0)
+l=A.aM(A.qv(!0,C.bb,!1,i,A.b(j.CW,"_driversNote"),i,i,i,2,G.LN,!0,!0,!0,i,!1,j.k4,i,i,C.ck,500,C.hY,5,i,i,!1,"\u2022",new B.ayf(j),new B.ayg(a0),i,new B.ayh(),!1,i,i,C.a6,i,i,i,i,i,i,C.a_,C.O,i,C.ag,i,C.bF,i),10,0)
 o=A.J("Payment Options")
 o.ch=Q.c6
 p=F.nf(i,A.a([q,u,k,l,A.aK(o.n(),5,10,10,0),A.aM(A.cr(new B.ayi(j,a0),A.b(j.dx,"_paymentOptionValueNotifier"),y.v),10,0),new F.i1(h,new B.ayj(j,a0),new B.ayl(j),i)],t),C.b6,new B.aym(j),C.p,!1,"4",i,p,C.A)
@@ -399,7 +399,7 @@ B.axE.prototype={
 $1(d){var x=0,w=A.B(y.P),v=this,u
 var $async$$1=A.x(function(e,f){if(e===1)return A.y(f,w)
 while(true)switch(x){case 0:$.aA()
-u=$.cf().x1.h(0,"retrieve")
+u=$.ch().x1.h(0,"retrieve")
 u.toString
 v.a.e.q4(u)
 return A.z(null,w)}})
@@ -411,7 +411,7 @@ if(w===C.re)return new A.a_(x,this.a.J(y.w).f.a.b,new A.a_(1/0,x,new A.a5(new A.
 else if(w===C.rg)return A.J(d.ay).n()
 else if(w===C.rf){w=d.ch
 w.toString
-return new A.a3(A.a([A.aM(new A.a_(450,x,new A.a3(A.a([G.a59,new B.Da(w,x)],y.p),C.x,C.p,C.aG,x),x),0,16)],y.q),C.x,C.q,x,x)}return C.A},
+return new A.a3(A.a([A.aM(new A.a_(450,x,new A.a3(A.a([G.a5b,new B.Da(w,x)],y.p),C.x,C.p,C.aG,x),x),0,16)],y.q),C.x,C.q,x,x)}return C.A},
 $S:647}
 B.axX.prototype={
 $3(d,e,f){return new X.ju(e,!1,new B.axO(this.a),null)},
@@ -440,7 +440,7 @@ x.ch=D.oN
 x=A.hd(new A.a5(new A.a2(15,15,15,15),A.b2(x.n(),w,w,w),w))
 x.y=P.f0
 x.as=new A.be(P.dP,w,w,A.bo(5),w,w,C.G)
-return x.n()}return T.io},
+return x.n()}return T.il},
 $S:31}
 B.ayp.prototype={
 $3(d,e,f){var x,w,v,u,t,s,r,q=null,p=A.a([],y._)
@@ -548,7 +548,7 @@ x.ch=R.oM
 x=A.hd(new A.a5(new A.a2(15,15,15,15),A.b2(x.n(),w,w,w),w))
 x.y=P.f0
 x.as=new A.be(P.dP,w,w,A.bo(5),w,w,C.G)
-return x.n()}return T.io},
+return x.n()}return T.il},
 $S:31}
 B.ay1.prototype={
 $1(d){this.a.x.gZ().de()},
@@ -601,10 +601,10 @@ A.b(x.fy,"_additionalHelpersController").sm(0,d)
 A.b(x.id,"_model").Q=d},
 $S:18}
 B.ayc.prototype={
-$3(d,e,f){var x,w,v=null,u=C.f.il(e,0)?A.a6(50,81,79,151):C.S
+$3(d,e,f){var x,w,v=null,u=C.f.il(e,0)?A.a6(50,81,79,151):C.T
 u=A.eD(u,E.e3,C.f.il(e,0)?v:new B.axV(this.a),18,v)
 x=A.J("Additional Helpers: "+A.d(e)).n()
-w=C.f.ii(e,10)?A.a6(50,81,79,151):C.S
+w=C.f.ii(e,10)?A.a6(50,81,79,151):C.T
 return new A.bG(A.a([u,x,A.eD(w,E.e2,C.f.ii(e,10)?v:new B.axW(this.a),v,v)],y.p),v,v,v,v)},
 $S:44}
 B.axV.prototype={
@@ -628,10 +628,10 @@ A.b(w.go,x).sm(0,d)
 A.b(w.id,"_model").f=A.b(w.go,x).a},
 $S:18}
 B.aye.prototype={
-$3(d,e,f){var x,w,v=null,u=C.f.il(e,0)?A.a6(50,81,79,151):C.S
+$3(d,e,f){var x,w,v=null,u=C.f.il(e,0)?A.a6(50,81,79,151):C.T
 u=A.eD(u,E.e3,C.f.il(e,0)?v:new B.axS(this.a),18,v)
 x=A.J("Stairs to Carry: "+A.d(e)).n()
-w=C.f.ii(e,20)?A.a6(50,81,79,151):C.S
+w=C.f.ii(e,20)?A.a6(50,81,79,151):C.T
 return new A.bG(A.a([u,x,A.eD(w,E.e2,C.f.ii(e,20)?v:new B.axT(this.a),18,v)],y.p),v,v,v,v)},
 $S:44}
 B.axS.prototype={
@@ -678,7 +678,7 @@ u=A.a([p,A.dF(C.B,!0,E.eD,I.Cd(C.ax,C.U,U.cT,new B.axR(o,w),q,q,C.m,u,t),C.ac,C.
 if(v)u.push(A.aM(A.mp(q,q,C.V,!0,q,E.eu,C.O,q,q,1,C.am),6,5))
 if(t){p=A.aM(A.mp(q,q,C.V,!0,q,E.eu,C.O,q,q,1,C.am),6,5)
 o=A.b_("Mercantile Bank\n")
-o.cx=M.ir
+o.cx=M.ip
 w=A.aN("A Division of Capitec Bank Limited")
 w.as=N.aI
 o.c=A.a([w.n()],x)
@@ -755,8 +755,8 @@ x=A.b(s.id,t)
 w=d.ch
 x.ax=w.f
 v=w.d
-return new A.a3(A.a([A.aM(new Y.xx(A.b(s.id,t),v,u),10,0),new F.i1("UPDATE",new B.axJ(s),new B.axK(s),u)],y.p),u,u,u,u)}else if(s===C.hn){s=this.a
-return new A.a3(A.a([A.J(d.ay).n(),new F.i1("UPDATE",new B.axL(s),new B.axP(s),u)],y.p),u,u,u,u)}else if(s===C.hm)return C.b7
+return new A.a3(A.a([A.aM(new Y.xx(A.b(s.id,t),v,u),10,0),new F.i1("UPDATE",new B.axJ(s),new B.axK(s),u)],y.p),u,u,u,u)}else if(s===C.hl){s=this.a
+return new A.a3(A.a([A.J(d.ay).n(),new F.i1("UPDATE",new B.axL(s),new B.axP(s),u)],y.p),u,u,u,u)}else if(s===C.hk)return C.b7
 return C.A},
 $S:123}
 B.axJ.prototype={
@@ -828,11 +828,11 @@ x(A.U,[B.Yg,B.Yh])
 x(A.bP,[B.axE,B.axD,B.axX,B.axO,B.ay9,B.ayk,B.ayp,B.ayr,B.ays,B.ay_,B.ay0,B.ay1,B.ay3,B.ay4,B.ay6,B.aya,B.ayb,B.axM,B.ayc,B.ayd,B.axU,B.aye,B.ayf,B.ayi,B.axQ,B.axR,B.aym,B.ayn,B.ayo,B.axG,B.axF])
 x(A.eJ,[B.axY,B.axZ,B.axN,B.ayt,B.ayu,B.ay2,B.ay5,B.ay7,B.ay8,B.axV,B.axW,B.axS,B.axT,B.ayg,B.ayh,B.ayj,B.ayl,B.axJ,B.axI,B.axK,B.axL,B.axH,B.axP])
 x(A.fH,[B.ayq,B.ayv])})()
-A.dv(b.typeUniverse,JSON.parse('{"pd":{"Q":[],"e":[]},"Yg":{"U":["pd"]},"Da":{"Q":[],"e":[]},"Yh":{"U":["Da"]}}'))
+A.dw(b.typeUniverse,JSON.parse('{"pd":{"Q":[],"e":[]},"Yg":{"U":["pd"]},"Da":{"Q":[],"e":[]},"Yh":{"U":["Da"]}}'))
 var y=(function rtii(){var x=A.H
-return{g:x("iU"),x:x("jH"),V:x("lV"),N:x("jK"),f:x("l<dY>"),T:x("l<ja>"),_:x("l<jc>"),q:x("l<a5>"),I:x("l<nJ>"),n:x("l<dH>"),p:x("l<e>"),l:x("aP<lW>"),A:x("aP<q9>"),h:x("dC"),J:x("ja"),u:x("v<cV>"),e:x("cV"),w:x("cP"),P:x("aE"),y:x("kN<dC>"),v:x("f8"),o:x("qC"),B:x("F"),i:x("N"),z:x("@"),S:x("n"),Q:x("ez?"),H:x("~")}})();(function constants(){G.LF=new A.h4(null,null,null,null,null,null,null,null,null,"Enter pickup or dropoff location",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,D.jN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-G.LL=new A.h4(null,null,null,null,null,null,null,null,null,"Optional",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,E.oV,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-G.ZJ=new A.a_(null,5,null,null)
-G.a1f=new A.o(!0,C.i,null,null,null,null,16,C.N,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-G.a59=new A.dI("Your Booking",null,null,0,16,null)})()}
-$__dart_deferred_initializers__["QWh8tL8u3z/3TGlbsRv0KGF73Hs="] = $__dart_deferred_initializers__.current
+return{g:x("iU"),x:x("jH"),V:x("lV"),N:x("jK"),f:x("l<dY>"),T:x("l<ja>"),_:x("l<jc>"),q:x("l<a5>"),I:x("l<nJ>"),n:x("l<dH>"),p:x("l<e>"),l:x("aP<lW>"),A:x("aP<q9>"),h:x("dC"),J:x("ja"),u:x("v<cV>"),e:x("cV"),w:x("cP"),P:x("aE"),y:x("kN<dC>"),v:x("f8"),o:x("qC"),B:x("F"),i:x("N"),z:x("@"),S:x("n"),Q:x("ez?"),H:x("~")}})();(function constants(){G.LH=new A.h4(null,null,null,null,null,null,null,null,null,"Enter pickup or dropoff location",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,D.jN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+G.LN=new A.h4(null,null,null,null,null,null,null,null,null,"Optional",null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,E.oV,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+G.ZL=new A.a_(null,5,null,null)
+G.a1h=new A.o(!0,C.i,null,null,null,null,16,C.N,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+G.a5b=new A.dI("Your Booking",null,null,0,16,null)})()}
+$__dart_deferred_initializers__["NmHDYs4ZL4KzSIs3t3SuylpeLKc="] = $__dart_deferred_initializers__.current

@@ -38,12 +38,12 @@ q.toString
 return B.al(["pickup_date",o,"pickup_time",n,"routes",m,"distance",l,"payment_option",k,"carry_floor",x,"vehicle_type",w,"drivers_note",v,"quote_price",u,"mid_month_discount",t,"loyal_customer_discount",s,"did_apply_loyal_discount",r,"additional_helpers",q,"booking_completed",p.as,"booking_cancelled",p.at],y.g,y.a)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(D.ws,B.M)})()
-B.dv(b.typeUniverse,JSON.parse("{}"))
-var y={g:B.H("j"),a:B.H("M?")};(function constants(){A.a_W=new B.dH("Booking amount including number helpers and stairs",null,null,C.b9,C.dA)
-A.hq=new B.cO(E.ry,18,C.S,null)
-A.a5z=new B.lh(null,A.a_W,null,!1,A.hq,E.eG,C.dD,null)
-A.pu=new B.fo(C.dI,null,null,A.a5z,null)
-A.a_V=new B.dH("Discount for returning customers. ",null,null,C.b9,C.dA)
-A.a5A=new B.lh(null,A.a_V,null,!1,A.hq,E.eG,C.dD,null)
-A.pv=new B.fo(C.dI,null,null,A.a5A,null)})()}
-$__dart_deferred_initializers__["/bvTEDRnefaczlyxu0S1Cxh7/VQ="] = $__dart_deferred_initializers__.current
+B.dw(b.typeUniverse,JSON.parse("{}"))
+var y={g:B.H("j"),a:B.H("M?")};(function constants(){A.a_Y=new B.dH("Booking amount including number helpers and stairs",null,null,C.b9,C.dA)
+A.ho=new B.cO(E.ry,18,C.T,null)
+A.a5B=new B.lh(null,A.a_Y,null,!1,A.ho,E.eG,C.dD,null)
+A.pu=new B.fo(C.dI,null,null,A.a5B,null)
+A.a_X=new B.dH("Discount for returning customers. ",null,null,C.b9,C.dA)
+A.a5C=new B.lh(null,A.a_X,null,!1,A.ho,E.eG,C.dD,null)
+A.pv=new B.fo(C.dI,null,null,A.a5C,null)})()}
+$__dart_deferred_initializers__["sxq9Mq3RJJhVK4joqTLwkHKpjIE="] = $__dart_deferred_initializers__.current
